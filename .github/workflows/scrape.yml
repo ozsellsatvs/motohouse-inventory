@@ -22,10 +22,11 @@ name: Scrape Motohouse inventory
 # Steps use PowerShell (built into every Windows PC) rather than bash,
 # since a fresh Windows self-hosted runner doesn't have bash on PATH.
 #
-# Python is invoked by its full install path below (rather than just
-# "python"/"pip") because the self-hosted runner service starts before
-# PATH changes take effect (Windows services cache their environment
-# at boot), so relying on PATH alone is unreliable without a reboot.
+# Python and git are invoked by their full install paths below (rather
+# than just "python"/"git") because the self-hosted runner service
+# starts before PATH changes take effect (Windows services cache their
+# environment at boot), so relying on PATH alone is unreliable without
+# a reboot.
 on:
   schedule:
     - cron: "0 11 * * *"   # 6:00 AM CDT (Mar-Nov)
@@ -65,23 +66,26 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         shell: powershell
         run: C:\Users\chasb\AppData\Local\Python\bin\python.exe -m pip install -r scraper/requirements.txt
+
       - name: Run scraper
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
         shell: powershell
         run: C:\Users\chasb\AppData\Local\Python\bin\python.exe scrape.py --out ../docs/data/inventory.json
+
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'
         shell: powershell
         run: |
-          git config user.name "motohouse-inventory-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add docs/data/inventory.json
-          git diff --cached --quiet
+          $git = "C:\Users\chasb\AppData\Local\GitHubDesktop\app-3.6.3\resources\app\git\cmd\git.exe"
+          & $git config user.name "motohouse-inventory-bot"
+          & $git config user.email "actions@users.noreply.github.com"
+          & $git add docs/data/inventory.json
+          & $git diff --cached --quiet
           if ($LASTEXITCODE -eq 0) {
             Write-Host "No inventory changes."
           } else {
             $stamp = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd HH:mm')
-            git commit -m "Update inventory ($stamp UTC)"
-            git push
+            & $git commit -m "Update inventory ($stamp UTC)"
+            & $git push
           }

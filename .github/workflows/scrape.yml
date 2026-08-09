@@ -18,6 +18,9 @@ name: Scrape Motohouse inventory
 # real scrape per day, always at 6am local time (as long as your PC
 # is on and connected then -- if it's off, that day's update is just
 # skipped and the app keeps showing the last data it had).
+#
+# Steps use PowerShell (built into every Windows PC) rather than bash,
+# since a fresh Windows self-hosted runner doesn't have bash on PATH.
 on:
   schedule:
     - cron: "0 11 * * *"   # 6:00 AM CDT (Mar–Nov)
@@ -34,19 +37,20 @@ jobs:
     steps:
       - name: Check it's ~6am America/Chicago (or a manual run)
         id: guard
-        shell: bash
+        shell: powershell
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            "run=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
             exit 0
-          fi
-          hour=$(TZ="America/Chicago" date +%H)
-          echo "Local Chicago hour: $hour"
-          if [ "$hour" = "06" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
+          }
+          $chicago = [System.TimeZoneInfo]::FindSystemTimeZoneById("Central Standard Time")
+          $hour = [System.TimeZoneInfo]::ConvertTimeFromUtc((Get-Date).ToUniversalTime(), $chicago).Hour
+          Write-Host "Local Chicago hour: $hour"
+          if ($hour -eq 6) {
+            "run=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          } else {
+            "run=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
 
       - name: Checkout
         if: steps.guard.outputs.run == 'true'
@@ -63,14 +67,16 @@ jobs:
 
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'
-        shell: bash
+        shell: powershell
         run: |
           git config user.name "motohouse-inventory-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/inventory.json
-          if git diff --cached --quiet; then
-            echo "No inventory changes."
-          else
-            git commit -m "Update inventory ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No inventory changes."
+          } else {
+            $stamp = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd HH:mm')
+            git commit -m "Update inventory ($stamp UTC)"
             git push
-          fi
+          }

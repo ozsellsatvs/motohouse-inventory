@@ -3,13 +3,21 @@ name: Scrape Motohouse inventory
 # Runs daily at 6:00 AM America/Chicago (Picayune, MS), which matches
 # the dealer site's own overnight inventory refresh.
 #
+# This runs on a self-hosted runner (your own PC) instead of GitHub's
+# cloud servers, because motohousems.com's firewall blocks requests
+# coming from cloud/datacenter IP ranges (which is what GitHub-hosted
+# runners use) but not normal home internet connections. See the
+# README for how to install the self-hosted runner.
+#
 # GitHub's cron scheduler only understands UTC and has no concept of
 # Daylight Saving Time, so a single "6am Central" cron would drift an
 # hour for half the year. Instead we trigger at BOTH UTC times that
 # 6am Central can fall on (11:00 UTC during CDT, 12:00 UTC during CST)
 # and use a guard step that checks the real Chicago clock and skips
 # the run if it isn't actually ~6am there. Net effect: exactly one
-# real scrape per day, always at 6am local time.
+# real scrape per day, always at 6am local time (as long as your PC
+# is on and connected then -- if it's off, that day's update is just
+# skipped and the app keeps showing the last data it had).
 on:
   schedule:
     - cron: "0 11 * * *"   # 6:00 AM CDT (Mar–Nov)
@@ -22,10 +30,11 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Check it's ~6am America/Chicago (or a manual run)
         id: guard
+        shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
@@ -43,12 +52,6 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        if: steps.guard.outputs.run == 'true'
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Install dependencies
         if: steps.guard.outputs.run == 'true'
         run: pip install -r scraper/requirements.txt
@@ -56,12 +59,11 @@ jobs:
       - name: Run scraper
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
-        env:
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scrape.py --out ../docs/data/inventory.json
 
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'
+        shell: bash
         run: |
           git config user.name "motohouse-inventory-bot"
           git config user.email "actions@users.noreply.github.com"

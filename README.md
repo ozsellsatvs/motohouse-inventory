@@ -59,6 +59,24 @@ GitHub blocks workflows from pushing commits by default. Turn that on:
 - Repo → **Settings → Actions → General**
 - Scroll to **Workflow permissions** → select **Read and write permissions** → **Save**
 
+## 4b. Add a free scraping proxy key (required)
+
+motohousems.com's firewall blocks requests coming from GitHub's own servers
+(it doesn't block your phone/browser, just cloud/datacenter traffic). To get
+around that, the scraper routes its requests through a free proxy service
+called ScraperAPI, which makes the requests look like they're coming from a
+normal residential connection.
+
+1. Go to **scraperapi.com** → **Sign Up** (free plan, no credit card needed:
+   1,000 requests/month, plenty for one scrape a day).
+2. After signing up, your **API key** is shown on your dashboard — copy it.
+3. In your repo: **Settings → Secrets and variables → Actions → New
+   repository secret**.
+4. Name: `SCRAPER_API_KEY`   Value: *(paste the key)* → **Add secret**.
+
+Without this secret, the daily scrape will run but come back empty (blocked
+by the dealer site's firewall).
+
 ## 5. Turn on GitHub Pages
 
 - Repo → **Settings → Pages**

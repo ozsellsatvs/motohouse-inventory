@@ -64,14 +64,12 @@ jobs:
       - name: Install dependencies
         if: steps.guard.outputs.run == 'true'
         shell: powershell
-        run: & "C:\Users\chasb\AppData\Local\Python\bin\python.exe" -m pip install -r scraper/requirements.txt
-
+        run: C:\Users\chasb\AppData\Local\Python\bin\python.exe -m pip install -r scraper/requirements.txt
       - name: Run scraper
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
         shell: powershell
-        run: & "C:\Users\chasb\AppData\Local\Python\bin\python.exe" scrape.py --out ../docs/data/inventory.json
-
+          run: C:\Users\chasb\AppData\Local\Python\bin\python.exe scrape.py --out ../docs/data/inventory.json
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'
         shell: powershell

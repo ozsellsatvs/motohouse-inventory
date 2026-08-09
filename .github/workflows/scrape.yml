@@ -21,10 +21,15 @@ name: Scrape Motohouse inventory
 #
 # Steps use PowerShell (built into every Windows PC) rather than bash,
 # since a fresh Windows self-hosted runner doesn't have bash on PATH.
+#
+# Python is invoked by its full install path below (rather than just
+# "python"/"pip") because the self-hosted runner service starts before
+# PATH changes take effect (Windows services cache their environment
+# at boot), so relying on PATH alone is unreliable without a reboot.
 on:
   schedule:
-    - cron: "0 11 * * *"   # 6:00 AM CDT (Mar–Nov)
-    - cron: "0 12 * * *"   # 6:00 AM CST (Nov–Mar)
+    - cron: "0 11 * * *"   # 6:00 AM CDT (Mar-Nov)
+    - cron: "0 12 * * *"   # 6:00 AM CST (Nov-Mar)
   workflow_dispatch: {}     # lets you trigger a manual re-scrape any time
                             # from the Actions tab in GitHub
 
@@ -58,12 +63,14 @@ jobs:
 
       - name: Install dependencies
         if: steps.guard.outputs.run == 'true'
-        run: python -m pip install -r scraper/requirements.txt
+        shell: powershell
+        run: & "C:\Users\chasb\AppData\Local\Python\bin\python.exe" -m pip install -r scraper/requirements.txt
 
       - name: Run scraper
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
-        run: python scrape.py --out ../docs/data/inventory.json
+        shell: powershell
+        run: & "C:\Users\chasb\AppData\Local\Python\bin\python.exe" scrape.py --out ../docs/data/inventory.json
 
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'

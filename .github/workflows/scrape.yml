@@ -1,0 +1,72 @@
+name: Scrape Motohouse inventory
+
+# Runs daily at 6:00 AM America/Chicago (Picayune, MS), which matches
+# the dealer site's own overnight inventory refresh.
+#
+# GitHub's cron scheduler only understands UTC and has no concept of
+# Daylight Saving Time, so a single "6am Central" cron would drift an
+# hour for half the year. Instead we trigger at BOTH UTC times that
+# 6am Central can fall on (11:00 UTC during CDT, 12:00 UTC during CST)
+# and use a guard step that checks the real Chicago clock and skips
+# the run if it isn't actually ~6am there. Net effect: exactly one
+# real scrape per day, always at 6am local time.
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 6:00 AM CDT (Mar–Nov)
+    - cron: "0 12 * * *"   # 6:00 AM CST (Nov–Mar)
+  workflow_dispatch: {}     # lets you trigger a manual re-scrape any time
+                            # from the Actions tab in GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check it's ~6am America/Chicago (or a manual run)
+        id: guard
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          hour=$(TZ="America/Chicago" date +%H)
+          echo "Local Chicago hour: $hour"
+          if [ "$hour" = "06" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        if: steps.guard.outputs.run == 'true'
+        working-directory: scraper
+        run: python scrape.py --out ../docs/data/inventory.json
+
+      - name: Commit updated inventory
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name "motohouse-inventory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/inventory.json
+          if git diff --cached --quiet; then
+            echo "No inventory changes."
+          else
+            git commit -m "Update inventory ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

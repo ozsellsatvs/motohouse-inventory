@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Motohouse Inventory</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0f172a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Motohouse">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<style>
+  :root{
+    --bg:#0f172a; --panel:#16213a; --panel2:#1c2b4a; --text:#f1f5f9; --muted:#93a3b8;
+    --accent:#f59e0b; --accent2:#22c55e; --danger:#ef4444; --radius:18px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    overscroll-behavior-y:none; display:flex; flex-direction:column;
+  }
+  header{
+    padding:calc(env(safe-area-inset-top) + 12px) 16px 10px; flex:none;
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+  }
+  header h1{font-size:18px; margin:0; font-weight:700;}
+  header .sub{font-size:11px; color:var(--muted); margin-top:2px;}
+  #refreshBtn{
+    background:var(--panel2); border:none; color:var(--text); border-radius:12px;
+    width:40px; height:40px; font-size:18px; display:flex; align-items:center; justify-content:center;
+  }
+  #refreshBtn.spinning svg{animation:spin 0.8s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  #tabs{
+    display:flex; gap:8px; overflow-x:auto; padding:4px 16px 12px; flex:none;
+    scrollbar-width:none;
+  }
+  #tabs::-webkit-scrollbar{display:none;}
+  .tab{
+    flex:none; padding:8px 14px; border-radius:999px; background:var(--panel);
+    color:var(--muted); font-size:13px; font-weight:600; white-space:nowrap; border:1px solid transparent;
+  }
+  .tab.active{background:var(--accent); color:#1a1200; border-color:var(--accent);}
+
+  #controls{
+    display:flex; gap:8px; padding:0 16px 10px; flex:none; align-items:center;
+  }
+  #controls select{
+    background:var(--panel); color:var(--text); border:1px solid #2a3a5c; border-radius:10px;
+    padding:8px 10px; font-size:13px; flex:1;
+  }
+  #count{font-size:12px; color:var(--muted); white-space:nowrap;}
+
+  #deck{
+    flex:1; display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch; padding:0 0 8px;
+  }
+  .card{
+    flex:none; width:100vw; scroll-snap-align:center; padding:4px 16px 16px;
+    display:flex; flex-direction:column;
+  }
+  .card-inner{
+    background:var(--panel); border-radius:var(--radius); overflow:hidden; height:100%;
+    display:flex; flex-direction:column; border:1px solid #22335a;
+  }
+  .photo{
+    width:100%; aspect-ratio:4/3; background:linear-gradient(135deg,#1c2b4a,#0f172a);
+    display:flex; align-items:center; justify-content:center; position:relative; flex:none;
+  }
+  .photo img{width:100%; height:100%; object-fit:cover;}
+  .photo .emoji{font-size:64px; opacity:.5;}
+  .badge{
+    position:absolute; top:10px; left:10px; padding:4px 10px; border-radius:999px;
+    font-size:11px; font-weight:700; letter-spacing:.03em;
+  }
+  .badge.new{background:var(--accent2); color:#04210f;}
+  .badge.used{background:var(--accent); color:#241800;}
+  .avail{
+    position:absolute; top:10px; right:10px; padding:4px 10px; border-radius:999px;
+    font-size:11px; font-weight:600; background:rgba(0,0,0,.5); color:#fff;
+  }
+  .card-body{padding:14px 16px 18px; display:flex; flex-direction:column; gap:8px; overflow-y:auto;}
+  .card-body h2{margin:0; font-size:19px; line-height:1.25;}
+  .price-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .price{font-size:22px; font-weight:800; color:var(--accent2);}
+  .retail{font-size:13px; color:var(--muted); text-decoration:line-through;}
+  .savings{font-size:12px; color:var(--accent2); font-weight:700;}
+  .meta-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:6px 12px; font-size:13px; color:var(--muted); margin-top:4px;
+  }
+  .meta-grid b{color:var(--text); font-weight:600;}
+  .desc{font-size:13px; color:var(--muted); line-height:1.4; margin-top:2px;}
+  .card-actions{display:flex; gap:8px; margin-top:auto; padding-top:10px;}
+  .card-actions a{
+    flex:1; text-align:center; padding:11px; border-radius:12px; font-size:14px; font-weight:700;
+    text-decoration:none;
+  }
+  .btn-primary{background:var(--accent); color:#1a1200;}
+  .btn-secondary{background:var(--panel2); color:var(--text);}
+
+  #dots{display:flex; justify-content:center; gap:6px; padding:6px 0 2px; flex:none;}
+  #dots span{width:6px; height:6px; border-radius:50%; background:#2a3a5c;}
+  #dots span.active{background:var(--accent); width:16px; border-radius:3px;}
+
+  #nav{
+    display:flex; justify-content:space-between; padding:0 16px calc(env(safe-area-inset-bottom) + 12px); flex:none; gap:10px;
+  }
+  #nav button{
+    flex:1; padding:13px; border:none; border-radius:14px; background:var(--panel2); color:var(--text);
+    font-size:15px; font-weight:700;
+  }
+  #nav button:disabled{opacity:.35;}
+
+  #empty{flex:1; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; color:var(--muted); padding:0 32px; text-align:center;}
+</style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Motohouse Inventory</h1>
+      <div class="sub" id="updatedAt">Loading…</div>
+    </div>
+    <button id="refreshBtn" aria-label="Refresh">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
+    </button>
+  </header>
+
+  <div id="tabs"></div>
+  <div id="controls">
+    <select id="sortSelect">
+      <option value="brand-asc">Brand (A–Z)</option>
+      <option value="brand-desc">Brand (Z–A)</option>
+      <option value="price-asc">Price (low–high)</option>
+      <option value="price-desc">Price (high–low)</option>
+      <option value="year-desc">Year (new–old)</option>
+      <option value="year-asc">Year (old–new)</option>
+    </select>
+    <div id="count">0 units</div>
+  </div>
+
+  <div id="deck"></div>
+  <div id="dots"></div>
+  <div id="nav">
+    <button id="prevBtn">&larr; Prev</button>
+    <button id="nextBtn">Next &rarr;</button>
+  </div>
+  <div id="empty" style="display:none;">
+    <div style="font-size:40px;">🔍</div>
+    <div>No units match this category yet.</div>
+  </div>
+
+<script>
+const DATA_URL = 'data/inventory.json';
+const EMOJI = {
+  'ATV':'🛺','Utility Vehicle':'🚙','Motorcycle / Scooter':'🏍️','Personal Watercraft':'🌊',
+  'Go-Kart':'🏎️','Trailer':'🚚'
+};
+function emojiFor(v){
+  for (const k in EMOJI) if ((v.vehicle_type||'').includes(k)) return EMOJI[k];
+  return '🏁';
+}
+
+let state = { all: [], group: 'All', sort: 'brand-asc', index: 0, generatedAt: null };
+
+const el = id => document.getElementById(id);
+
+async function loadData(force){
+  el('refreshBtn').classList.add('spinning');
+  try {
+    const url = DATA_URL + (force ? ('?t=' + Date.now()) : '');
+    const res = await fetch(url, { cache: force ? 'reload' : 'default' });
+    const json = await res.json();
+    state.all = json.vehicles || [];
+    state.generatedAt = json.generated_at;
+    renderTabs();
+    render();
+  } catch (e) {
+    el('updatedAt').textContent = 'Could not load inventory — pull to retry';
+    console.error(e);
+  } finally {
+    el('refreshBtn').classList.remove('spinning');
+  }
+}
+
+function groupsFromData(){
+  const set = new Set();
+  state.all.forEach(v => set.add(v.group_label || v.vehicle_type || 'Other'));
+  return ['All', ...Array.from(set).sort()];
+}
+
+function renderTabs(){
+  const tabs = el('tabs');
+  tabs.innerHTML = '';
+  groupsFromData().forEach(g => {
+    const btn = document.createElement('button');
+    btn.className = 'tab' + (g === state.group ? ' active' : '');
+    btn.textContent = g;
+    btn.onclick = () => { state.group = g; state.index = 0; render(); };
+    tabs.appendChild(btn);
+  });
+}
+
+function filteredSorted(){
+  let list = state.group === 'All' ? state.all.slice() :
+    state.all.filter(v => (v.group_label || v.vehicle_type || 'Other') === state.group);
+  const [field, dir] = state.sort.split('-');
+  list.sort((a,b) => {
+    let av, bv;
+    if (field === 'brand') { av = (a.make||'').toLowerCase(); bv = (b.make||'').toLowerCase(); }
+    else if (field === 'price') { av = a.price ?? Infinity; bv = b.price ?? Infinity; }
+    else if (field === 'year') { av = a.year ?? 0; bv = b.year ?? 0; }
+    if (av < bv) return dir === 'asc' ? -1 : 1;
+    if (av > bv) return dir === 'asc' ? 1 : -1;
+    return 0;
+  });
+  return list;
+}
+
+function money(n){ return n == null ? null : '$' + n.toLocaleString('en-US'); }
+
+function cardHTML(v){
+  const badgeClass = (v.condition||'').toUpperCase() === 'NEW' ? 'new' : 'used';
+  const photo = v.image_url
+    ? `<img src="${v.image_url}" alt="${v.title}" loading="lazy">`
+    : `<span class="emoji">${emojiFor(v)}</span>`;
+  const priceRow = v.price
+    ? `<div class="price-row">
+         <span class="price">${money(v.price)}</span>
+         ${v.retail_price && v.retail_price > v.price ? `<span class="retail">${money(v.retail_price)}</span>` : ''}
+         ${v.savings ? `<span class="savings">Save ${money(v.savings)}</span>` : ''}
+       </div>`
+    : `<div class="price-row"><span class="price" style="color:var(--muted); font-size:15px;">Call for price</span></div>`;
+  return `
+    <div class="card-inner">
+      <div class="photo">
+        ${photo}
+        <span class="badge ${badgeClass}">${v.condition || ''}</span>
+        ${v.availability ? `<span class="avail">${v.availability}</span>` : ''}
+      </div>
+      <div class="card-body">
+        <h2>${v.title}</h2>
+        ${priceRow}
+        <div class="meta-grid">
+          <div>Category: <b>${v.group_label || v.vehicle_type || '—'}</b></div>
+          <div>Color: <b>${v.color || '—'}</b></div>
+          <div>Stock #: <b>${v.stock_number || '—'}</b></div>
+          <div>${v.odometer != null ? `Miles: <b>${v.odometer.toLocaleString()}</b>` : `VIN: <b style="font-size:11px;">${(v.vin||'—').slice(-8)}</b>`}</div>
+        </div>
+        ${v.description ? `<div class="desc">${v.description}</div>` : ''}
+        <div class="card-actions">
+          <a class="btn-secondary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">Details</a>
+          <a class="btn-primary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">View / Quote</a>
+        </div>
+      </div>
+    </div>`;
+}
+
+function render(){
+  const list = filteredSorted();
+  el('count').textContent = list.length + (list.length === 1 ? ' unit' : ' units');
+  renderTabs();
+
+  const deck = el('deck');
+  const dots = el('dots');
+  const empty = el('empty');
+
+  if (list.length === 0){
+    deck.innerHTML = ''; dots.innerHTML = ''; empty.style.display = 'flex';
+    el('prevBtn').disabled = true; el('nextBtn').disabled = true;
+    updateTimestamp();
+    return;
+  }
+  empty.style.display = 'none';
+
+  deck.innerHTML = list.map(v => `<div class="card">${cardHTML(v)}</div>`).join('');
+  dots.innerHTML = list.map((_,i) => `<span class="${i===0?'active':''}"></span>`).join('');
+
+  state.index = Math.min(state.index, list.length - 1);
+  deck.scrollTo({ left: state.index * deck.clientWidth, behavior: 'instant' in Element.prototype ? 'instant' : 'auto' });
+  updateNavButtons(list.length);
+
+  let scrollTimeout;
+  deck.onscroll = () => {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      const i = Math.round(deck.scrollLeft / deck.clientWidth);
+      state.index = i;
+      [...dots.children].forEach((d,idx) => d.classList.toggle('active', idx===i));
+      updateNavButtons(list.length);
+    }, 80);
+  };
+
+  updateTimestamp();
+}
+
+function updateNavButtons(len){
+  el('prevBtn').disabled = state.index <= 0;
+  el('nextBtn').disabled = state.index >= len - 1;
+}
+
+function updateTimestamp(){
+  if (!state.generatedAt) { el('updatedAt').textContent = ''; return; }
+  const d = new Date(state.generatedAt);
+  el('updatedAt').textContent = 'Updated ' + d.toLocaleString('en-US', {
+    month:'short', day:'numeric', hour:'numeric', minute:'2-digit'
+  });
+}
+
+el('sortSelect').onchange = e => { state.sort = e.target.value; state.index = 0; render(); };
+el('refreshBtn').onclick = () => loadData(true);
+el('prevBtn').onclick = () => {
+  const deck = el('deck');
+  deck.scrollBy({ left: -deck.clientWidth, behavior: 'smooth' });
+};
+el('nextBtn').onclick = () => {
+  const deck = el('deck');
+  deck.scrollBy({ left: deck.clientWidth, behavior: 'smooth' });
+};
+window.addEventListener('resize', () => {
+  el('deck').scrollTo({ left: state.index * el('deck').clientWidth });
+});
+
+loadData(false);
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+</body>
+</html>

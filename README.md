@@ -80,8 +80,8 @@ it had; it catches up the next time your PC is on).
    even when you're signed out), open **PowerShell as Administrator**,
    `cd` into the same `actions-runner` folder from step 2, then run:
    ```
-   .\svc.exe install
-   .\svc.exe start
+   .\svc.cmd install
+   .\svc.cmd start
    ```
    This registers it as a Windows service that starts automatically when
    your PC boots — you don't need to keep a window open.

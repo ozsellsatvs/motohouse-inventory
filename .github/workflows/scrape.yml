@@ -56,6 +56,8 @@ jobs:
       - name: Run scraper
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scrape.py --out ../docs/data/inventory.json
 
       - name: Commit updated inventory

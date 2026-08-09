@@ -43,9 +43,13 @@ from bs4 import BeautifulSoup
 BASE = "https://www.motohousems.com"
 LIST_PATH = "/--inventory"
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; MotohouseInventoryBot/1.0; "
-    "+https://github.com/) requests"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
+EXTRA_HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 REQUEST_TIMEOUT = 20
 PAGE_DELAY_SEC = 0.6          # be polite between list-page requests
 DETAIL_DELAY_SEC = 0.35       # be polite between detail-page requests
@@ -94,7 +98,8 @@ class Vehicle:
 
 def fetch(url: str, session: requests.Session) -> str | None:
     try:
-        resp = session.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT})
+        headers = {"User-Agent": USER_AGENT, **EXTRA_HEADERS}
+        resp = session.get(url, timeout=REQUEST_TIMEOUT, headers=headers)
         resp.raise_for_status()
         return resp.text
     except requests.RequestException as exc:

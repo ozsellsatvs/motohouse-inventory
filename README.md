@@ -59,23 +59,40 @@ GitHub blocks workflows from pushing commits by default. Turn that on:
 - Repo → **Settings → Actions → General**
 - Scroll to **Workflow permissions** → select **Read and write permissions** → **Save**
 
-## 4b. Add a free scraping proxy key (required)
+## 4b. Set up the self-hosted runner (required)
 
-motohousems.com's firewall blocks requests coming from GitHub's own servers
-(it doesn't block your phone/browser, just cloud/datacenter traffic). To get
-around that, the scraper routes its requests through a free proxy service
-called ScraperAPI, which makes the requests look like they're coming from a
-normal residential connection.
+motohousems.com's firewall blocks requests coming from GitHub's own cloud
+servers — it doesn't block your home internet, just cloud/datacenter
+traffic. So instead of running the scrape on GitHub's servers, this repo
+is set up to have GitHub tell **your PC** to run it, using your normal home
+connection. This is free and doesn't need any third-party sign-up — you
+just need your PC turned on and online at 6am for that day's update to run
+(if it's off, that day is skipped and the app keeps showing the last data
+it had; it catches up the next time your PC is on).
 
-1. Go to **scraperapi.com** → **Sign Up** (free plan, no credit card needed:
-   1,000 requests/month, plenty for one scrape a day).
-2. After signing up, your **API key** is shown on your dashboard — copy it.
-3. In your repo: **Settings → Secrets and variables → Actions → New
-   repository secret**.
-4. Name: `SCRAPER_API_KEY`   Value: *(paste the key)* → **Add secret**.
+1. In your repo: **Settings → Actions → Runners → New self-hosted runner**
+   → choose **Windows**.
+2. GitHub shows 4 commands to paste into PowerShell one at a time (Download,
+   Extract, Configure, Run). Paste them exactly as shown — they include a
+   security token that's unique to your repo. When `config.cmd` asks
+   questions, pressing **Enter** to accept every default is fine.
+3. To make it keep running in the background automatically (so it works
+   even when you're signed out), open **PowerShell as Administrator**,
+   `cd` into the same `actions-runner` folder from step 2, then run:
+   ```
+   .\svc.exe install
+   .\svc.exe start
+   ```
+   This registers it as a Windows service that starts automatically when
+   your PC boots — you don't need to keep a window open.
+4. Back in **Settings → Actions → Runners**, you should see your PC listed
+   with a green **Idle** dot — that means it's connected and ready.
 
-Without this secret, the daily scrape will run but come back empty (blocked
-by the dealer site's firewall).
+Your PC already has Git (from GitHub Desktop) and Python installed, so no
+extra software is needed. If the "Commit updated inventory" step in a run
+ever fails with a `bash` or `git` not found error, install
+[Git for Windows](https://git-scm.com/download/win) (adds both to your PC's
+PATH) and it'll pick up on the next run.
 
 ## 5. Turn on GitHub Pages
 

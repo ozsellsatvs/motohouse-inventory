@@ -69,7 +69,7 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         working-directory: scraper
         shell: powershell
-          run: C:\Users\chasb\AppData\Local\Python\bin\python.exe scrape.py --out ../docs/data/inventory.json
+      run: C:\Users\chasb\AppData\Local\Python\bin\python.exe scrape.py --out ../docs/data/inventory.json
       - name: Commit updated inventory
         if: steps.guard.outputs.run == 'true'
         shell: powershell

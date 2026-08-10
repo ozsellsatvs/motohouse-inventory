@@ -32,6 +32,18 @@ Design notes / how this is built:
     instead of a run-together paragraph. If a listing has no Manufacturer
     Info panel, we fall back to the page's og:description meta tag in the
     plain "description" field.
+  - Manufacturer-advertised offers (financing rates, rebates, etc.) are
+    NOT in the detail page's initial HTML -- they're loaded client-side by
+    a DealerSpike widget that calls a separate JSON API
+    (ds-regional-promotions-bridge.services.dealerspike.net), keyed by
+    this dealership's GUID (constant, see DEALER_GUID) and each vehicle's
+    own "major unit" GUID. That per-vehicle GUID *is* server-rendered, as
+    a data-unit-dmrtid="{GUID}" attribute on the #invUnitPromotions div,
+    so we read it out of the page and call the same JSON API directly --
+    found by watching the browser's network tab on a real vehicle page.
+    Used vehicles generally don't carry this GUID (OEM promos are tied to
+    new-model catalog entries), so no offers is the expected, normal case
+    for most used listings.
   - This runs on a self-hosted GitHub Actions runner (the dealer's own
     home internet connection), not GitHub's cloud servers, because
     motohousems.com's firewall blocks cloud/datacenter IP ranges. See the
@@ -69,12 +81,29 @@ PAGE_DELAY_SEC = 0.6          # be polite between list-page requests
 DETAIL_DELAY_SEC = 0.35       # be polite between detail-page requests
 CONDITIONS = ["new", "pre-owned"]
 
+# This dealership's DealerSpike GUID -- constant across every vehicle on
+# the site, confirmed by checking it against several different vehicles
+# and makes. Used to build the promotions API URL below.
+DEALER_GUID = "39d3ab72-01e9-4c4f-bfc0-a2cc85abc4e6"
+PROMOTIONS_API = (
+    "https://ds-regional-promotions-bridge.services.dealerspike.net/v1/"
+    "RegionalPromotionsBridge/Campaigns/DealerSpike/{dealer}/major-unit/{muid}"
+)
+
 # Bumped whenever the shape of what we store per-vehicle changes in a way
 # that makes previously-cached detail-page data (image_url/description/
-# specs) stale or incomplete. load_detail_cache() ignores a previous run's
-# data entirely if its schema doesn't match, forcing one full re-fetch
-# instead of silently keeping old-format data around.
-SCHEMA_VERSION = 6
+# specs/offers) stale or incomplete. load_detail_cache() ignores a
+# previous run's data entirely if its schema doesn't match, forcing one
+# full re-fetch instead of silently keeping old-format data around.
+#
+# Note on offers specifically: cached offers can go stale if a brand new
+# promo launches for a vehicle that's already cached (it won't show up
+# until this vehicle gets re-fetched for some other reason). We accept
+# that -- same tradeoff as specs/description. What we don't tolerate is
+# showing an *expired* offer, so the front-end always re-checks each
+# offer's end date against the real current time before rendering it,
+# regardless of how stale the cached copy is.
+SCHEMA_VERSION = 7
 
 QUICKLOOK_LABELS = [
     "Condition",
@@ -116,6 +145,7 @@ class Vehicle:
     image_url: str | None = None
     description: str | None = None
     specs: list[dict] | None = None
+    offers: list[dict] | None = None
 
 
 def fetch(url: str, session: requests.Session) -> str | None:
@@ -282,6 +312,51 @@ def find_manufacturer_info(soup: BeautifulSoup) -> list[dict] | None:
     return sections or None
 
 
+def find_major_unit_id(soup: BeautifulSoup) -> str | None:
+    """Manufacturer-advertised offers aren't in the detail page's initial
+    HTML, but the GUID needed to fetch them from DealerSpike's promotions
+    API is: <div id="invUnitPromotions" data-unit-dmrtid="{GUID}">. Strips
+    the curly braces. Returns None if the div or attribute is missing
+    (normal for used vehicles, which generally aren't tied to an OEM
+    catalog entry)."""
+    container = soup.find(id="invUnitPromotions")
+    if not container:
+        return None
+    raw = container.get("data-unit-dmrtid")
+    if not raw:
+        return None
+    return raw.strip("{}") or None
+
+
+def find_offers(muid: str, session: requests.Session) -> list[dict] | None:
+    """Fetches manufacturer-advertised offers (financing rates, rebates,
+    etc.) for one vehicle from DealerSpike's regional promotions API. This
+    is a separate JSON API, not something BeautifulSoup can find on the
+    page itself -- see the module docstring for how it was discovered."""
+    url = PROMOTIONS_API.format(dealer=DEALER_GUID, muid=muid)
+    try:
+        headers = {"User-Agent": USER_AGENT, **EXTRA_HEADERS}
+        resp = session.get(url, timeout=REQUEST_TIMEOUT, headers=headers)
+        resp.raise_for_status()
+        data = resp.json()
+    except (requests.RequestException, ValueError) as exc:
+        print(f"  ! failed to fetch offers for {muid}: {exc}", file=sys.stderr)
+        return None
+    offers = []
+    for o in data:
+        offers.append({
+            "title": o.get("title"),
+            "subtitle": o.get("subtitle"),
+            "summary": o.get("summary"),
+            "terms": o.get("termsAndConditions"),
+            "start_date": o.get("startDateUtc"),
+            "end_date": o.get("endDateUtc"),
+            "is_oem_paid": o.get("isOemPaid"),
+            "banner_image_url": o.get("bannerImageUrl"),
+        })
+    return offers or None
+
+
 def clean_int(v):
     if v is None:
         return None
@@ -360,6 +435,9 @@ def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
         og_desc = soup.find("meta", property="og:description") or soup.find("meta", attrs={"name": "description"})
         if og_desc and og_desc.get("content"):
             v.description = og_desc["content"].strip()
+    muid = find_major_unit_id(soup)
+    if muid:
+        v.offers = find_offers(muid, session)
 
 
 def load_detail_cache(path: str) -> dict[str, dict]:
@@ -413,6 +491,7 @@ def scrape_all(
                 v.image_url = cached.get("image_url")
                 v.description = cached.get("description")
                 v.specs = cached.get("specs")
+                v.offers = cached.get("offers")
             else:
                 need_fetch.append(v)
         print(

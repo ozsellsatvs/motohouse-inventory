@@ -69,7 +69,7 @@ CONDITIONS = ["new", "pre-owned"]
 # stale or incomplete. load_detail_cache() ignores a previous run's data
 # entirely if its schema doesn't match, forcing one full re-fetch instead
 # of silently keeping old-format data around.
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 QUICKLOOK_LABELS = [
     "Condition",
@@ -326,12 +326,29 @@ def scrape_list_page(url: str, session: requests.Session) -> tuple[list[Vehicle]
     return vehicles, total_pages
 
 
+_DEBUG_DETAIL_COUNT = 0
+_DEBUG_DETAIL_LIMIT = 3
+
+
 def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
+    global _DEBUG_DETAIL_COUNT
     if not v.detail_url:
         return
     html = fetch(v.detail_url, session)
     if not html:
         return
+    if _DEBUG_DETAIL_COUNT < _DEBUG_DETAIL_LIMIT:
+        _DEBUG_DETAIL_COUNT += 1
+        has_id = "accordionManufacturerInfo" in html
+        idx = html.find("accordionManufacturerInfo")
+        snippet = html[max(0, idx - 100):idx + 600] if idx != -1 else "(string not found anywhere in raw HTML)"
+        has_text = "Manufacturer Info" in html
+        print(
+            f"    [DEBUG {v.id}] raw_html_len={len(html)} "
+            f"has_id_string={has_id} has_text='Manufacturer Info'={has_text}",
+            file=sys.stderr,
+        )
+        print(f"    [DEBUG {v.id}] snippet around id: {snippet!r}", file=sys.stderr)
     soup = BeautifulSoup(html, "html.parser")
     og_image = soup.find("meta", property="og:image")
     if og_image and og_image.get("content"):

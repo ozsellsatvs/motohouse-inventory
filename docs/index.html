@@ -109,6 +109,17 @@
   }
   .specs-label{color:var(--muted); flex:none; max-width:55%;}
   .specs-value{color:var(--text); font-weight:600; text-align:right;}
+  .offers{margin-top:2px; display:flex; flex-direction:column; gap:8px;}
+  .offer-card{
+    background:linear-gradient(135deg, rgba(245,158,11,.18), rgba(245,158,11,.05));
+    border:1px solid rgba(245,158,11,.4); border-radius:12px; padding:10px 12px;
+  }
+  .offer-title{
+    font-size:11px; font-weight:800; letter-spacing:.05em; text-transform:uppercase;
+    color:var(--accent);
+  }
+  .offer-summary{font-size:12.5px; color:var(--text); margin-top:4px; line-height:1.4; white-space:pre-line;}
+  .offer-expiry{font-size:11px; color:var(--accent2); margin-top:6px; font-weight:700;}
   .card-actions{display:flex; gap:8px; margin-top:auto; padding-top:10px;}
   .card-actions a{
     flex:1; text-align:center; padding:11px; border-radius:12px; font-size:14px; font-weight:700;
@@ -237,6 +248,30 @@ function filteredSorted(){
 
 function money(n){ return n == null ? null : '$' + n.toLocaleString('en-US'); }
 
+function offersHTML(v){
+  if (!v.offers || !v.offers.length) return '';
+  const now = Date.now();
+  // Always re-check expiry against the real current time, even if the
+  // cached data is a day or two old -- an offer that expired since the
+  // last scrape should never show up as still active.
+  const active = v.offers.filter(o => !o.end_date || new Date(o.end_date).getTime() >= now);
+  if (!active.length) return '';
+  return `<div class="offers">` + active.map(o => {
+    let expiry = '';
+    if (o.end_date){
+      const days = Math.ceil((new Date(o.end_date).getTime() - now) / 86400000);
+      expiry = days <= 0 ? 'Ends today' : days === 1 ? 'Ends tomorrow' : `Ends in ${days} days`;
+    }
+    const body = o.summary || o.subtitle || '';
+    return `
+      <div class="offer-card">
+        <div class="offer-title">${o.title || 'Manufacturer Offer'}</div>
+        ${body ? `<div class="offer-summary">${body}</div>` : ''}
+        ${expiry ? `<div class="offer-expiry">${expiry}</div>` : ''}
+      </div>`;
+  }).join('') + `</div>`;
+}
+
 function specsHTML(v){
   if (v.specs && v.specs.length){
     return `<div class="specs">` + v.specs.map(sec => `
@@ -269,6 +304,7 @@ function cardHTML(v){
       <div class="card-body">
         <h2>${v.title}</h2>
         ${priceRow}
+        ${offersHTML(v)}
         <div class="meta-grid">
           <div>Category: <b>${v.group_label || v.vehicle_type || '—'}</b></div>
           <div>Color: <b>${v.color || '—'}</b></div>

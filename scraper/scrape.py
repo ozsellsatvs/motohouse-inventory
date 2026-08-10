@@ -25,8 +25,13 @@ Design notes / how this is built:
     Capacities, Weights, Color -- one <li class="liUnit ... unitSpec ...">
     per row, with the label in a <label class="unitLabel"> and the value
     in a <span class="unitValue"> (section-header rows like "Engine" have
-    no value span). If a listing has no Manufacturer Info panel, we fall
-    back to the page's og:description meta tag.
+    no value span). We keep this as structured data -- a list of
+    {"section": "Engine", "items": [{"label": ..., "value": ...}, ...]}
+    dicts, stored in the "specs" field -- rather than flattening it to a
+    text blob, so the front-end can render each spec as its own line
+    instead of a run-together paragraph. If a listing has no Manufacturer
+    Info panel, we fall back to the page's og:description meta tag in the
+    plain "description" field.
   - This runs on a self-hosted GitHub Actions runner (the dealer's own
     home internet connection), not GitHub's cloud servers, because
     motohousems.com's firewall blocks cloud/datacenter IP ranges. See the
@@ -65,11 +70,11 @@ DETAIL_DELAY_SEC = 0.35       # be polite between detail-page requests
 CONDITIONS = ["new", "pre-owned"]
 
 # Bumped whenever the shape of what we store per-vehicle changes in a way
-# that makes previously-cached detail-page data (image_url/description)
-# stale or incomplete. load_detail_cache() ignores a previous run's data
-# entirely if its schema doesn't match, forcing one full re-fetch instead
-# of silently keeping old-format data around.
-SCHEMA_VERSION = 5
+# that makes previously-cached detail-page data (image_url/description/
+# specs) stale or incomplete. load_detail_cache() ignores a previous run's
+# data entirely if its schema doesn't match, forcing one full re-fetch
+# instead of silently keeping old-format data around.
+SCHEMA_VERSION = 6
 
 QUICKLOOK_LABELS = [
     "Condition",
@@ -110,6 +115,7 @@ class Vehicle:
     detail_url: str | None = None
     image_url: str | None = None
     description: str | None = None
+    specs: list[dict] | None = None
 
 
 def fetch(url: str, session: requests.Session) -> str | None:
@@ -232,7 +238,7 @@ def find_prices(soup: BeautifulSoup) -> list[dict]:
     return prices
 
 
-def find_manufacturer_info(soup: BeautifulSoup) -> str | None:
+def find_manufacturer_info(soup: BeautifulSoup) -> list[dict] | None:
     """The vehicle detail page has a 'Manufacturer Info' accordion tab,
     id="accordionManufacturerInfo" -- the full spec sheet (Engine,
     Drivetrain, Suspension, Brakes, Wheels & Tires, Dimensions,
@@ -241,11 +247,18 @@ def find_manufacturer_info(soup: BeautifulSoup) -> str | None:
     lblUnitLabel">Label</label><span class="unitValue spnUnitValue">
     Value</span></li>. Section-header rows (e.g. "Engine") carry an extra
     "unitSpecHeader" class and have no value span -- we use those to
-    group the actual spec lines under a heading."""
+    group the actual spec lines under a heading.
+
+    Returns structured data instead of a flattened text blob, so the
+    front-end can render each spec on its own line:
+        [{"section": "Engine", "items": [{"label": "Displacement",
+          "value": "998cc"}, ...]}, ...]
+    """
     container = soup.find(id="accordionManufacturerInfo")
     if not container:
         return None
-    lines: list[str] = []
+    sections: list[dict] = []
+    current: dict | None = None
     for li in container.find_all("li", class_="liUnit"):
         label_el = li.find("label", class_="unitLabel")
         if not label_el:
@@ -253,16 +266,20 @@ def find_manufacturer_info(soup: BeautifulSoup) -> str | None:
         label = label_el.get_text(strip=True)
         value_el = li.find("span", class_="unitValue")
         if not value_el:
-            if lines and lines[-1] != "":
-                lines.append("")
-            lines.append(label)
+            # section header row (e.g. "Engine", "Drivetrain") -- start a
+            # new group that the following rows get filed under
+            current = {"section": label, "items": []}
+            sections.append(current)
         else:
             value = value_el.get_text(strip=True)
-            if value:
-                lines.append(f"  {label}: {value}")
-    while lines and lines[0] == "":
-        lines.pop(0)
-    return "\n".join(lines) if lines else None
+            if not value:
+                continue
+            if current is None:
+                current = {"section": None, "items": []}
+                sections.append(current)
+            current["items"].append({"label": label, "value": value})
+    sections = [s for s in sections if s["items"]]
+    return sections or None
 
 
 def clean_int(v):
@@ -338,8 +355,8 @@ def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
     og_image = soup.find("meta", property="og:image")
     if og_image and og_image.get("content"):
         v.image_url = og_image["content"]
-    v.description = find_manufacturer_info(soup)
-    if not v.description:
+    v.specs = find_manufacturer_info(soup)
+    if not v.specs:
         og_desc = soup.find("meta", property="og:description") or soup.find("meta", attrs={"name": "description"})
         if og_desc and og_desc.get("content"):
             v.description = og_desc["content"].strip()
@@ -395,6 +412,7 @@ def scrape_all(
             if cached and cached.get("image_url"):
                 v.image_url = cached.get("image_url")
                 v.description = cached.get("description")
+                v.specs = cached.get("specs")
             else:
                 need_fetch.append(v)
         print(

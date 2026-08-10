@@ -1,7 +1,13 @@
 // Minimal service worker: caches the app shell for offline/instant load.
 // Inventory data is always fetched fresh over the network (see index.html),
 // falling back to the cached copy only if the network request fails.
-const CACHE = 'motohouse-shell-v1';
+//
+// Bump the CACHE version string every time index.html/manifest.json change
+// -- the "activate" handler below deletes any cache that isn't the current
+// version, which is what makes a PWA that's already installed on someone's
+// phone actually pick up the new app shell instead of serving the old
+// cached copy forever.
+const CACHE = 'motohouse-shell-v2';
 const SHELL = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {

@@ -96,6 +96,19 @@
   }
   .meta-grid b{color:var(--text); font-weight:600;}
   .desc{font-size:12.5px; color:var(--muted); line-height:1.5; margin-top:2px; white-space:pre-line;}
+  .specs{margin-top:6px; display:flex; flex-direction:column;}
+  .specs-section{
+    font-size:10.5px; font-weight:800; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); margin:10px 0 3px;
+  }
+  .specs-section:first-child{margin-top:2px;}
+  .specs-row{
+    display:flex; justify-content:space-between; align-items:baseline; gap:10px;
+    padding:3px 0; border-bottom:1px solid rgba(255,255,255,.06);
+    font-size:12.5px; line-height:1.35;
+  }
+  .specs-label{color:var(--muted); flex:none; max-width:55%;}
+  .specs-value{color:var(--text); font-weight:600; text-align:right;}
   .card-actions{display:flex; gap:8px; margin-top:auto; padding-top:10px;}
   .card-actions a{
     flex:1; text-align:center; padding:11px; border-radius:12px; font-size:14px; font-weight:700;
@@ -224,6 +237,16 @@ function filteredSorted(){
 
 function money(n){ return n == null ? null : '$' + n.toLocaleString('en-US'); }
 
+function specsHTML(v){
+  if (v.specs && v.specs.length){
+    return `<div class="specs">` + v.specs.map(sec => `
+      ${sec.section ? `<div class="specs-section">${sec.section}</div>` : ''}
+      ${sec.items.map(it => `<div class="specs-row"><span class="specs-label">${it.label}</span><span class="specs-value">${it.value}</span></div>`).join('')}
+    `).join('') + `</div>`;
+  }
+  return v.description ? `<div class="desc">${v.description}</div>` : '';
+}
+
 function cardHTML(v){
   const badgeClass = (v.condition||'').toUpperCase() === 'NEW' ? 'new' : 'used';
   const photo = v.image_url
@@ -252,7 +275,7 @@ function cardHTML(v){
           <div>Stock #: <b>${v.stock_number || '—'}</b></div>
           <div>${v.odometer != null ? `Miles: <b>${v.odometer.toLocaleString()}</b>` : `VIN: <b style="font-size:11px;">${(v.vin||'—').slice(-8)}</b>`}</div>
         </div>
-        ${v.description ? `<div class="desc">${v.description}</div>` : ''}
+        ${specsHTML(v)}
         <div class="card-actions">
           <a class="btn-secondary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">Details</a>
           <a class="btn-primary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">View / Quote</a>

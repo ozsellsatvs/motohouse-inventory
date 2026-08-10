@@ -1,6 +1,6 @@
 {
-  "schema": 6,
-  "generated_at": "2026-08-10T01:03:14.873648+00:00",
+  "schema": 7,
+  "generated_at": "2026-08-10T01:29:23.147570+00:00",
   "source": "https://www.motohousems.com/--inventory",
   "count": 205,
   "makes": [
@@ -233,6 +233,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO OFF-ROAD OFFERS",
+          "subtitle": "FINANCING AS LOW AS 2.99% ON SELECT VEHICLES.",
+          "summary": "Nationwide Promotional Financing\nAS LOW AS 2.99% FOR 36 MONTHS ON MY2025 ORV MODELS\n\nAS LOW AS 7.99% FOR 60 MONTHS ON MY2025 ORV MODELS\n\nAS LOW AS 9.99% FOR 72 MONTHS ON MY2025 ORV MODELS",
+          "terms": "*Offer valid 7/1/26 through 8/12/26.\n\nFinancing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply.",
+          "start_date": "2026-07-01T06:01:00Z",
+          "end_date": "2026-08-12T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25062"
+        }
       ]
     },
     {
@@ -384,6 +396,18 @@
               "value": "Factory: 1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
         }
       ]
     },
@@ -537,6 +561,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -689,6 +725,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -840,6 +888,18 @@
               "value": "Factory: 1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
         }
       ]
     },
@@ -997,6 +1057,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "subtitle": "",
+          "summary": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $1,000 off on select 2026 Defender XT CAB & Limited CAB models.\n\n†† Rates as low as 4.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 4.99% APR rate: $29.97 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 4.99% APR for 36 months at an MSRP of $30,000 is $809.09/mo. Total cost of borrowing: $2,127.35 with a total repayment obligation of $29,127.35. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25773"
+        }
       ]
     },
     {
@@ -1148,6 +1220,18 @@
               "value": "Factory: 1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,500 OR 3.99% for 36 months on select 2026 Maverick X3 Turbo models",
+          "subtitle": "",
+          "summary": "Save up to $1,500 OR 3.99% for 36 months on select 2026 Maverick X3 Turbo models",
+          "terms": "\"\"\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details. \n\n† Get $1,500 off on select 2026 Maverick X3 Turbo X & RS models and $500 on Maverick X3 Turbo DS models. \n\n†† Rates as low as 3.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 3.99% APR rate: $29.52 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 3.99% APR for 36 months at an MSRP of $30,000 is $797.03/mo. Total cost of borrowing: $1,692.99 with a total repayment obligation of $28,692.99. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\"\"\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25777"
         }
       ]
     },
@@ -1301,6 +1385,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -1452,6 +1548,18 @@
               "value": "Factory: 1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,500 OR 3.99% for 36 months on select 2026 Maverick X3 Turbo models",
+          "subtitle": "",
+          "summary": "Save up to $1,500 OR 3.99% for 36 months on select 2026 Maverick X3 Turbo models",
+          "terms": "\"\"\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details. \n\n† Get $1,500 off on select 2026 Maverick X3 Turbo X & RS models and $500 on Maverick X3 Turbo DS models. \n\n†† Rates as low as 3.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 3.99% APR rate: $29.52 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 3.99% APR for 36 months at an MSRP of $30,000 is $797.03/mo. Total cost of borrowing: $1,692.99 with a total repayment obligation of $28,692.99. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\"\"\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25777"
         }
       ]
     },
@@ -1609,6 +1717,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -1765,6 +1885,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "subtitle": "",
+          "summary": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $1,000 off on select 2026 Defender XT CAB & Limited CAB models.\n\n†† Rates as low as 4.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 4.99% APR rate: $29.97 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 4.99% APR for 36 months at an MSRP of $30,000 is $809.09/mo. Total cost of borrowing: $2,127.35 with a total repayment obligation of $29,127.35. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25773"
+        }
       ]
     },
     {
@@ -1917,6 +2049,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "subtitle": "",
+          "summary": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $1,000 off on select 2026 Defender XT CAB & Limited CAB models.\n\n†† Rates as low as 4.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 4.99% APR rate: $29.97 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 4.99% APR for 36 months at an MSRP of $30,000 is $809.09/mo. Total cost of borrowing: $2,127.35 with a total repayment obligation of $29,127.35. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25773"
+        }
       ]
     },
     {
@@ -2027,6 +2171,38 @@
               "value": "BRP limited warranty covers the watercraft for one year."
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
         }
       ]
     },
@@ -2139,6 +2315,38 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
       ]
     },
     {
@@ -2249,6 +2457,38 @@
               "value": "BRP limited warranty covers the watercraft for one year."
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
         }
       ]
     },
@@ -2406,6 +2646,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -2562,6 +2814,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $4,000 OR 0% for 60 months on select 2026 SxS models",
+          "subtitle": "",
+          "summary": "Save up to $4,000 OR 0% for 60 months on select 2026 SxS models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $4,000 off on all 2026 Commander 1000R models (Including MAX). \n\n†† Rates as low as 0% APR (Annual Percentage Rate) for 60 months. An example of a monthly payment required over a 60‑month term at a 0% APR rate: $16.67 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 0% for 60 months at an MSRP of $30,000 is $450/mo. Total cost of borrowing: $0 with a total repayment obligation of $27,000. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25771"
+        }
       ]
     },
     {
@@ -2717,6 +2981,18 @@
               "value": "Factory:  1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
         }
       ]
     },
@@ -2883,6 +3159,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "subtitle": "",
+          "summary": "Save up to $1,000 OR 4.99% for 36 months on select 2026 Defender CAB models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $1,000 off on select 2026 Defender XT CAB & Limited CAB models.\n\n†† Rates as low as 4.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 4.99% APR rate: $29.97 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 4.99% APR for 36 months at an MSRP of $30,000 is $809.09/mo. Total cost of borrowing: $2,127.35 with a total repayment obligation of $29,127.35. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. Offer subject to change without notice. Financing promotions void where prohibited. See your BRP dealer for details. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25773"
+        }
       ]
     },
     {
@@ -2993,6 +3281,38 @@
               "value": "BRP limited warranty covers the watercraft for one year."
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
         }
       ]
     },
@@ -3105,6 +3425,38 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
       ]
     },
     {
@@ -3215,6 +3567,48 @@
               "value": "BRP limited warranty covers the watercraft for one year."
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Get up to $1,000 off or 2 years of coverage on select 2026 models",
+          "subtitle": "",
+          "summary": "Get up to $1,000 off or 2 years of coverage on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,000: Consumers who purchase new and unused 2026 Sea-Doo Tow Sports models during the promotional period are eligible for a $1,000 rebate. Consumers who purchase any other new and unused 2026 Sea-Doo are eligible for a $750 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25809"
+        },
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
         }
       ]
     },
@@ -3372,6 +3766,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -3524,6 +3930,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -3635,6 +4053,38 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
       ]
     },
     {
@@ -3745,6 +4195,38 @@
               "value": "BRP limited warranty covers the watercraft for one year."
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
         }
       ]
     },
@@ -3911,6 +4393,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -4076,6 +4570,18 @@
             }
           ]
         }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
+        }
       ]
     },
     {
@@ -4240,6 +4746,18 @@
               "value": "Factory: 1-year BRP Limited warranty"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "Defender models offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 1.99% for 36 months on select 2026 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2026 Defender HD11 Non-CAB and HD10 Non-CAB models. \n\n†† Rates as low as 1.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 1.99% APR rate: $28.64 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 1.99% for 36 months at an MSRP of $30,000 is $773.23/mo. Total cost of borrowing: $836.34 with a total repayment obligation of $27,836.34. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\n\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
         }
       ]
     },
@@ -4445,6 +4963,18 @@
               "value": "Lava Orange, Tundra Gray"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO OFF-ROAD OFFERS",
+          "subtitle": "FINANCING AS LOW AS 2.99% ON SELECT VEHICLES.",
+          "summary": "Nationwide Promotional Financing\nAS LOW AS 2.99% FOR 36 MONTHS ON MY2025 ORV MODELS\n\nAS LOW AS 7.99% FOR 60 MONTHS ON MY2025 ORV MODELS\n\nAS LOW AS 9.99% FOR 72 MONTHS ON MY2025 ORV MODELS",
+          "terms": "*Offer valid 7/1/26 through 8/12/26.\n\nFinancing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply.",
+          "start_date": "2026-07-01T06:01:00Z",
+          "end_date": "2026-08-12T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25062"
         }
       ]
     },
@@ -4693,6 +5223,18 @@
               "value": "Factory: 1 year BRP limited warranty | Extended: B.E.S.T. term available up to 30 months"
             }
           ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "2025 Defender family offers",
+          "subtitle": "",
+          "summary": "Save up to $2,000 OR 2.99% for 36 months on select 2025 Defender models",
+          "terms": "\"©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. Offer valid in your state only from August 1 to September 30. The terms and conditions may vary depending on your state and this offer is subject to termination or change at any time without notice. See an authorized BRP dealer for details.\n\n† Get $2,000 off on select 2025 Defender HD10 and HD9.\n\n†† Rates as low as 2.99% APR (Annual Percentage Rate) for 36 months. An example of a monthly payment required over a 36‑month term at a 2.99% APR rate: $29.08 per $1,000 financed. An example of a monthly payment with $3,000 down, no rebate, an APR of 2.99% for 36 months at an MSRP of $30,000 is $785.07/mo. Total cost of borrowing: $1,262.65 with a total repayment obligation of $28,262.65. Down payment may be required. Other financing offers may be available. Minimum and Maximum Amount Financed may vary. Not all buyers will qualify. Higher rates apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for any of the financing terms and conditions. This offer is in lieu of any other promotion. \n\nBRP recommends that all ATV-SSV drivers take a training course. See your dealer or call the ATV Safety Institute at 1-800-887-2887. ATVs and SSVs can be hazardous to operate. Never carry passengers on any ATV-SSV not specifically designed by the manufacturer for such use. All adult model Can-Am ATVs are Category G ATVs (General Use Models) intended for recreational and/or utility use by an operator age 16 or older. Carefully read the vehicle’s operator’s guide. Follow all instructional and safety material and observe applicable laws and regulations. ATVs and SSVs are for off-road use only; never ride on paved surfaces or public roads. For your safety, the operator and passenger(s) must wear a helmet, eye protection and applicable protective clothing. Always remember that riding and alcohol/drugs don’t mix. Never engage in stunt driving. Avoid excessive speed and be particularly careful on difficult terrain. Always ride responsibly and safely. See your authorized BRP dealer for details and visit www.can-am.brp.com.\"",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25792"
         }
       ]
     },
@@ -4943,7 +5485,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18933864",
@@ -5192,7 +5735,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19058777",
@@ -5357,7 +5901,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19009754",
@@ -5522,7 +6067,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19009755",
@@ -5687,7 +6233,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18956068",
@@ -5856,7 +6403,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19009751",
@@ -6025,7 +6573,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19009752",
@@ -6194,7 +6743,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18786552",
@@ -6359,7 +6909,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18721304",
@@ -6524,7 +7075,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18630092",
@@ -6689,7 +7241,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605916",
@@ -6854,7 +7407,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18847007",
@@ -7019,7 +7573,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18291084",
@@ -7184,7 +7739,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18638126",
@@ -7349,7 +7905,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18976973",
@@ -7514,7 +8071,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18921559",
@@ -7670,7 +8228,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18961170",
@@ -7826,7 +8385,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18708777",
@@ -7982,7 +8542,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758683",
@@ -8138,7 +8699,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17790233",
@@ -8294,7 +8856,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18961169",
@@ -8463,7 +9026,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18961171",
@@ -8623,7 +9187,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18961172",
@@ -8783,7 +9348,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522332",
@@ -8943,7 +9509,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758687",
@@ -9103,7 +9670,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18306536",
@@ -9263,7 +9831,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18272300",
@@ -9423,7 +9992,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18272301",
@@ -9583,7 +10153,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18894671",
@@ -9735,7 +10306,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18894672",
@@ -9887,7 +10459,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18894673",
@@ -10039,7 +10612,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758689",
@@ -10191,7 +10765,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18961168",
@@ -10339,7 +10914,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18921560",
@@ -10487,7 +11063,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18894674",
@@ -10639,7 +11216,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18240761",
@@ -10866,7 +11444,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18517012",
@@ -11097,7 +11676,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18325247",
@@ -11332,7 +11912,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18341739",
@@ -11567,7 +12148,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18325251",
@@ -11802,7 +12384,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18341741",
@@ -12037,7 +12620,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18341743",
@@ -12272,7 +12856,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18325248",
@@ -12507,7 +13092,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18563463",
@@ -12742,7 +13328,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17907928",
@@ -12920,7 +13507,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605914",
@@ -13098,7 +13686,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18673614",
@@ -13276,7 +13865,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18673617",
@@ -13454,7 +14044,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18673619",
@@ -13632,7 +14223,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18842081",
@@ -13851,7 +14443,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18786553",
@@ -14070,7 +14663,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18842082",
@@ -14289,7 +14883,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18673620",
@@ -14467,7 +15062,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18673621",
@@ -14645,7 +15241,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605909",
@@ -14823,7 +15420,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19057339",
@@ -15025,7 +15623,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18868529",
@@ -15236,7 +15835,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19045031",
@@ -15447,7 +16047,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19081532",
@@ -15658,7 +16259,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605904",
@@ -15869,7 +16471,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605905",
@@ -16080,7 +16683,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18987426",
@@ -16291,7 +16895,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18830354",
@@ -16502,7 +17107,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19083746",
@@ -16713,7 +17319,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19017389",
@@ -16924,7 +17531,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19017390",
@@ -17135,7 +17743,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19017391",
@@ -17346,7 +17955,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18821676",
@@ -17540,7 +18150,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18916315",
@@ -17734,7 +18345,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18976972",
@@ -17928,7 +18540,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18336581",
@@ -17951,7 +18564,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Hammerhead-Off-Road-Utility-Vehicle-MUDHEAD-208R-18336581",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/00/FC/00FC243D-A294-4A38-8267-0FF15828E72C.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18336580",
@@ -17974,7 +18588,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Hammerhead-Off-Road-Utility-Vehicle-MUDHEAD-SE-SL-18336580",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/19/EC/19EC0124-73E4-4976-B0B9-6EA495017270.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18600091",
@@ -18110,7 +18725,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18445522",
@@ -18246,7 +18862,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18808473",
@@ -18382,7 +18999,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18808475",
@@ -18518,7 +19136,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18445518",
@@ -18654,7 +19273,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18445520",
@@ -18790,7 +19410,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18492177",
@@ -18813,7 +19434,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Cargo-Trailer-Aluminum-Personal-Watercraft-18492177",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/27693861-0-154380711.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18492178",
@@ -18836,7 +19458,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Cargo-Trailer-Aluminum-Personal-Watercraft-18492178",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/27693861-0-154380711.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18492180",
@@ -18859,7 +19482,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Cargo-Trailer-Aluminum-Personal-Watercraft-18492180",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/27693861-0-154380711.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18492182",
@@ -18882,7 +19506,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Cargo-Trailer-Aluminum-Personal-Watercraft-18492182",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/27693861-0-154380711.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18522338",
@@ -19077,7 +19702,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19057340",
@@ -19272,7 +19898,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18976971",
@@ -19499,7 +20126,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18982943",
@@ -19726,7 +20354,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18728520",
@@ -19953,7 +20582,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19065303",
@@ -20180,7 +20810,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19065301",
@@ -20403,7 +21034,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18982942",
@@ -20626,7 +21258,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18976970",
@@ -20849,7 +21482,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18956067",
@@ -21072,7 +21706,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19065304",
@@ -21295,7 +21930,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18933866",
@@ -21518,7 +22154,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18812301",
@@ -21745,7 +22382,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18605902",
@@ -21972,7 +22610,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17931820",
@@ -22199,7 +22838,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17931819",
@@ -22426,7 +23066,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18356667",
@@ -22649,7 +23290,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17767500",
@@ -22872,7 +23514,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18478912",
@@ -23099,7 +23742,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522337",
@@ -23326,7 +23970,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19065302",
@@ -23553,7 +24198,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19065300",
@@ -23780,7 +24426,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18510408",
@@ -24007,7 +24654,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18541532",
@@ -24234,7 +24882,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18728521",
@@ -24461,7 +25110,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18873870",
@@ -24660,7 +25310,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18325246",
@@ -24887,7 +25538,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19014781",
@@ -25126,7 +25778,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758672",
@@ -25361,7 +26014,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18325245",
@@ -25609,7 +26263,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18510414",
@@ -25861,7 +26516,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18708776",
@@ -26076,7 +26732,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18999608",
@@ -26271,7 +26928,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18735123",
@@ -26485,7 +27143,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18576567",
@@ -26699,7 +27358,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18485964",
@@ -26913,7 +27573,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18812299",
@@ -27132,7 +27793,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18933865",
@@ -27351,7 +28013,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19081533",
@@ -27574,7 +28237,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18291083",
@@ -27797,7 +28461,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18847006",
@@ -28020,7 +28685,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17924306",
@@ -28131,7 +28797,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17807374",
@@ -28242,7 +28909,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18190023",
@@ -28353,7 +29021,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522330",
@@ -28510,7 +29179,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522329",
@@ -28667,7 +29337,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18517017",
@@ -28824,7 +29495,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18812300",
@@ -29009,7 +29681,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18808476",
@@ -29170,7 +29843,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18830362",
@@ -29331,7 +30005,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18600085",
@@ -29492,7 +30167,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18630097",
@@ -29653,7 +30329,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18630098",
@@ -29814,7 +30491,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18517018",
@@ -29975,7 +30653,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522318",
@@ -30148,7 +30827,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522319",
@@ -30321,7 +31001,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522323",
@@ -30506,7 +31187,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18600080",
@@ -30679,7 +31361,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18600081",
@@ -30852,7 +31535,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18408174",
@@ -31029,7 +31713,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18863021",
@@ -31190,7 +31875,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18600083",
@@ -31375,7 +32061,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18868532",
@@ -31536,7 +32223,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18956069",
@@ -31697,7 +32385,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18600077",
@@ -31866,7 +32555,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19009753",
@@ -32047,7 +32737,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18721303",
@@ -32228,7 +32919,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18522324",
@@ -32409,7 +33101,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18830361",
@@ -32594,7 +33287,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18868531",
@@ -32779,7 +33473,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758676",
@@ -32964,7 +33659,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18830360",
@@ -33149,7 +33845,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18808477",
@@ -33334,7 +34031,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18758673",
@@ -33519,7 +34217,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17132411",
@@ -33750,7 +34449,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17834774",
@@ -33886,7 +34586,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17834778",
@@ -34022,7 +34723,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17269008",
@@ -34045,7 +34747,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2025-Magic-Tilt-Motorcycle-Scooter-PWCV-1250A-17269008",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/00/B6/00B62715-1873-404D-94D3-B129D54B90AF.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "16576883",
@@ -34247,7 +34950,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18485959",
@@ -34270,7 +34974,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Motorcycle-Scooter-DWC2500-18485959",
       "image_url": null,
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18485961",
@@ -34293,7 +34998,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Motorcycle-Scooter-DWC2500-18485961",
       "image_url": null,
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18485962",
@@ -34316,7 +35022,8 @@
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Motorcycle-Scooter-PWCV-2360A-18485962",
       "image_url": null,
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18904781",
@@ -34610,7 +35317,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18899744",
@@ -34826,7 +35534,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "19076363",
@@ -35021,7 +35730,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "17866816",
@@ -35212,7 +35922,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18555731",
@@ -35427,7 +36138,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18576569",
@@ -35650,7 +36362,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "18818454",
@@ -35964,7 +36677,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     },
     {
       "id": "14208051",
@@ -35987,7 +36701,8 @@
       "detail_url": "https://www.motohousems.com/USED-Inventory-2019-Sea-Doo-Trailers-Cargo-Trailer-T6KA-MOVE-14208051",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/7E/1B/7E1BC9F0-453E-4CC8-A307-A98B2D202593.jpg",
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
-      "specs": null
+      "specs": null,
+      "offers": null
     },
     {
       "id": "18735121",
@@ -36227,7 +36942,8 @@
             }
           ]
         }
-      ]
+      ],
+      "offers": null
     }
   ]
 }

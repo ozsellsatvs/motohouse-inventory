@@ -22,11 +22,11 @@ Design notes / how this is built:
   - A vehicle detail page's "Manufacturer Info" accordion tab
     (id="accordionManufacturerInfo") holds the full spec sheet -- Engine,
     Drivetrain, Suspension, Brakes, Wheels & Tires, Dimensions,
-    Capacities, Weights, Color -- rendered with the same li> <h5>Label
-    </h5>Value pattern used elsewhere on these pages, plus section-header
-    rows (an <h5> with no trailing value) that we use to group the spec
-    lines. If a listing has no Manufacturer Info panel, we fall back to
-    the page's og:description meta tag.
+    Capacities, Weights, Color -- one <li class="liUnit ... unitSpec ...">
+    per row, with the label in a <label class="unitLabel"> and the value
+    in a <span class="unitValue"> (section-header rows like "Engine" have
+    no value span). If a listing has no Manufacturer Info panel, we fall
+    back to the page's og:description meta tag.
   - This runs on a self-hosted GitHub Actions runner (the dealer's own
     home internet connection), not GitHub's cloud servers, because
     motohousems.com's firewall blocks cloud/datacenter IP ranges. See the
@@ -69,7 +69,7 @@ CONDITIONS = ["new", "pre-owned"]
 # stale or incomplete. load_detail_cache() ignores a previous run's data
 # entirely if its schema doesn't match, forcing one full re-fetch instead
 # of silently keeping old-format data around.
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 QUICKLOOK_LABELS = [
     "Condition",
@@ -236,28 +236,30 @@ def find_manufacturer_info(soup: BeautifulSoup) -> str | None:
     """The vehicle detail page has a 'Manufacturer Info' accordion tab,
     id="accordionManufacturerInfo" -- the full spec sheet (Engine,
     Drivetrain, Suspension, Brakes, Wheels & Tires, Dimensions,
-    Capacities, Weights, Color, etc.). It's rendered as a flat run of
-    <li> elements using the same <h5>Label</h5>Value pattern as the
-    Quick Look / Specifications panels, except section-header rows
-    (e.g. "Engine") are an <h5> with no trailing value text -- we use
-    those to group the actual spec lines under a heading."""
+    Capacities, Weights, Color, etc.). Each row is
+    <li class="liUnit ... unitSpec ..."><label class="unitLabel
+    lblUnitLabel">Label</label><span class="unitValue spnUnitValue">
+    Value</span></li>. Section-header rows (e.g. "Engine") carry an extra
+    "unitSpecHeader" class and have no value span -- we use those to
+    group the actual spec lines under a heading."""
     container = soup.find(id="accordionManufacturerInfo")
     if not container:
         return None
     lines: list[str] = []
-    for li in container.find_all("li"):
-        h5 = li.find("h5")
-        if not h5:
+    for li in container.find_all("li", class_="liUnit"):
+        label_el = li.find("label", class_="unitLabel")
+        if not label_el:
             continue
-        label = h5.get_text(strip=True)
-        full = li.get_text(" ", strip=True)
-        value = full[len(label):].strip() if full.startswith(label) else ""
-        if not value:
+        label = label_el.get_text(strip=True)
+        value_el = li.find("span", class_="unitValue")
+        if not value_el:
             if lines and lines[-1] != "":
                 lines.append("")
             lines.append(label)
         else:
-            lines.append(f"  {label}: {value}")
+            value = value_el.get_text(strip=True)
+            if value:
+                lines.append(f"  {label}: {value}")
     while lines and lines[0] == "":
         lines.pop(0)
     return "\n".join(lines) if lines else None
@@ -326,32 +328,12 @@ def scrape_list_page(url: str, session: requests.Session) -> tuple[list[Vehicle]
     return vehicles, total_pages
 
 
-_DEBUG_DETAIL_COUNT = 0
-_DEBUG_DETAIL_LIMIT = 1
-
-
 def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
-    global _DEBUG_DETAIL_COUNT
     if not v.detail_url:
         return
     html = fetch(v.detail_url, session)
     if not html:
         return
-    if _DEBUG_DETAIL_COUNT < _DEBUG_DETAIL_LIMIT:
-        _DEBUG_DETAIL_COUNT += 1
-        idx = html.find('id="accordionManufacturerInfo"')
-        if idx != -1:
-            # find the matching close of this div by locating the next
-            # occurrence of the sibling accordion (Payments) as a rough
-            # end marker, falling back to a large fixed window
-            end_idx = html.find('id="accordionPayments"', idx)
-            if end_idx == -1 or end_idx - idx > 6000:
-                end_idx = idx + 4000
-            snippet = html[idx:end_idx]
-        else:
-            snippet = "(string not found anywhere in raw HTML)"
-        print(f"    [DEBUG {v.id}] full manufacturer-info block ({len(snippet)} chars):", file=sys.stderr)
-        print(snippet, file=sys.stderr)
     soup = BeautifulSoup(html, "html.parser")
     og_image = soup.find("meta", property="og:image")
     if og_image and og_image.get("content"):

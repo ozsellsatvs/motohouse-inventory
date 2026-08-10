@@ -19,9 +19,14 @@ Design notes / how this is built:
     across Dealer Spike sites/updates).
   - Price ("Our Price" / "Retail Price" / "Savings") is pulled from the
     "Limited Time Offer" quote link text near each vehicle.
-  - A vehicle detail page's og:image / og:description meta tags are used
-    for a photo + long description (best effort; a missing image just
-    means the app falls back to a placeholder icon).
+  - A vehicle detail page's "Manufacturer Info" accordion tab
+    (id="accordionManufacturerInfo") holds the full spec sheet -- Engine,
+    Drivetrain, Suspension, Brakes, Wheels & Tires, Dimensions,
+    Capacities, Weights, Color -- rendered with the same li> <h5>Label
+    </h5>Value pattern used elsewhere on these pages, plus section-header
+    rows (an <h5> with no trailing value) that we use to group the spec
+    lines. If a listing has no Manufacturer Info panel, we fall back to
+    the page's og:description meta tag.
   - This runs on a self-hosted GitHub Actions runner (the dealer's own
     home internet connection), not GitHub's cloud servers, because
     motohousems.com's firewall blocks cloud/datacenter IP ranges. See the
@@ -58,6 +63,13 @@ REQUEST_TIMEOUT = 60
 PAGE_DELAY_SEC = 0.6          # be polite between list-page requests
 DETAIL_DELAY_SEC = 0.35       # be polite between detail-page requests
 CONDITIONS = ["new", "pre-owned"]
+
+# Bumped whenever the shape of what we store per-vehicle changes in a way
+# that makes previously-cached detail-page data (image_url/description)
+# stale or incomplete. load_detail_cache() ignores a previous run's data
+# entirely if its schema doesn't match, forcing one full re-fetch instead
+# of silently keeping old-format data around.
+SCHEMA_VERSION = 2
 
 QUICKLOOK_LABELS = [
     "Condition",
@@ -220,6 +232,37 @@ def find_prices(soup: BeautifulSoup) -> list[dict]:
     return prices
 
 
+def find_manufacturer_info(soup: BeautifulSoup) -> str | None:
+    """The vehicle detail page has a 'Manufacturer Info' accordion tab,
+    id="accordionManufacturerInfo" -- the full spec sheet (Engine,
+    Drivetrain, Suspension, Brakes, Wheels & Tires, Dimensions,
+    Capacities, Weights, Color, etc.). It's rendered as a flat run of
+    <li> elements using the same <h5>Label</h5>Value pattern as the
+    Quick Look / Specifications panels, except section-header rows
+    (e.g. "Engine") are an <h5> with no trailing value text -- we use
+    those to group the actual spec lines under a heading."""
+    container = soup.find(id="accordionManufacturerInfo")
+    if not container:
+        return None
+    lines: list[str] = []
+    for li in container.find_all("li"):
+        h5 = li.find("h5")
+        if not h5:
+            continue
+        label = h5.get_text(strip=True)
+        full = li.get_text(" ", strip=True)
+        value = full[len(label):].strip() if full.startswith(label) else ""
+        if not value:
+            if lines and lines[-1] != "":
+                lines.append("")
+            lines.append(label)
+        else:
+            lines.append(f"  {label}: {value}")
+    while lines and lines[0] == "":
+        lines.pop(0)
+    return "\n".join(lines) if lines else None
+
+
 def clean_int(v):
     if v is None:
         return None
@@ -293,18 +336,25 @@ def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
     og_image = soup.find("meta", property="og:image")
     if og_image and og_image.get("content"):
         v.image_url = og_image["content"]
-    og_desc = soup.find("meta", property="og:description") or soup.find("meta", attrs={"name": "description"})
-    if og_desc and og_desc.get("content"):
-        v.description = og_desc["content"].strip()
+    v.description = find_manufacturer_info(soup)
+    if not v.description:
+        og_desc = soup.find("meta", property="og:description") or soup.find("meta", attrs={"name": "description"})
+        if og_desc and og_desc.get("content"):
+            v.description = og_desc["content"].strip()
 
 
 def load_detail_cache(path: str) -> dict[str, dict]:
     """Reuse image_url/description from the previous run so we don't spend
     time re-fetching the detail page of every vehicle every day -- only
-    genuinely new listings need a fresh detail-page fetch."""
+    genuinely new listings need a fresh detail-page fetch. Ignored
+    entirely (forcing a full re-fetch) if the previous run used a
+    different SCHEMA_VERSION, since its cached fields may be in the old
+    shape."""
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
+        if data.get("schema") != SCHEMA_VERSION:
+            return {}
         return {v["id"]: v for v in data.get("vehicles", []) if v.get("id")}
     except (OSError, json.JSONDecodeError, KeyError):
         return {}
@@ -386,6 +436,7 @@ def main():
     groups = sorted({v.group_label for v in vehicles if v.group_label})
 
     out = {
+        "schema": SCHEMA_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": f"{BASE}{LIST_PATH}",
         "count": len(vehicles),

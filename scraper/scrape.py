@@ -22,6 +22,10 @@ Design notes / how this is built:
   - A vehicle detail page's og:image / og:description meta tags are used
     for a photo + long description (best effort; a missing image just
     means the app falls back to a placeholder icon).
+  - This runs on a self-hosted GitHub Actions runner (the dealer's own
+    home internet connection), not GitHub's cloud servers, because
+    motohousems.com's firewall blocks cloud/datacenter IP ranges. See the
+    repo README for details -- no proxy service is needed.
 
 Usage:
     python scrape.py --out ../docs/data/inventory.json
@@ -43,10 +47,14 @@ from bs4 import BeautifulSoup
 BASE = "https://www.motohousems.com"
 LIST_PATH = "/--inventory"
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; MotohouseInventoryBot/1.0; "
-    "+https://github.com/) requests"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-REQUEST_TIMEOUT = 20
+EXTRA_HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+REQUEST_TIMEOUT = 60
 PAGE_DELAY_SEC = 0.6          # be polite between list-page requests
 DETAIL_DELAY_SEC = 0.35       # be polite between detail-page requests
 CONDITIONS = ["new", "pre-owned"]
@@ -94,7 +102,8 @@ class Vehicle:
 
 def fetch(url: str, session: requests.Session) -> str | None:
     try:
-        resp = session.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT})
+        headers = {"User-Agent": USER_AGENT, **EXTRA_HEADERS}
+        resp = session.get(url, timeout=REQUEST_TIMEOUT, headers=headers)
         resp.raise_for_status()
         return resp.text
     except requests.RequestException as exc:
@@ -289,7 +298,23 @@ def enrich_with_detail_page(v: Vehicle, session: requests.Session) -> None:
         v.description = og_desc["content"].strip()
 
 
-def scrape_all(fetch_images: bool = True, max_pages: int | None = None) -> list[Vehicle]:
+def load_detail_cache(path: str) -> dict[str, dict]:
+    """Reuse image_url/description from the previous run so we don't spend
+    time re-fetching the detail page of every vehicle every day -- only
+    genuinely new listings need a fresh detail-page fetch."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return {v["id"]: v for v in data.get("vehicles", []) if v.get("id")}
+    except (OSError, json.JSONDecodeError, KeyError):
+        return {}
+
+
+def scrape_all(
+    fetch_images: bool = True,
+    max_pages: int | None = None,
+    detail_cache: dict[str, dict] | None = None,
+) -> list[Vehicle]:
     session = requests.Session()
     all_vehicles: dict[str, Vehicle] = {}
 
@@ -311,11 +336,24 @@ def scrape_all(fetch_images: bool = True, max_pages: int | None = None) -> list[
     vehicles = list(all_vehicles.values())
 
     if fetch_images:
-        print(f"Enriching {len(vehicles)} vehicles with photo/description from detail pages...")
-        for i, v in enumerate(vehicles, 1):
+        detail_cache = detail_cache or {}
+        need_fetch = []
+        for v in vehicles:
+            cached = detail_cache.get(v.id)
+            if cached and cached.get("image_url"):
+                v.image_url = cached.get("image_url")
+                v.description = cached.get("description")
+            else:
+                need_fetch.append(v)
+        print(
+            f"Enriching {len(need_fetch)} of {len(vehicles)} vehicles with "
+            f"photo/description from detail pages ({len(vehicles) - len(need_fetch)} "
+            f"reused from yesterday's data)..."
+        )
+        for i, v in enumerate(need_fetch, 1):
             enrich_with_detail_page(v, session)
             if i % 25 == 0:
-                print(f"  ...{i}/{len(vehicles)}")
+                print(f"  ...{i}/{len(need_fetch)}")
             time.sleep(DETAIL_DELAY_SEC)
 
     return vehicles
@@ -328,7 +366,21 @@ def main():
     ap.add_argument("--max-pages", type=int, default=None, help="limit pages per condition (testing)")
     args = ap.parse_args()
 
-    vehicles = scrape_all(fetch_images=not args.no_images, max_pages=args.max_pages)
+    detail_cache = load_detail_cache(args.out)
+    vehicles = scrape_all(
+        fetch_images=not args.no_images,
+        max_pages=args.max_pages,
+        detail_cache=detail_cache,
+    )
+
+    if not vehicles and detail_cache:
+        print(
+            "No vehicles scraped (likely a temporary fetch failure) -- "
+            "leaving the existing inventory.json in place instead of "
+            "overwriting it with an empty result.",
+            file=sys.stderr,
+        )
+        sys.exit(0)
 
     makes = sorted({v.make for v in vehicles if v.make})
     groups = sorted({v.group_label for v in vehicles if v.group_label})

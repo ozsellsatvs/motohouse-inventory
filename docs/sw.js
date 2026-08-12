@@ -7,7 +7,7 @@
 // version, which is what makes a PWA that's already installed on someone's
 // phone actually pick up the new app shell instead of serving the old
 // cached copy forever.
-const CACHE = 'motohouse-shell-v4';
+const CACHE = 'motohouse-shell-v5';
 const SHELL = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {

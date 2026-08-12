@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Motohouse Inventory</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
-<meta name="theme-color" content="#0f172a">
+<meta name="theme-color" content="#000000">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -13,384 +13,376 @@
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="icon" href="icons/icon-192.png">
 <style>
-  :root{
-    --bg:#0f172a; --panel:#16213a; --panel2:#1c2b4a; --text:#f1f5f9; --muted:#93a3b8;
-    --accent:#f59e0b; --accent2:#22c55e; --danger:#ef4444; --radius:18px;
-  }
-  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
-  html,body{height:100%;}
-  body{
-    margin:0; background:var(--bg); color:var(--text);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    overscroll-behavior-y:none; display:flex; flex-direction:column;
-  }
-  header{
-    padding:calc(env(safe-area-inset-top) + 12px) 16px 10px; flex:none;
-    display:flex; align-items:center; justify-content:space-between; gap:8px;
-  }
-  header h1{font-size:18px; margin:0; font-weight:700;}
-  header .sub{font-size:11px; color:var(--muted); margin-top:2px;}
-  #refreshBtn{
-    background:var(--panel2); border:none; color:var(--text); border-radius:12px;
-    width:40px; height:40px; font-size:18px; display:flex; align-items:center; justify-content:center;
-  }
-  #refreshBtn.spinning svg{animation:spin 0.8s linear infinite;}
-  @keyframes spin{to{transform:rotate(360deg);}}
+:root{
+--bg:#000000; --panel:#16213a; --panel2:#1c2b4a; --text:#f1f5f9; --muted:#93a3b8;
+--accent:#f59e0b; --accent2:#22c55e; --danger:#ef4444; --radius:18px;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html,body{height:100%;}
+body{
+margin:0; background:var(--bg); color:var(--text);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+overscroll-behavior-y:none; display:flex; flex-direction:column;
+}
+header{
+padding:calc(env(safe-area-inset-top) + 12px) 16px 10px; flex:none;
+display:flex; align-items:center; justify-content:space-between; gap:8px;
+}
+header h1{font-size:18px; margin:0; font-weight:700;}
+header .sub{font-size:11px; color:var(--muted); margin-top:2px;}
+#refreshBtn{
+background:var(--panel2); border:none; color:var(--text); border-radius:12px;
+width:40px; height:40px; font-size:18px; display:flex; align-items:center; justify-content:center;
+}
+#refreshBtn.spinning svg{animation:spin 0.8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
 
-  #tabs{
-    display:flex; gap:8px; overflow-x:auto; padding:4px 16px 12px; flex:none;
-    scrollbar-width:none;
-  }
-  #tabs::-webkit-scrollbar{display:none;}
-  .tab{
-    flex:none; padding:8px 14px; border-radius:999px; background:var(--panel);
-    color:var(--muted); font-size:13px; font-weight:600; white-space:nowrap; border:1px solid transparent;
-  }
-  .tab.active{background:var(--accent); color:#1a1200; border-color:var(--accent);}
+#searchWrap{padding:4px 16px 12px; flex:none;}
+#searchInput{
+width:100%; background:var(--panel); color:var(--text); border:1px solid #2a3a5c;
+border-radius:12px; padding:10px 12px; font-size:14px;
+}
+#searchInput::placeholder{color:var(--muted);}
 
-  #controls{
-    display:flex; gap:8px; padding:0 16px 10px; flex:none; align-items:center;
-  }
-  #controls select{
-    background:var(--panel); color:var(--text); border:1px solid #2a3a5c; border-radius:10px;
-    padding:8px 10px; font-size:13px; flex:1;
-  }
-  #count{font-size:12px; color:var(--muted); white-space:nowrap;}
+#controls{
+display:flex; gap:8px; padding:0 16px 10px; flex:none; align-items:center;
+}
+#controls select{
+background:var(--panel); color:var(--text); border:1px solid #2a3a5c; border-radius:10px;
+padding:8px 10px; font-size:13px; flex:1;
+}
+#count{font-size:12px; color:var(--muted); white-space:nowrap;}
 
-  #deck{
-    flex:1; display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
-    -webkit-overflow-scrolling:touch; padding:0 0 8px;
-  }
-  .card{
-    flex:none; width:100vw; scroll-snap-align:center; padding:4px 16px 16px;
-    display:flex; flex-direction:column;
-  }
-  .card-inner{
-    background:var(--panel); border-radius:var(--radius); overflow:hidden; height:100%;
-    display:flex; flex-direction:column; border:1px solid #22335a;
-  }
-  .photo{
-    width:100%; aspect-ratio:4/3; background:linear-gradient(135deg,#1c2b4a,#0f172a);
-    display:flex; align-items:center; justify-content:center; position:relative; flex:none;
-  }
-  .photo img{width:100%; height:100%; object-fit:cover;}
-  .photo .emoji{font-size:64px; opacity:.5;}
-  .badge{
-    position:absolute; top:10px; left:10px; padding:4px 10px; border-radius:999px;
-    font-size:11px; font-weight:700; letter-spacing:.03em;
-  }
-  .badge.new{background:var(--accent2); color:#04210f;}
-  .badge.used{background:var(--accent); color:#241800;}
-  .avail{
-    position:absolute; top:10px; right:10px; padding:4px 10px; border-radius:999px;
-    font-size:11px; font-weight:600; background:rgba(0,0,0,.5); color:#fff;
-  }
-  .card-body{padding:14px 16px 18px; display:flex; flex-direction:column; gap:8px; overflow-y:auto;}
-  .card-body h2{margin:0; font-size:19px; line-height:1.25;}
-  .price-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
-  .price{font-size:22px; font-weight:800; color:var(--accent2);}
-  .retail{font-size:13px; color:var(--muted); text-decoration:line-through;}
-  .savings{font-size:12px; color:var(--accent2); font-weight:700;}
-  .meta-grid{
-    display:grid; grid-template-columns:1fr 1fr; gap:6px 12px; font-size:13px; color:var(--muted); margin-top:4px;
-  }
-  .meta-grid b{color:var(--text); font-weight:600;}
-  .desc{font-size:12.5px; color:var(--muted); line-height:1.5; margin-top:2px; white-space:pre-line;}
-  .specs{margin-top:6px; display:flex; flex-direction:column;}
-  .specs-section{
-    font-size:10.5px; font-weight:800; letter-spacing:.06em; text-transform:uppercase;
-    color:var(--accent); margin:10px 0 3px;
-  }
-  .specs-section:first-child{margin-top:2px;}
-  .specs-row{
-    display:flex; justify-content:space-between; align-items:baseline; gap:10px;
-    padding:3px 0; border-bottom:1px solid rgba(255,255,255,.06);
-    font-size:12.5px; line-height:1.35;
-  }
-  .specs-label{color:var(--muted); flex:none; max-width:55%;}
-  .specs-value{color:var(--text); font-weight:600; text-align:right;}
-  .offers{margin-top:2px; display:flex; flex-direction:column; gap:8px;}
-  .offer-card{
-    background:linear-gradient(135deg, rgba(245,158,11,.18), rgba(245,158,11,.05));
-    border:1px solid rgba(245,158,11,.4); border-radius:12px; padding:10px 12px;
-  }
-  .offer-title{
-    font-size:11px; font-weight:800; letter-spacing:.05em; text-transform:uppercase;
-    color:var(--accent);
-  }
-  .offer-summary{font-size:12.5px; color:var(--text); margin-top:4px; line-height:1.4; white-space:pre-line;}
-  .offer-expiry{font-size:11px; color:var(--accent2); margin-top:6px; font-weight:700;}
-  .card-actions{display:flex; gap:8px; margin-top:auto; padding-top:10px;}
-  .card-actions a{
-    flex:1; text-align:center; padding:11px; border-radius:12px; font-size:14px; font-weight:700;
-    text-decoration:none;
-  }
-  .btn-primary{background:var(--accent); color:#1a1200;}
-  .btn-secondary{background:var(--panel2); color:var(--text);}
+#deck{
+flex:1; display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
+-webkit-overflow-scrolling:touch; padding:0 0 8px;
+}
+.card{
+flex:none; width:100vw; scroll-snap-align:center; padding:4px 16px 16px;
+display:flex; flex-direction:column;
+}
+.card-inner{
+background:var(--panel); border-radius:var(--radius); overflow:hidden; height:100%;
+display:flex; flex-direction:column; border:1px solid #22335a;
+}
+.photo{
+width:100%; aspect-ratio:4/3; background:linear-gradient(135deg,#1c2b4a,#0f172a);
+display:flex; align-items:center; justify-content:center; position:relative; flex:none;
+}
+.photo img{width:100%; height:100%; object-fit:cover;}
+.photo .emoji{font-size:64px; opacity:.5;}
+.badge{
+position:absolute; top:10px; left:10px; padding:4px 10px; border-radius:999px;
+font-size:11px; font-weight:700; letter-spacing:.03em;
+}
+.badge.new{background:var(--accent2); color:#04210f;}
+.badge.used{background:var(--accent); color:#241800;}
+.avail{
+position:absolute; top:10px; right:10px; padding:4px 10px; border-radius:999px;
+font-size:11px; font-weight:600; background:rgba(0,0,0,.5); color:#fff;
+}
+.card-body{padding:14px 16px 18px; display:flex; flex-direction:column; gap:8px; overflow-y:auto;}
+.card-body h2{margin:0; font-size:19px; line-height:1.25;}
+.price-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+.price{font-size:22px; font-weight:800; color:var(--accent2);}
+.retail{font-size:13px; color:var(--muted); text-decoration:line-through;}
+.savings{font-size:12px; color:var(--accent2); font-weight:700;}
+.meta-grid{
+display:grid; grid-template-columns:1fr 1fr; gap:6px 12px; font-size:13px; color:var(--muted); margin-top:4px;
+}
+.meta-grid b{color:var(--text); font-weight:600;}
+.desc{font-size:12.5px; color:var(--muted); line-height:1.5; margin-top:2px; white-space:pre-line;}
+.specs{margin-top:6px; display:flex; flex-direction:column;}
+.specs-section{
+font-size:10.5px; font-weight:800; letter-spacing:.06em; text-transform:uppercase;
+color:var(--accent); margin:10px 0 3px;
+}
+.specs-section:first-child{margin-top:2px;}
+.specs-row{
+display:flex; justify-content:space-between; align-items:baseline; gap:10px;
+padding:3px 0; border-bottom:1px solid rgba(255,255,255,.06);
+font-size:12.5px; line-height:1.35;
+}
+.specs-label{color:var(--muted); flex:none; max-width:55%;}
+.specs-value{color:var(--text); font-weight:600; text-align:right;}
+.offers{margin-top:2px; display:flex; flex-direction:column; gap:8px;}
+.offer-card{
+background:linear-gradient(135deg, rgba(245,158,11,.18), rgba(245,158,11,.05));
+border:1px solid rgba(245,158,11,.4); border-radius:12px; padding:10px 12px;
+}
+.offer-title{
+font-size:11px; font-weight:800; letter-spacing:.05em; text-transform:uppercase;
+color:var(--accent);
+}
+.offer-summary{font-size:12.5px; color:var(--text); margin-top:4px; line-height:1.4; white-space:pre-line;}
+.offer-expiry{font-size:11px; color:var(--accent2); margin-top:6px; font-weight:700;}
+.card-actions{display:flex; gap:8px; margin-top:auto; padding-top:10px;}
+.card-actions a{
+flex:1; text-align:center; padding:11px; border-radius:12px; font-size:14px; font-weight:700;
+text-decoration:none;
+}
+.btn-primary{background:var(--accent); color:#1a1200;}
+.btn-secondary{background:var(--panel2); color:var(--text);}
 
-  #dots{display:flex; justify-content:center; gap:6px; padding:6px 0 2px; flex:none;}
-  #dots span{width:6px; height:6px; border-radius:50%; background:#2a3a5c;}
-  #dots span.active{background:var(--accent); width:16px; border-radius:3px;}
+#dots{display:flex; justify-content:center; gap:6px; padding:6px 0 2px; flex:none;}
+#dots span{width:6px; height:6px; border-radius:50%; background:#2a3a5c;}
+#dots span.active{background:var(--accent); width:16px; border-radius:3px;}
 
-  #nav{
-    display:flex; justify-content:space-between; padding:0 16px calc(env(safe-area-inset-bottom) + 12px); flex:none; gap:10px;
-  }
-  #nav button{
-    flex:1; padding:13px; border:none; border-radius:14px; background:var(--panel2); color:var(--text);
-    font-size:15px; font-weight:700;
-  }
-  #nav button:disabled{opacity:.35;}
+#nav{
+display:flex; justify-content:space-between; padding:0 16px calc(env(safe-area-inset-bottom) + 12px); flex:none; gap:10px;
+}
+#nav button{
+flex:1; padding:13px; border:none; border-radius:14px; background:var(--panel2); color:var(--text);
+font-size:15px; font-weight:700;
+}
+#nav button:disabled{opacity:.35;}
 
-  #empty{flex:1; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; color:var(--muted); padding:0 32px; text-align:center;}
+#empty{flex:1; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; color:var(--muted); padding:0 32px; text-align:center;}
 </style>
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Motohouse Inventory</h1>
-      <div class="sub" id="updatedAt">Loading…</div>
-    </div>
-    <button id="refreshBtn" aria-label="Refresh">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
-    </button>
-  </header>
+<header>
+<div>
+<h1>Motohouse Inventory</h1>
+<div class="sub" id="updatedAt">Loading…</div>
+</div>
+<button id="refreshBtn" aria-label="Refresh">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
+</button>
+</header>
 
-  <div id="tabs"></div>
-  <div id="controls">
-    <select id="sortSelect">
-      <option value="brand-asc">Brand (A–Z)</option>
-      <option value="brand-desc">Brand (Z–A)</option>
-      <option value="price-asc">Price (low–high)</option>
-      <option value="price-desc">Price (high–low)</option>
-      <option value="year-desc">Year (new–old)</option>
-      <option value="year-asc">Year (old–new)</option>
-    </select>
-    <div id="count">0 units</div>
-  </div>
+<div id="searchWrap">
+<input id="searchInput" type="search" inputmode="search" placeholder="Search make, model, color, stock #…" autocomplete="off">
+</div>
+<div id="controls">
+<select id="sortSelect">
+<option value="brand-asc">Brand (A–Z)</option>
+<option value="brand-desc">Brand (Z–A)</option>
+<option value="price-asc">Price (low–high)</option>
+<option value="price-desc">Price (high–low)</option>
+<option value="year-desc">Year (new–old)</option>
+<option value="year-asc">Year (old–new)</option>
+</select>
+<div id="count">0 units</div>
+</div>
 
-  <div id="deck"></div>
-  <div id="dots"></div>
-  <div id="nav">
-    <button id="prevBtn">&larr; Prev</button>
-    <button id="nextBtn">Next &rarr;</button>
-  </div>
-  <div id="empty" style="display:none;">
-    <div style="font-size:40px;">🔍</div>
-    <div>No units match this category yet.</div>
-  </div>
+<div id="deck"></div>
+<div id="dots"></div>
+<div id="nav">
+<button id="prevBtn">&larr; Prev</button>
+<button id="nextBtn">Next &rarr;</button>
+</div>
+<div id="empty" style="display:none;">
+<div style="font-size:40px;">🔍</div>
+<div id="emptyMsg">No units match your search.</div>
+</div>
 
 <script>
 const DATA_URL = 'data/inventory.json';
 const EMOJI = {
-  'ATV':'🛺','Utility Vehicle':'🚙','Motorcycle / Scooter':'🏍️','Personal Watercraft':'🌊',
-  'Go-Kart':'🏎️','Trailer':'🚚'
+'ATV':'🛺','Utility Vehicle':'🚙','Motorcycle / Scooter':'🏍️','Personal Watercraft':'🌊',
+'Go-Kart':'🏎️','Trailer':'🚚'
 };
 function emojiFor(v){
-  for (const k in EMOJI) if ((v.vehicle_type||'').includes(k)) return EMOJI[k];
-  return '🏁';
+for (const k in EMOJI) if ((v.vehicle_type||'').includes(k)) return EMOJI[k];
+return '🏁';
 }
 
-let state = { all: [], group: 'All', sort: 'brand-asc', index: 0, generatedAt: null };
+let state = { all: [], query: '', sort: 'brand-asc', index: 0, generatedAt: null };
 
 const el = id => document.getElementById(id);
 
 async function loadData(force){
-  el('refreshBtn').classList.add('spinning');
-  try {
-    const url = DATA_URL + (force ? ('?t=' + Date.now()) : '');
-    const res = await fetch(url, { cache: force ? 'reload' : 'default' });
-    const json = await res.json();
-    state.all = json.vehicles || [];
-    state.generatedAt = json.generated_at;
-    renderTabs();
-    render();
-  } catch (e) {
-    el('updatedAt').textContent = 'Could not load inventory — pull to retry';
-    console.error(e);
-  } finally {
-    el('refreshBtn').classList.remove('spinning');
-  }
+el('refreshBtn').classList.add('spinning');
+try {
+const url = DATA_URL + (force ? ('?t=' + Date.now()) : '');
+const res = await fetch(url, { cache: force ? 'reload' : 'default' });
+const json = await res.json();
+state.all = json.vehicles || [];
+state.generatedAt = json.generated_at;
+render();
+} catch (e) {
+el('updatedAt').textContent = 'Could not load inventory — pull to retry';
+console.error(e);
+} finally {
+el('refreshBtn').classList.remove('spinning');
+}
 }
 
-function groupsFromData(){
-  const set = new Set();
-  state.all.forEach(v => set.add(v.group_label || v.vehicle_type || 'Other'));
-  return ['All', ...Array.from(set).sort()];
-}
-
-function renderTabs(){
-  const tabs = el('tabs');
-  tabs.innerHTML = '';
-  groupsFromData().forEach(g => {
-    const btn = document.createElement('button');
-    btn.className = 'tab' + (g === state.group ? ' active' : '');
-    btn.textContent = g;
-    btn.onclick = () => { state.group = g; state.index = 0; render(); };
-    tabs.appendChild(btn);
-  });
+function matchesQuery(v, q){
+if (!q) return true;
+const haystack = [
+v.title, v.make, v.model, v.color, v.stock_number, v.vin, v.condition
+].filter(Boolean).join(' ').toLowerCase();
+return haystack.includes(q);
 }
 
 function filteredSorted(){
-  let list = state.group === 'All' ? state.all.slice() :
-    state.all.filter(v => (v.group_label || v.vehicle_type || 'Other') === state.group);
-  const [field, dir] = state.sort.split('-');
-  list.sort((a,b) => {
-    let av, bv;
-    if (field === 'brand') { av = (a.make||'').toLowerCase(); bv = (b.make||'').toLowerCase(); }
-    else if (field === 'price') { av = a.price ?? Infinity; bv = b.price ?? Infinity; }
-    else if (field === 'year') { av = a.year ?? 0; bv = b.year ?? 0; }
-    if (av < bv) return dir === 'asc' ? -1 : 1;
-    if (av > bv) return dir === 'asc' ? 1 : -1;
-    return 0;
-  });
-  return list;
+const q = state.query.trim().toLowerCase();
+let list = state.all.filter(v => matchesQuery(v, q));
+const [field, dir] = state.sort.split('-');
+list.sort((a,b) => {
+let av, bv;
+if (field === 'brand') { av = (a.make||'').toLowerCase(); bv = (b.make||'').toLowerCase(); }
+else if (field === 'price') { av = a.price ?? Infinity; bv = b.price ?? Infinity; }
+else if (field === 'year') { av = a.year ?? 0; bv = b.year ?? 0; }
+if (av < bv) return dir === 'asc' ? -1 : 1;
+if (av > bv) return dir === 'asc' ? 1 : -1;
+return 0;
+});
+return list;
 }
 
 function money(n){ return n == null ? null : '$' + n.toLocaleString('en-US'); }
 
 function offersHTML(v){
-  if (!v.offers || !v.offers.length) return '';
-  const now = Date.now();
-  // Always re-check expiry against the real current time, even if the
-  // cached data is a day or two old -- an offer that expired since the
-  // last scrape should never show up as still active.
-  const active = v.offers.filter(o => !o.end_date || new Date(o.end_date).getTime() >= now);
-  if (!active.length) return '';
-  return `<div class="offers">` + active.map(o => {
-    let expiry = '';
-    if (o.end_date){
-      const days = Math.ceil((new Date(o.end_date).getTime() - now) / 86400000);
-      expiry = days <= 0 ? 'Ends today' : days === 1 ? 'Ends tomorrow' : `Ends in ${days} days`;
-    }
-    const body = o.summary || o.subtitle || '';
-    return `
-      <div class="offer-card">
-        <div class="offer-title">${o.title || 'Manufacturer Offer'}</div>
-        ${body ? `<div class="offer-summary">${body}</div>` : ''}
-        ${expiry ? `<div class="offer-expiry">${expiry}</div>` : ''}
-      </div>`;
-  }).join('') + `</div>`;
+if (!v.offers || !v.offers.length) return '';
+const now = Date.now();
+// Always re-check expiry against the real current time, even if the
+// cached data is a day or two old -- an offer that expired since the
+// last scrape should never show up as still active.
+const active = v.offers.filter(o => !o.end_date || new Date(o.end_date).getTime() >= now);
+if (!active.length) return '';
+return `<div class="offers">` + active.map(o => {
+let expiry = '';
+if (o.end_date){
+const days = Math.ceil((new Date(o.end_date).getTime() - now) / 86400000);
+expiry = days <= 0 ? 'Ends today' : days === 1 ? 'Ends tomorrow' : `Ends in ${days} days`;
+}
+const body = o.summary || o.subtitle || '';
+return `
+<div class="offer-card">
+<div class="offer-title">${o.title || 'Manufacturer Offer'}</div>
+${body ? `<div class="offer-summary">${body}</div>` : ''}
+${expiry ? `<div class="offer-expiry">${expiry}</div>` : ''}
+</div>`;
+}).join('') + `</div>`;
 }
 
 function specsHTML(v){
-  if (v.specs && v.specs.length){
-    return `<div class="specs">` + v.specs.map(sec => `
-      ${sec.section ? `<div class="specs-section">${sec.section}</div>` : ''}
-      ${sec.items.map(it => `<div class="specs-row"><span class="specs-label">${it.label}</span><span class="specs-value">${it.value}</span></div>`).join('')}
-    `).join('') + `</div>`;
-  }
-  return v.description ? `<div class="desc">${v.description}</div>` : '';
+if (v.specs && v.specs.length){
+return `<div class="specs">` + v.specs.map(sec => `
+${sec.section ? `<div class="specs-section">${sec.section}</div>` : ''}
+${sec.items.map(it => `<div class="specs-row"><span class="specs-label">${it.label}</span><span class="specs-value">${it.value}</span></div>`).join('')}
+`).join('') + `</div>`;
+}
+return v.description ? `<div class="desc">${v.description}</div>` : '';
 }
 
 function cardHTML(v){
-  const badgeClass = (v.condition||'').toUpperCase() === 'NEW' ? 'new' : 'used';
-  const photo = v.image_url
-    ? `<img src="${v.image_url}" alt="${v.title}" loading="lazy">`
-    : `<span class="emoji">${emojiFor(v)}</span>`;
-  const priceRow = v.price
-    ? `<div class="price-row">
-         <span class="price">${money(v.price)}</span>
-         ${v.retail_price && v.retail_price > v.price ? `<span class="retail">${money(v.retail_price)}</span>` : ''}
-         ${v.savings ? `<span class="savings">Save ${money(v.savings)}</span>` : ''}
-       </div>`
-    : `<div class="price-row"><span class="price" style="color:var(--muted); font-size:15px;">Call for price</span></div>`;
-  return `
-    <div class="card-inner">
-      <div class="photo">
-        ${photo}
-        <span class="badge ${badgeClass}">${v.condition || ''}</span>
-        ${v.availability ? `<span class="avail">${v.availability}</span>` : ''}
-      </div>
-      <div class="card-body">
-        <h2>${v.title}</h2>
-        ${priceRow}
-        ${offersHTML(v)}
-        <div class="meta-grid">
-          <div>Category: <b>${v.group_label || v.vehicle_type || '—'}</b></div>
-          <div>Color: <b>${v.color || '—'}</b></div>
-          <div>Stock #: <b>${v.stock_number || '—'}</b></div>
-          <div>${v.odometer != null ? `Miles: <b>${v.odometer.toLocaleString()}</b>` : `VIN: <b style="font-size:11px;">${(v.vin||'—').slice(-8)}</b>`}</div>
-        </div>
-        ${specsHTML(v)}
-        <div class="card-actions">
-          <a class="btn-secondary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">Details</a>
-          <a class="btn-primary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">View / Quote</a>
-        </div>
-      </div>
-    </div>`;
+const badgeClass = (v.condition||'').toUpperCase() === 'NEW' ? 'new' : 'used';
+const photo = v.image_url
+? `<img src="${v.image_url}" alt="${v.title}" loading="lazy">`
+: `<span class="emoji">${emojiFor(v)}</span>`;
+const priceRow = v.price
+? `<div class="price-row">
+<span class="price">${money(v.price)}</span>
+${v.retail_price && v.retail_price > v.price ? `<span class="retail">${money(v.retail_price)}</span>` : ''}
+${v.savings ? `<span class="savings">Save ${money(v.savings)}</span>` : ''}
+</div>`
+: `<div class="price-row"><span class="price" style="color:var(--muted); font-size:15px;">Call for price</span></div>`;
+return `
+<div class="card-inner">
+<div class="photo">
+${photo}
+<span class="badge ${badgeClass}">${v.condition || ''}</span>
+${v.availability ? `<span class="avail">${v.availability}</span>` : ''}
+</div>
+<div class="card-body">
+<h2>${v.title}</h2>
+${priceRow}
+${offersHTML(v)}
+<div class="meta-grid">
+<div>Color: <b>${v.color || '—'}</b></div>
+<div>Stock #: <b>${v.stock_number || '—'}</b></div>
+<div>${v.odometer != null ? `Miles: <b>${v.odometer.toLocaleString()}</b>` : `VIN: <b style="font-size:11px;">${(v.vin||'—').slice(-8)}</b>`}</div>
+</div>
+${specsHTML(v)}
+<div class="card-actions">
+<a class="btn-secondary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">Details</a>
+<a class="btn-primary" href="${v.detail_url || '#'}" target="_blank" rel="noopener">View / Quote</a>
+</div>
+</div>
+</div>`;
 }
 
 function render(){
-  const list = filteredSorted();
-  el('count').textContent = list.length + (list.length === 1 ? ' unit' : ' units');
-  renderTabs();
+const list = filteredSorted();
+el('count').textContent = list.length + (list.length === 1 ? ' unit' : ' units');
 
-  const deck = el('deck');
-  const dots = el('dots');
-  const empty = el('empty');
+const deck = el('deck');
+const dots = el('dots');
+const empty = el('empty');
 
-  if (list.length === 0){
-    deck.innerHTML = ''; dots.innerHTML = ''; empty.style.display = 'flex';
-    el('prevBtn').disabled = true; el('nextBtn').disabled = true;
-    updateTimestamp();
-    return;
-  }
-  empty.style.display = 'none';
+if (list.length === 0){
+deck.innerHTML = ''; dots.innerHTML = ''; empty.style.display = 'flex';
+el('emptyMsg').textContent = state.query.trim() ? 'No units match your search.' : 'No inventory available right now.';
+el('prevBtn').disabled = true; el('nextBtn').disabled = true;
+updateTimestamp();
+return;
+}
+empty.style.display = 'none';
 
-  deck.innerHTML = list.map(v => `<div class="card">${cardHTML(v)}</div>`).join('');
-  dots.innerHTML = list.map((_,i) => `<span class="${i===0?'active':''}"></span>`).join('');
+deck.innerHTML = list.map(v => `<div class="card">${cardHTML(v)}</div>`).join('');
+dots.innerHTML = list.map((_,i) => `<span class="${i===0?'active':''}"></span>`).join('');
 
-  state.index = Math.min(state.index, list.length - 1);
-  deck.scrollTo({ left: state.index * deck.clientWidth, behavior: 'instant' in Element.prototype ? 'instant' : 'auto' });
-  updateNavButtons(list.length);
+state.index = Math.min(state.index, list.length - 1);
+deck.scrollTo({ left: state.index * deck.clientWidth, behavior: 'instant' in Element.prototype ? 'instant' : 'auto' });
+updateNavButtons(list.length);
 
-  let scrollTimeout;
-  deck.onscroll = () => {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(() => {
-      const i = Math.round(deck.scrollLeft / deck.clientWidth);
-      state.index = i;
-      [...dots.children].forEach((d,idx) => d.classList.toggle('active', idx===i));
-      updateNavButtons(list.length);
-    }, 80);
-  };
+let scrollTimeout;
+deck.onscroll = () => {
+clearTimeout(scrollTimeout);
+scrollTimeout = setTimeout(() => {
+const i = Math.round(deck.scrollLeft / deck.clientWidth);
+state.index = i;
+[...dots.children].forEach((d,idx) => d.classList.toggle('active', idx===i));
+updateNavButtons(list.length);
+}, 80);
+};
 
-  updateTimestamp();
+updateTimestamp();
 }
 
 function updateNavButtons(len){
-  el('prevBtn').disabled = state.index <= 0;
-  el('nextBtn').disabled = state.index >= len - 1;
+el('prevBtn').disabled = state.index <= 0;
+el('nextBtn').disabled = state.index >= len - 1;
 }
 
 function updateTimestamp(){
-  if (!state.generatedAt) { el('updatedAt').textContent = ''; return; }
-  const d = new Date(state.generatedAt);
-  el('updatedAt').textContent = 'Updated ' + d.toLocaleString('en-US', {
-    month:'short', day:'numeric', hour:'numeric', minute:'2-digit'
-  });
+if (!state.generatedAt) { el('updatedAt').textContent = ''; return; }
+const d = new Date(state.generatedAt);
+el('updatedAt').textContent = 'Updated ' + d.toLocaleString('en-US', {
+month:'short', day:'numeric', hour:'numeric', minute:'2-digit'
+});
 }
 
+let searchTimeout;
+el('searchInput').oninput = e => {
+clearTimeout(searchTimeout);
+const val = e.target.value;
+searchTimeout = setTimeout(() => { state.query = val; state.index = 0; render(); }, 120);
+};
 el('sortSelect').onchange = e => { state.sort = e.target.value; state.index = 0; render(); };
 el('refreshBtn').onclick = () => loadData(true);
 el('prevBtn').onclick = () => {
-  const deck = el('deck');
-  deck.scrollBy({ left: -deck.clientWidth, behavior: 'smooth' });
+const deck = el('deck');
+deck.scrollBy({ left: -deck.clientWidth, behavior: 'smooth' });
 };
 el('nextBtn').onclick = () => {
-  const deck = el('deck');
-  deck.scrollBy({ left: deck.clientWidth, behavior: 'smooth' });
+const deck = el('deck');
+deck.scrollBy({ left: deck.clientWidth, behavior: 'smooth' });
 };
 window.addEventListener('resize', () => {
-  el('deck').scrollTo({ left: state.index * el('deck').clientWidth });
+el('deck').scrollTo({ left: state.index * el('deck').clientWidth });
 });
 
 loadData(false);
 
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
-  });
+window.addEventListener('load', () => {
+navigator.serviceWorker.register('sw.js').catch(() => {});
+});
 }
 </script>
 </body>

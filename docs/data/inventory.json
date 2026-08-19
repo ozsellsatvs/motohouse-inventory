@@ -1,8 +1,8 @@
 {
   "schema": 7,
-  "generated_at": "2026-08-18T11:54:52.842175+00:00",
+  "generated_at": "2026-08-19T11:54:21.298413+00:00",
   "source": "https://www.motohousems.com/--inventory",
-  "count": 204,
+  "count": 207,
   "makes": [
     "CFMOTO",
     "Can-Am®",
@@ -8090,9 +8090,9 @@
       "odometer": null,
       "stock_number": "B44282",
       "vin": "YDV44282D626",
-      "price": 12364,
+      "price": 11529,
       "retail_price": 13899,
-      "savings": 1535,
+      "savings": 2370,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-GTI-SE-170-iBR-18600102",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/D7/DC/D7DC37CA-4FB9-4F19-B6E1-0B4FC4774693.jpg",
       "description": null,
@@ -8233,9 +8233,9 @@
       "odometer": null,
       "stock_number": "B44298",
       "vin": "YDV44298A626",
-      "price": 12710,
+      "price": 11529,
       "retail_price": 13899,
-      "savings": 1189,
+      "savings": 2370,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-GTI-SE-170-iBR-18600098",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/1B/44/1B442DFD-AE3A-461B-96C5-21C3FDE6D58A.jpg",
       "description": null,
@@ -9057,9 +9057,9 @@
       "odometer": null,
       "stock_number": "B28328",
       "vin": "YDV28328K526",
-      "price": 19805,
+      "price": 19754,
       "retail_price": 21899,
-      "savings": 2094,
+      "savings": 2145,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-18190020",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/33/EF/33EF48B3-CEFE-49A5-8217-1AA151F2890E.jpg",
       "description": null,
@@ -9200,9 +9200,9 @@
       "odometer": null,
       "stock_number": "B32209",
       "vin": "YDV32209L526",
-      "price": 19844,
+      "price": 19787,
       "retail_price": 22299,
-      "savings": 2455,
+      "savings": 2512,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Gulfstream-Blue-Premium-18190019",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/93/97/9397FA80-6B47-4AFC-90CD-882791311A8C.jpg",
       "description": null,
@@ -9343,9 +9343,9 @@
       "odometer": null,
       "stock_number": "B31990",
       "vin": "YDV31990L526",
-      "price": 17628,
+      "price": 16928,
       "retail_price": 19849,
-      "savings": 2221,
+      "savings": 2921,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Wake-Pro-230-18190017",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/DA/8F/DA8FDC68-A738-4372-86EC-86502874BB90.jpg",
       "description": null,
@@ -9828,9 +9828,9 @@
       "odometer": null,
       "stock_number": "B14100",
       "vin": "YDV14100I526",
-      "price": 9999,
+      "price": 9354,
       "retail_price": 10799,
-      "savings": 800,
+      "savings": 1445,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-Trixx-for-3-Rotax-900-ACE-90-iBR-and-Audio-17924307",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/08/44/0844F29C-D07C-49CC-B02C-7C619D0D5F3E.jpg",
       "description": null,
@@ -9971,9 +9971,9 @@
       "odometer": null,
       "stock_number": "B17114",
       "vin": "YDV17114J526",
-      "price": 19772,
+      "price": 19754,
       "retail_price": 21899,
-      "savings": 2127,
+      "savings": 2145,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-17924303",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/48/E9/48E932E5-315F-416F-9072-005AA295F5F7.jpg",
       "description": null,
@@ -10114,9 +10114,9 @@
       "odometer": null,
       "stock_number": "CF0491",
       "vin": "LCEPESLF3T6000491",
-      "price": 4878,
+      "price": 4778,
       "retail_price": 5799,
-      "savings": 921,
+      "savings": 1021,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Motorcycle-Scooter-450CL-C-17907928",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/16/11/1611B24C-6646-4E2F-B4D1-302743786C32.jpg",
       "description": null,
@@ -21393,8 +21393,8 @@
       "stock_number": "P86931",
       "vin": "3NSCCA5A1TE186931",
       "price": 9499,
-      "retail_price": 9999,
-      "savings": 500,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-500-18976970",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/55/1B/551B2F1E-0868-4E2B-B21E-5C4E2DDCEC1F.jpg",
       "description": null,
@@ -25202,6 +25202,206 @@
       "offers": null
     },
     {
+      "id": "19115026",
+      "year": 2026,
+      "make": "Polaris®",
+      "model": "RZR 200 EFI",
+      "title": "2026 Polaris® RZR 200 EFI",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "GREY",
+      "odometer": null,
+      "stock_number": "P26535",
+      "vin": "3NSHCA183TN326535",
+      "price": 6999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-RZR-200-EFI-19115026",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25530381-0-146001281.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "4-stroke single cylinder"
+            },
+            {
+              "label": "Cylinders-Displacement (cc)",
+              "value": "180 cc"
+            },
+            {
+              "label": "Cooling",
+              "value": "Air & oil"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Electronic fuel injection"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drive System",
+              "value": "2WD, chain"
+            },
+            {
+              "label": "Transmission",
+              "value": "Automatic PVT F/N/R; chain"
+            },
+            {
+              "label": "Steering",
+              "value": "Race-inspired steering wheel with tilt and telescoping adjustment; DYNAMIX and RIDE COMMAND push-button controls."
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "Dual A-arm"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Independent rear suspension"
+            },
+            {
+              "label": "Front Travel (in./cm.)",
+              "value": "7\" (17.8 cm)"
+            },
+            {
+              "label": "Rear Travel (in./cm.)",
+              "value": "7\""
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Front braking system",
+              "value": "4-wheel hydraulic disc"
+            },
+            {
+              "label": "Rear braking system",
+              "value": "4-wheel hydraulic disc"
+            },
+            {
+              "label": "Parking Brake",
+              "value": "Pull type center floor mounted"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "Stamped steel"
+            },
+            {
+              "label": "Front Tire",
+              "value": "24 x 8 - 12 CST"
+            },
+            {
+              "label": "Rear Tire",
+              "value": "24 x 10 - 12 CST"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Bed Box Dimensions (LxWxH)",
+              "value": "16.5 x 19 x 4” (41.9 x 48.3 x 10.1 cm)"
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "10\" (25.4 cm)"
+            },
+            {
+              "label": "Overall Vehicle Size (LxWxH)",
+              "value": "89 x 48 x 59\" (226 x 121.2 x 150 cm)"
+            },
+            {
+              "label": "Wheelbase",
+              "value": "65\" (165.1 cm)"
+            },
+            {
+              "label": "Seat Height",
+              "value": "24.5\" (62.1 cm)"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Box Capacity",
+              "value": "25 lbs. (11.3 kg)"
+            },
+            {
+              "label": "Fuel Capacity",
+              "value": "2.5 gal (9.5 L)"
+            },
+            {
+              "label": "Payload Capacity",
+              "value": "375 lbs. (170 kg)"
+            },
+            {
+              "label": "Seating Capacity",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Estimated Dry Weight (lbs./kgs.)",
+              "value": "735 lbs. (334 kg)"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Color/Graphics",
+              "value": "Indy Red, Storm Gray"
+            }
+          ]
+        },
+        {
+          "section": "Lights and Safety",
+          "items": [
+            {
+              "label": "Lighting",
+              "value": "LED running lights, single rear brakelights/taillights"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Instrumentation",
+              "value": "Digital display with gear indicator, odometer, trip meter, voltage, engine temperature, engine hour interval, ground speed, engine RPM, youth RIDE COMMAND (speed limiting, geofencing, helmet aware)."
+            }
+          ]
+        }
+      ],
+      "offers": null
+    },
+    {
       "id": "18325246",
       "year": 2026,
       "make": "Polaris®",
@@ -28376,9 +28576,9 @@
       "odometer": null,
       "stock_number": "B09397",
       "vin": "YDV09397H526",
-      "price": 8499,
+      "price": 8245,
       "retail_price": 9399,
-      "savings": 900,
+      "savings": 1154,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-17924306",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/5A/AA/5AAA771E-5993-4E38-83A3-254D4E032E49.jpg",
       "description": null,
@@ -28488,9 +28688,9 @@
       "odometer": null,
       "stock_number": "B05279",
       "vin": "YDV05279G526",
-      "price": 9299,
+      "price": 8919,
       "retail_price": 10099,
-      "savings": 800,
+      "savings": 1180,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-17807374",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/6D/5F/6D5F2EB7-5366-41A1-88C1-93D46B512FB2.jpg",
       "description": null,
@@ -28600,9 +28800,9 @@
       "odometer": null,
       "stock_number": "B33246",
       "vin": "YDV33246L526",
-      "price": 9299,
+      "price": 8919,
       "retail_price": 10099,
-      "savings": 800,
+      "savings": 1180,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-18190023",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/B5/80/B5802C33-E38E-46DB-9BCC-39BDD0816E58.jpg",
       "description": null,
@@ -34268,6 +34468,54 @@
           ]
         }
       ],
+      "offers": null
+    },
+    {
+      "id": "19115027",
+      "year": 2027,
+      "make": "Polaris®",
+      "model": "R27HZA15A5",
+      "title": "2027 Polaris® R27HZA15A5",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": null,
+      "group_label": "Motorcycle / Scooter",
+      "color": "BLUE",
+      "odometer": null,
+      "stock_number": "P32071",
+      "vin": "3NSHZA157VN332071",
+      "price": 6999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2027-Polaris-Motorcycle-Scooter-R27HZA15A5-19115027",
+      "image_url": null,
+      "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
+      "specs": null,
+      "offers": null
+    },
+    {
+      "id": "19115025",
+      "year": 2027,
+      "make": "Polaris®",
+      "model": "R27HZA15A5",
+      "title": "2027 Polaris® R27HZA15A5",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": null,
+      "group_label": "Motorcycle / Scooter",
+      "color": "BLUE",
+      "odometer": null,
+      "stock_number": "P31902",
+      "vin": "3NSHZA158VN331902",
+      "price": 6999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2027-Polaris-Motorcycle-Scooter-R27HZA15A5-19115025",
+      "image_url": null,
+      "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
+      "specs": null,
       "offers": null
     },
     {

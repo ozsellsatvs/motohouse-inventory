@@ -1,8 +1,8 @@
 {
   "schema": 7,
-  "generated_at": "2026-08-19T11:54:21.298413+00:00",
+  "generated_at": "2026-08-20T11:58:12.858462+00:00",
   "source": "https://www.motohousems.com/--inventory",
-  "count": 207,
+  "count": 203,
   "makes": [
     "CFMOTO",
     "Can-Am®",
@@ -39,6 +39,229 @@
     "Youth Utility Vehicle"
   ],
   "vehicles": [
+    {
+      "id": "19121490",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "BLUE",
+      "odometer": null,
+      "stock_number": "CF1250",
+      "vin": "LCELVYZU0TT001250",
+      "price": 13499,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19121490",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
     {
       "id": "19101021",
       "year": 2026,
@@ -2297,218 +2520,6 @@
       "savings": 1164,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-U10-XL-PRO-Camo-19017390",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/63/DD/63DD45BC-B2A5-49D8-B3D7-3DF8D14CA5D6.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "3 cylinder, 4-stroke, liquid-cooled, DOHC"
-            },
-            {
-              "label": "Displacement",
-              "value": "998cc"
-            },
-            {
-              "label": "Engine Power",
-              "value": "88 HP @ 7250 RPM"
-            },
-            {
-              "label": "Engine Torque, Maximum",
-              "value": "69 LB-FT @ 6500 RPM"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Bosch® EFI"
-            },
-            {
-              "label": "Cooling",
-              "value": "Liquid cooled"
-            }
-          ]
-        },
-        {
-          "section": "Battery",
-          "items": [
-            {
-              "label": "Charging System",
-              "value": "Output (Watts): 900W"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Drivetrain",
-              "value": "2WD/4WD/4WD lock"
-            },
-            {
-              "label": "Transmission",
-              "value": "OmniDrive™ CVT P/R/N/H/L"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "High clearance A-arm independent"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Double A-arm independent"
-            },
-            {
-              "label": "Front Shocks",
-              "value": "Spring preload adjustable, oil damped"
-            },
-            {
-              "label": "Rear Shocks",
-              "value": "Spring preload adjustable, oil damped"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Brake System Type",
-              "value": "4-Wheel hydraulic disc with electronic parking brake"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Wheels",
-              "value": "14\" Cast Aluminum"
-            },
-            {
-              "label": "Front Tire",
-              "value": "29\" x 9\" x 14\" CST"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "29\" x 11\" x 14\""
-            },
-            {
-              "label": "Front Wheel Travel",
-              "value": "11\""
-            },
-            {
-              "label": "Rear Wheel Travel",
-              "value": "10.4\""
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Length",
-              "value": "148\""
-            },
-            {
-              "label": "Width",
-              "value": "64\""
-            },
-            {
-              "label": "Height",
-              "value": "77\""
-            },
-            {
-              "label": "Wheelbase",
-              "value": "112.5\""
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "13\""
-            },
-            {
-              "label": "Turning Radius",
-              "value": "17.7'"
-            },
-            {
-              "label": "Hitch/Type",
-              "value": "2\""
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "11.8 gal."
-            },
-            {
-              "label": "Cargo Capacity",
-              "value": "1000 lbs."
-            },
-            {
-              "label": "Towing Capacity",
-              "value": "2500 lbs."
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Dry Weight",
-              "value": "2061 lbs."
-            },
-            {
-              "label": "Weight",
-              "value": "Winch: 4500 lbs."
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Colors",
-              "value": "TrueTimber® Kanati"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Features",
-              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 3-person bench seats, side nets, CFMOTO LED™ headlights/taillights with backup lights, tilt steering wheel, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, push button shifting, nfc key, 8\"\" CFMOTO RideSync touch screen display, electronic / hydraulic tilt bed, skid plate, front & rear sway bars, Hill Descent Control, locking rear differential, side rear view mirrors, roof, bus bar, 2\"\" receiver, adjustable driver seat, audio package"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
-      "id": "19017389",
-      "year": 2026,
-      "make": "CFMOTO",
-      "model": "UFORCE U10 XL PRO Camo",
-      "title": "2026 CFMOTO UFORCE U10 XL PRO Camo",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Utility Vehicle",
-      "category": "Utility",
-      "group_label": "Utility Vehicle",
-      "color": "CAMO",
-      "odometer": null,
-      "stock_number": "CF3757",
-      "vin": "LCELE1ZG2TM003757",
-      "price": 18985,
-      "retail_price": 20149,
-      "savings": 1164,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-U10-XL-PRO-Camo-19017389",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/53/7F/537FBC6B-0A20-46DA-816D-B88DBA5931AE.jpg",
       "description": null,
       "specs": [
         {
@@ -7302,185 +7313,6 @@
             {
               "label": "Features",
               "value": "LED headlights, taillights, and signal lights; 5\" TFT display with Bluetooth and CFMOTO RideSync connectivity. Tire pressure monitor, Upper-quick shifter, USB type-C"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
-      "id": "18605909",
-      "year": 2026,
-      "make": "CFMOTO",
-      "model": "Ibex 450",
-      "title": "2026 CFMOTO Ibex 450",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Motorcycle / Scooter",
-      "category": "Sport",
-      "group_label": "Sport Motorcycle / Scooter",
-      "color": "Tundra Grey",
-      "odometer": null,
-      "stock_number": "CF2871",
-      "vin": "LCEPESLD3T6002871",
-      "price": 5650,
-      "retail_price": 6499,
-      "savings": 849,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Motorcycle-Scooter-Ibex-450-18605909",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/06/F9/06F90F7D-CD52-4BE0-8E64-4494918DBFE7.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "2-cylinder inline, DOHC, 270° crankshaft"
-            },
-            {
-              "label": "Cooling",
-              "value": "liquid-cooled"
-            },
-            {
-              "label": "Displacement",
-              "value": "449cc"
-            },
-            {
-              "label": "Bore",
-              "value": "72mm (2.83\")"
-            },
-            {
-              "label": "Stroke",
-              "value": "55.2mm (2.2\")"
-            },
-            {
-              "label": "Engine Power",
-              "value": "44 HP @ 8500 RPM"
-            },
-            {
-              "label": "Engine Torque, Maximum",
-              "value": "32.5 LB-FT @ 6250 RPM"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Bosch® EFI"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "6-speed, wet, multi-plate, CF-SC slipper clutch"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "KYB 200mm upside-down fork, pre-load, compression & rebound adjustable"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "KYB 200mm multi-link center aligned; rebound & damping adjustable"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "J.Juan 320mm single disc, 4-piston caliper"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "240mm single disc, single-piston caliper"
-            },
-            {
-              "label": "ABS Option",
-              "value": "ABS, dual channel"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Wheels",
-              "value": "Rims: 21\" x 18\", Steel spoked aluminum alloy"
-            },
-            {
-              "label": "Front Tire",
-              "value": "90/90 R21 CST"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "140/70 R18 CST"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Length",
-              "value": "87\""
-            },
-            {
-              "label": "Width",
-              "value": "34.3\""
-            },
-            {
-              "label": "Height",
-              "value": "54.7\""
-            },
-            {
-              "label": "Wheelbase",
-              "value": "59.3\""
-            },
-            {
-              "label": "Seat Height",
-              "value": "32.3\" (adjustable)"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "4.6 gal."
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Curb Weight",
-              "value": "386 lbs. (dry)"
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Colors",
-              "value": "Zephyr Blue, Tundra Grey"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Features",
-              "value": "LED headlights, taillights, and signal lights; 5\" TFT display withBluetooth and CFMOTO RideSync connectivity, Standard and Off-road ride modes, one-touch ABS shutoff, rear wheel traction control shutoff,on the fly adjustable windscreen, foldable mirrors, USB port, type-C"
             }
           ]
         }
@@ -13863,7 +13695,7 @@
       "offers": null
     },
     {
-      "id": "18921559",
+      "id": "18961170",
       "year": 2026,
       "make": "Can-Am®",
       "model": "Outlander 500",
@@ -13873,15 +13705,15 @@
       "vehicle_type": "ATV",
       "category": "Utility",
       "group_label": "Utility ATV",
-      "color": "GRANITE_GRAY",
+      "color": "LEGION RED",
       "odometer": null,
-      "stock_number": "B07653",
-      "vin": "3JB3GA44XTJ007653",
-      "price": 6691,
-      "retail_price": 7349,
-      "savings": 658,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Outlander-500-18921559",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/F6/70/F6701EF4-212A-47E2-BE93-231EC4A38AE7.jpg",
+      "stock_number": "B08736",
+      "vin": "3JB3GA448TJ008736",
+      "price": 7349,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Outlander-500-18961170",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3F/24/3F244A27-CD8E-4E2A-945D-F431D242B673.jpg",
       "description": null,
       "specs": [
         {
@@ -14020,7 +13852,7 @@
       "offers": null
     },
     {
-      "id": "18961170",
+      "id": "18921559",
       "year": 2026,
       "make": "Can-Am®",
       "model": "Outlander 500",
@@ -14030,15 +13862,15 @@
       "vehicle_type": "ATV",
       "category": "Utility",
       "group_label": "Utility ATV",
-      "color": "LEGION RED",
+      "color": "GRANITE_GRAY",
       "odometer": null,
-      "stock_number": "B08736",
-      "vin": "3JB3GA448TJ008736",
-      "price": 7349,
-      "retail_price": null,
-      "savings": null,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Outlander-500-18961170",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3F/24/3F244A27-CD8E-4E2A-945D-F431D242B673.jpg",
+      "stock_number": "B07653",
+      "vin": "3JB3GA44XTJ007653",
+      "price": 6691,
+      "retail_price": 7349,
+      "savings": 658,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Outlander-500-18921559",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/F6/70/F6701EF4-212A-47E2-BE93-231EC4A38AE7.jpg",
       "description": null,
       "specs": [
         {
@@ -16557,7 +16389,7 @@
       "offers": null
     },
     {
-      "id": "18961168",
+      "id": "18921560",
       "year": 2026,
       "make": "Can-Am®",
       "model": "Renegade X mr 1000R",
@@ -16569,13 +16401,13 @@
       "group_label": "Sport ATV",
       "color": "Scandi Blue",
       "odometer": null,
-      "stock_number": "B01727",
-      "vin": "3JBMWAX41TJ001727",
-      "price": 22740,
-      "retail_price": null,
-      "savings": null,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Renegade-X-mr-1000R-18961168",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/74/3B/743BF979-2504-4767-A957-81FF35D67085.jpg",
+      "stock_number": "B01691",
+      "vin": "3JBMWAX46TJ001691",
+      "price": 16549,
+      "retail_price": 17549,
+      "savings": 1000,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Renegade-X-mr-1000R-18921560",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/A3/34/A3341892-88D3-40E3-9008-8914148EC208.jpg",
       "description": null,
       "specs": [
         {
@@ -16706,7 +16538,7 @@
       "offers": null
     },
     {
-      "id": "18921560",
+      "id": "18961168",
       "year": 2026,
       "make": "Can-Am®",
       "model": "Renegade X mr 1000R",
@@ -16718,13 +16550,13 @@
       "group_label": "Sport ATV",
       "color": "Scandi Blue",
       "odometer": null,
-      "stock_number": "B01691",
-      "vin": "3JBMWAX46TJ001691",
-      "price": 16549,
-      "retail_price": 17549,
-      "savings": 1000,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Renegade-X-mr-1000R-18921560",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/A3/34/A3341892-88D3-40E3-9008-8914148EC208.jpg",
+      "stock_number": "B01727",
+      "vin": "3JBMWAX41TJ001727",
+      "price": 22740,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-ATV-Renegade-X-mr-1000R-18961168",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/74/3B/743BF979-2504-4767-A957-81FF35D67085.jpg",
       "description": null,
       "specs": [
         {
@@ -19069,143 +18901,6 @@
       "offers": null
     },
     {
-      "id": "18445522",
-      "year": 2026,
-      "make": "Kayo",
-      "model": "KMB 60",
-      "title": "2026 Kayo KMB 60",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Motorcycle / Scooter",
-      "category": "Off-Road",
-      "group_label": "Off-Road Motorcycle / Scooter",
-      "color": null,
-      "odometer": null,
-      "stock_number": "K00559",
-      "vin": "L6JYGCLC9T1000559",
-      "price": 1099,
-      "retail_price": null,
-      "savings": null,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Kayo-Motorcycle-Scooter-KMB-60-18445522",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/B1/1C/B11C0F86-C5D6-4882-9E64-7C2E78CED363.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "SOHC 4-stroke"
-            },
-            {
-              "label": "Displacement",
-              "value": "56.8 cc"
-            },
-            {
-              "label": "Ignition",
-              "value": "Electric"
-            },
-            {
-              "label": "Cooling System",
-              "value": "Air cooled"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "Fully automatic"
-            },
-            {
-              "label": "Final Drive",
-              "value": "Chain"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Conventional forks"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Single shock"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "Disc"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "Disc"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Front Tire",
-              "value": "2.50/10 inches"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "2.50/10 inches"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Dimensions",
-              "value": "50 x 23.6 x 32.2 inches"
-            },
-            {
-              "label": "Seat Height",
-              "value": "22 inches"
-            },
-            {
-              "label": "Wheelbase",
-              "value": "34.4 inches"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "6.7 inches"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": ".66 gallons"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Weight",
-              "value": "92.5 lbs"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "18808473",
       "year": 2026,
       "make": "Kayo",
@@ -20926,234 +20621,6 @@
       "offers": null
     },
     {
-      "id": "19065303",
-      "year": 2026,
-      "make": "Polaris®",
-      "model": "Ranger 1000 Premium",
-      "title": "2026 Polaris® Ranger 1000 Premium",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Utility Vehicle",
-      "category": "Utility",
-      "group_label": "Utility Vehicle",
-      "color": "GRAY",
-      "odometer": null,
-      "stock_number": "P65943",
-      "vin": "3NSTAE994TH265943",
-      "price": 15390,
-      "retail_price": 18299,
-      "savings": 2909,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-1000-Premium-19065303",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/BE/9F/BE9F4E14-E463-4B90-AB61-35079B7CEC80.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "4-stroke twin cylinder SOHC"
-            },
-            {
-              "label": "Cylinders-Displacement (cc)",
-              "value": "999 cc"
-            },
-            {
-              "label": "Cooling",
-              "value": "Liquid"
-            },
-            {
-              "label": "Engine Power",
-              "value": "61 hp"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Electronic fuel injection"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Drive System",
-              "value": "Selectable on-demand all-wheel drive, AWD/2WD/VersaTrac Turf Mode"
-            },
-            {
-              "label": "Transmission",
-              "value": "Gen 2 Automatic PVT H/L/N/R/P; shaft"
-            },
-            {
-              "label": "Steering",
-              "value": "Tilt adjustment"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Dual A-arm"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Dual A-arm"
-            },
-            {
-              "label": "Front Travel (in./cm.)",
-              "value": "10\" (25.4 cm)"
-            },
-            {
-              "label": "Rear Travel (in./cm.)",
-              "value": "10\" (25.4 cm)"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "4-wheel hydraulic disc with dual-bore front and rear calipers"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "4-wheel hydraulic disc with dual-bore front and rear calipers"
-            },
-            {
-              "label": "Parking Brake",
-              "value": "Park in-transmission"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Wheels",
-              "value": "12\" aluminum"
-            },
-            {
-              "label": "Front Tire",
-              "value": "26 x 9-12; PXT 2.0"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "26 x 11-12; PXT 2.0"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Bed Box Dimensions (LxWxH)",
-              "value": "36.75 x 54.25 x 12.5\"\" (93 x 138 x 32 cm)"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "12.5\" (31.75 cm)"
-            },
-            {
-              "label": "Overall Vehicle Size (LxWxH)",
-              "value": "120 x 62.5 x 76\"\" (305 x 159 x 191 cm)"
-            },
-            {
-              "label": "Wheelbase",
-              "value": "81\" (206 cm)"
-            },
-            {
-              "label": "Hitch/Type",
-              "value": "Standard 2\" (5 cm) receiver"
-            },
-            {
-              "label": "Turning Radius",
-              "value": "13.3' (4 m)"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Box Capacity",
-              "value": "1,000 lbs. (454 kg)  CA Models: 600 lbs. (272 kg)"
-            },
-            {
-              "label": "Fuel Capacity",
-              "value": "11.35 gal (43 L)"
-            },
-            {
-              "label": "Towing Capacity",
-              "value": "2,500 lbs. (1134 kg)"
-            },
-            {
-              "label": "Payload Capacity",
-              "value": "1,500 lbs. (680 kg)   CA Models: 1,100 lbs. (499 kg)"
-            },
-            {
-              "label": "Seating Capacity",
-              "value": "3"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Estimated Dry Weight (lbs./kgs.)",
-              "value": "1,572 lbs. (713 kg)"
-            },
-            {
-              "label": "Curb Weight",
-              "value": "1,697 lbs. (770 kg)"
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Color/Graphics",
-              "value": "Rover Rust, Mirage Beige, Granite Gray"
-            }
-          ]
-        },
-        {
-          "section": "Lights and Safety",
-          "items": [
-            {
-              "label": "Lighting",
-              "value": "Dual LED headlights, 600-lm low beam, 1,000-lm high beam, dual LED taillights"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Cargo System",
-              "value": "Gas-assist dump box with Lock & Ride accessory integration"
-            },
-            {
-              "label": "Seat Type",
-              "value": "3-person bench seat with 3-point harness and adjustable driver seat"
-            },
-            {
-              "label": "Features",
-              "value": "Doors: Cab Nets"
-            },
-            {
-              "label": "Instrumentation",
-              "value": "Driver: 4\" LCD rider information center: user selectable blue/red backlighting and brightness, programmable service intervals, speedometer, tachometer, odometer, tripmeter, clock, hour meter, gear indicator, fuel gauge, coolant temperature, voltmeter, service indicator and codes, seat belt reminder"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "19065301",
       "year": 2026,
       "make": "Polaris®",
@@ -21173,230 +20640,6 @@
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-500-19065301",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/8C/52/8C524299-63C0-458F-BD6B-BA665A99DBFE.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "4-stroke single cylinder DOHC"
-            },
-            {
-              "label": "Cylinders-Displacement (cc)",
-              "value": "567 cc"
-            },
-            {
-              "label": "Cooling",
-              "value": "Liquid"
-            },
-            {
-              "label": "Engine Power",
-              "value": "28 hp"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Electronic fuel injection"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "Automatic PVT H/L/N/R/P; shaft"
-            },
-            {
-              "label": "Steering",
-              "value": "Tilt adjustment"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "MacPherson strut"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Dual A-arm, IRS"
-            },
-            {
-              "label": "Front Travel (in./cm.)",
-              "value": "9\" (22.9 cm)"
-            },
-            {
-              "label": "Rear Travel (in./cm.)",
-              "value": "10\" (25.4 cm)"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "4-wheel hydraulic disc"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "4-wheel hydraulic disc"
-            },
-            {
-              "label": "Parking Brake",
-              "value": "Park in-transmission"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Wheels",
-              "value": "12\" aluminum"
-            },
-            {
-              "label": "Front Tire",
-              "value": "25 x 8-12; Carlstar 489"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "25 x 10-12; Carlstar 489"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Bed Box Dimensions (LxWxH)",
-              "value": "32.6 x 46.2 x 11.25\" (82.7 x 117.3 x 28.6 cm)"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "10\" (25.4 cm)"
-            },
-            {
-              "label": "Overall Vehicle Size (LxWxH)",
-              "value": "110 x 58.5 x 74.8\" (279.4 x 148.6 x 190 cm)"
-            },
-            {
-              "label": "Wheelbase",
-              "value": "73.2\" (186 cm)"
-            },
-            {
-              "label": "Hitch/Type",
-              "value": "Standard 2\" (5 cm) receiver"
-            },
-            {
-              "label": "Turning Radius",
-              "value": "13.5 ft (4.2 m)"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Box Capacity",
-              "value": "500 lbs. (227 kg)"
-            },
-            {
-              "label": "Fuel Capacity",
-              "value": "9.5 gal (35.9 L)"
-            },
-            {
-              "label": "Towing Capacity",
-              "value": "1,500 lbs. (680 kg)"
-            },
-            {
-              "label": "Payload Capacity",
-              "value": "1,000 lbs. (454 kg)"
-            },
-            {
-              "label": "Seating Capacity",
-              "value": "2"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Estimated Dry Weight (lbs./kgs.)",
-              "value": "1,155 lbs. (524 kg)"
-            },
-            {
-              "label": "Curb Weight",
-              "value": "1,210 lbs. (549 kg)"
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Color/Graphics",
-              "value": "Sage Green / Stealth Gray"
-            }
-          ]
-        },
-        {
-          "section": "Lights and Safety",
-          "items": [
-            {
-              "label": "Lighting",
-              "value": "LED headlights and taillights"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Cargo System",
-              "value": "Gas-assist dump box with Lock & Ride accessory integration"
-            },
-            {
-              "label": "Seat Type",
-              "value": "2-person, flip-up bench seat with 3-point harness."
-            },
-            {
-              "label": "Features",
-              "value": "Doors: Cab nets"
-            },
-            {
-              "label": "Instrumentation",
-              "value": "Driver: 4\" LCD rider information center: user-selectable blue/red backlighting and brightness, programmable service intervals, speedometer, tachometer, odometer, tripmeter, clock, hour meter, gear indicator, fuel gauge, coolant temperature, voltmeter, service indicator and codes, seat belt reminder"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
-      "id": "18976970",
-      "year": 2026,
-      "make": "Polaris®",
-      "model": "Ranger 500",
-      "title": "2026 Polaris® Ranger 500",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Utility Vehicle",
-      "category": "Utility",
-      "group_label": "Utility Vehicle",
-      "color": "GRAY",
-      "odometer": null,
-      "stock_number": "P86931",
-      "vin": "3NSCCA5A1TE186931",
-      "price": 9499,
-      "retail_price": null,
-      "savings": null,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-500-18976970",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/55/1B/551B2F1E-0868-4E2B-B21E-5C4E2DDCEC1F.jpg",
       "description": null,
       "specs": [
         {
@@ -23634,7 +22877,7 @@
       "offers": null
     },
     {
-      "id": "18478912",
+      "id": "18522337",
       "year": 2026,
       "make": "Polaris®",
       "model": "Ranger SP 570",
@@ -23646,13 +22889,13 @@
       "group_label": "Utility Vehicle",
       "color": "GREEN",
       "odometer": null,
-      "stock_number": "P74839",
-      "vin": "3NSMAA57XTE174839",
-      "price": 11198,
+      "stock_number": "P74825",
+      "vin": "3NSMAA57XTE174825",
+      "price": 10107,
       "retail_price": 11999,
-      "savings": 801,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-SP-570-18478912",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/A9/8A/A98AE9F0-DCE6-4FFA-A363-2FB94E58A07E.jpg",
+      "savings": 1892,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-SP-570-18522337",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/FC/F9/FCF9985B-2B4C-4C76-A6CB-4AD52705A360.jpg",
       "description": null,
       "specs": [
         {
@@ -23862,7 +23105,7 @@
       "offers": null
     },
     {
-      "id": "18522337",
+      "id": "18478912",
       "year": 2026,
       "make": "Polaris®",
       "model": "Ranger SP 570",
@@ -23874,13 +23117,13 @@
       "group_label": "Utility Vehicle",
       "color": "GREEN",
       "odometer": null,
-      "stock_number": "P74825",
-      "vin": "3NSMAA57XTE174825",
-      "price": 10107,
+      "stock_number": "P74839",
+      "vin": "3NSMAA57XTE174839",
+      "price": 11198,
       "retail_price": 11999,
-      "savings": 1892,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-SP-570-18522337",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/FC/F9/FCF9985B-2B4C-4C76-A6CB-4AD52705A360.jpg",
+      "savings": 801,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-SP-570-18478912",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/A9/8A/A98AE9F0-DCE6-4FFA-A363-2FB94E58A07E.jpg",
       "description": null,
       "specs": [
         {
@@ -33018,192 +32261,6 @@
       "offers": null
     },
     {
-      "id": "18758676",
-      "year": 2026,
-      "make": "Yamaha",
-      "model": "YZF-R7 70th Anniversary Edition",
-      "title": "2026 Yamaha YZF-R7 70th Anniversary Edition",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Motorcycle / Scooter",
-      "category": "Super Sport",
-      "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "70th Anniversary Edition",
-      "odometer": 0,
-      "stock_number": "Y00596",
-      "vin": "JYARM60E7TA000596",
-      "price": 9227,
-      "retail_price": 9699,
-      "savings": 472,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R7-70th-Anniversary-Edition-18758676",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/19/CE/19CE07ED-8655-4427-8370-3387055DD93F.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "liquid-cooled, 4-stroke, DOHC inline twin-cylinder; 4-valves per cylinder"
-            },
-            {
-              "label": "Displacement",
-              "value": "689cc"
-            },
-            {
-              "label": "Bore",
-              "value": "80.0mm"
-            },
-            {
-              "label": "Stroke",
-              "value": "68.6mm"
-            },
-            {
-              "label": "Compression Ratio",
-              "value": "11.5:1"
-            },
-            {
-              "label": "Ignition",
-              "value": "TCI: Transistor Controlled Ignition"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Delivery: Injection with YCC-T"
-            },
-            {
-              "label": "Fuel Economy: Combined City/Hwy",
-              "value": "59 MPG"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "6-speed; multiplate wet clutch; with Assist"
-            },
-            {
-              "label": "Clutch",
-              "value": "Slipper"
-            },
-            {
-              "label": "Final Drive",
-              "value": "Chain"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Telescopic fork; adjustable for preload, rebound and compression"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Linked-type Monocross shock, adjustable preload and rebound"
-            },
-            {
-              "label": "Front Travel (in./cm.)",
-              "value": "4.7-in"
-            },
-            {
-              "label": "Rear Travel (in./cm.)",
-              "value": "4.8-in"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "Dual 298mm hydraulic disc; Brake Control System and ABS"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "245mm hydraulic disc; Brake Control System and ABS"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Front Tire",
-              "value": "120/70ZR17 Bridgestone® BATTLAX HYPERSPORT S23F"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "180/55ZR17 Bridgestone® BATTLAX HYPERSPORT S23R"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Wheelbase",
-              "value": "54.9 in"
-            },
-            {
-              "label": "Seat Height",
-              "value": "32.7 in"
-            },
-            {
-              "label": "Rake/trail",
-              "value": "24.0° | 3.6 in"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "Max: 5.3 in"
-            },
-            {
-              "label": "Length",
-              "value": "81.5 in"
-            },
-            {
-              "label": "Width",
-              "value": "28.5 in"
-            },
-            {
-              "label": "Height",
-              "value": "45.7 in"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "3.7 gal"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Weight",
-              "value": "Wet: 417 lb"
-            }
-          ]
-        },
-        {
-          "section": "Warranty",
-          "items": [
-            {
-              "label": "Warranty",
-              "value": "1 Year (Limited Factory Warranty)"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "18868531",
       "year": 2026,
       "make": "Yamaha",
@@ -33390,7 +32447,193 @@
       "offers": null
     },
     {
-      "id": "18808477",
+      "id": "18758676",
+      "year": 2026,
+      "make": "Yamaha",
+      "model": "YZF-R7 70th Anniversary Edition",
+      "title": "2026 Yamaha YZF-R7 70th Anniversary Edition",
+      "condition": "NEW",
+      "availability": "In Stock",
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": "Super Sport",
+      "group_label": "Super Sport Motorcycle / Scooter",
+      "color": "70th Anniversary Edition",
+      "odometer": 0,
+      "stock_number": "Y00596",
+      "vin": "JYARM60E7TA000596",
+      "price": 9227,
+      "retail_price": 9699,
+      "savings": 472,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R7-70th-Anniversary-Edition-18758676",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/19/CE/19CE07ED-8655-4427-8370-3387055DD93F.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "liquid-cooled, 4-stroke, DOHC inline twin-cylinder; 4-valves per cylinder"
+            },
+            {
+              "label": "Displacement",
+              "value": "689cc"
+            },
+            {
+              "label": "Bore",
+              "value": "80.0mm"
+            },
+            {
+              "label": "Stroke",
+              "value": "68.6mm"
+            },
+            {
+              "label": "Compression Ratio",
+              "value": "11.5:1"
+            },
+            {
+              "label": "Ignition",
+              "value": "TCI: Transistor Controlled Ignition"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Delivery: Injection with YCC-T"
+            },
+            {
+              "label": "Fuel Economy: Combined City/Hwy",
+              "value": "59 MPG"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Transmission",
+              "value": "6-speed; multiplate wet clutch; with Assist"
+            },
+            {
+              "label": "Clutch",
+              "value": "Slipper"
+            },
+            {
+              "label": "Final Drive",
+              "value": "Chain"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "Telescopic fork; adjustable for preload, rebound and compression"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Linked-type Monocross shock, adjustable preload and rebound"
+            },
+            {
+              "label": "Front Travel (in./cm.)",
+              "value": "4.7-in"
+            },
+            {
+              "label": "Rear Travel (in./cm.)",
+              "value": "4.8-in"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Front braking system",
+              "value": "Dual 298mm hydraulic disc; Brake Control System and ABS"
+            },
+            {
+              "label": "Rear braking system",
+              "value": "245mm hydraulic disc; Brake Control System and ABS"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Front Tire",
+              "value": "120/70ZR17 Bridgestone® BATTLAX HYPERSPORT S23F"
+            },
+            {
+              "label": "Rear Tire",
+              "value": "180/55ZR17 Bridgestone® BATTLAX HYPERSPORT S23R"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Wheelbase",
+              "value": "54.9 in"
+            },
+            {
+              "label": "Seat Height",
+              "value": "32.7 in"
+            },
+            {
+              "label": "Rake/trail",
+              "value": "24.0° | 3.6 in"
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "Max: 5.3 in"
+            },
+            {
+              "label": "Length",
+              "value": "81.5 in"
+            },
+            {
+              "label": "Width",
+              "value": "28.5 in"
+            },
+            {
+              "label": "Height",
+              "value": "45.7 in"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "3.7 gal"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Weight",
+              "value": "Wet: 417 lb"
+            }
+          ]
+        },
+        {
+          "section": "Warranty",
+          "items": [
+            {
+              "label": "Warranty",
+              "value": "1 Year (Limited Factory Warranty)"
+            }
+          ]
+        }
+      ],
+      "offers": null
+    },
+    {
+      "id": "18758673",
       "year": 2026,
       "make": "Yamaha",
       "model": "YZF-R9",
@@ -33400,15 +32643,15 @@
       "vehicle_type": "Motorcycle / Scooter",
       "category": "Super Sport",
       "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "Team Yamaha Blue",
-      "odometer": 0,
-      "stock_number": "Y02695",
-      "vin": "JYARNA3E3TA002695",
+      "color": "TEAM YAMAHA BLUE",
+      "odometer": null,
+      "stock_number": "Y02621",
+      "vin": "JYARNA3E7TA002621",
       "price": 11867,
       "retail_price": 12499,
       "savings": 632,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18808477",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3A/7F/3A7F9635-12AF-49E7-A611-C96D46C75FA7.jpg",
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18758673",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3B/03/3B037A5C-94D5-4D96-B87F-B346C2C816DD.jpg",
       "description": null,
       "specs": [
         {
@@ -33576,7 +32819,7 @@
       "offers": null
     },
     {
-      "id": "18758673",
+      "id": "18808477",
       "year": 2026,
       "make": "Yamaha",
       "model": "YZF-R9",
@@ -33586,15 +32829,15 @@
       "vehicle_type": "Motorcycle / Scooter",
       "category": "Super Sport",
       "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "TEAM YAMAHA BLUE",
-      "odometer": null,
-      "stock_number": "Y02621",
-      "vin": "JYARNA3E7TA002621",
+      "color": "Team Yamaha Blue",
+      "odometer": 0,
+      "stock_number": "Y02695",
+      "vin": "JYARNA3E3TA002695",
       "price": 11867,
       "retail_price": 12499,
       "savings": 632,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18758673",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3B/03/3B037A5C-94D5-4D96-B87F-B346C2C816DD.jpg",
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18808477",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3A/7F/3A7F9635-12AF-49E7-A611-C96D46C75FA7.jpg",
       "description": null,
       "specs": [
         {

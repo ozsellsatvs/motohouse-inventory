@@ -1,8 +1,8 @@
 {
   "schema": 7,
-  "generated_at": "2026-08-20T11:58:12.858462+00:00",
+  "generated_at": "2026-08-21T12:00:04.046102+00:00",
   "source": "https://www.motohousems.com/--inventory",
-  "count": 203,
+  "count": 212,
   "makes": [
     "CFMOTO",
     "Can-Am®",
@@ -26,6 +26,7 @@
     "Dual Sport Motorcycle / Scooter",
     "Motorcycle / Scooter",
     "Off-Road Motorcycle / Scooter",
+    "Other Motorcycle / Scooter",
     "Personal Watercraft Cargo Trailer",
     "Side by Side Utility Vehicle",
     "Sport ATV",
@@ -39,6 +40,1790 @@
     "Youth Utility Vehicle"
   ],
   "vehicles": [
+    {
+      "id": "19125829",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0830-1",
+      "vin": "LCELVYZU9TT000830",
+      "price": 13499,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125829",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125828",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0754",
+      "vin": "LCELVYZU8TT000754",
+      "price": 15799,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125828",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125827",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0834",
+      "vin": "LCELVYZU6TT000834",
+      "price": 16899,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125827",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125826",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0833",
+      "vin": "LCELVYZU4TT000833",
+      "price": 11449,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125826",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125825",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF1104",
+      "vin": "LCELVYZU7TT001104",
+      "price": 11449,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125825",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125824",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0762",
+      "vin": "LCELVYZU7TT000762",
+      "price": 10999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125824",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125823",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0894",
+      "vin": "LCELVYZU2TT000894",
+      "price": 10999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125823",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
+    {
+      "id": "19125822",
+      "year": 2026,
+      "make": "CFMOTO",
+      "model": "UFORCE 800 XL",
+      "title": "2026 CFMOTO UFORCE 800 XL",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "CAMO",
+      "odometer": null,
+      "stock_number": "CF0781",
+      "vin": "LCELVYZU0TT000781",
+      "price": 17199,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19125822",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "V-Twin, liquid cooled, 4-stroke, SOHC, 8-valve"
+            },
+            {
+              "label": "Displacement",
+              "value": "800cc"
+            },
+            {
+              "label": "Engine Power",
+              "value": "63 HP @ 7000 RPM"
+            },
+            {
+              "label": "Engine Torque, Maximum",
+              "value": "51 LB-FT @ 5500 RPM"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Bosch® EFI"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid cooled"
+            }
+          ]
+        },
+        {
+          "section": "Battery",
+          "items": [
+            {
+              "label": "Charging System",
+              "value": "Output (Watts): 600W"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drivetrain",
+              "value": "2WD/4WD/4WD lock"
+            },
+            {
+              "label": "Transmission",
+              "value": "OmniDrive™ CVT P/R/N/H/L"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "High clearance A-arm independent"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Double A-arm independent"
+            },
+            {
+              "label": "Front Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            },
+            {
+              "label": "Rear Shocks",
+              "value": "Spring preload adjustable, oil damped"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Brake System Type",
+              "value": "4-wheel hydraulic disc with parking brake"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "14” Cast Aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "27\" x 9\" x 14\""
+            },
+            {
+              "label": "Rear Tire",
+              "value": "27\" x 11\" x 14\""
+            },
+            {
+              "label": "Front Wheel Travel",
+              "value": "8.9\""
+            },
+            {
+              "label": "Rear Wheel Travel",
+              "value": "8.9\""
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "143\""
+            },
+            {
+              "label": "Width",
+              "value": "60\""
+            },
+            {
+              "label": "Height",
+              "value": "79\""
+            },
+            {
+              "label": "Wheelbase",
+              "value": "109.1\""
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11.8\""
+            },
+            {
+              "label": "Turning Radius",
+              "value": "18'"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "10.5 gal."
+            },
+            {
+              "label": "Cargo Capacity",
+              "value": "660 lbs."
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1500 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "1629 lbs."
+            },
+            {
+              "label": "Weight",
+              "value": "Winch: 4500 lbs. w/ nylon rope"
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Colors",
+              "value": "Desert Tan, Twilight Blue"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Hitch/Type",
+              "value": "2\""
+            },
+            {
+              "label": "Features",
+              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, two 2-person bench seat, 5\"\" LCD display, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, side nets, LED headlights/taillights with backup lights, tilt steering, roof, side mirrors, skid plate, rear sway bar, locking rear differential, large 10.5 gal. fuel tank, 2\"\" receiver, adjustable driver’s seat, under-seat storage area, front bumper"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "title": "CFMOTO",
+          "subtitle": "ALL CYLINDERS CLEARANCE EVENT",
+          "summary": "DON'T MISS THE ALL CYLINDERS CLEARANCE EVENT. FINANCING AS LOW AS 0% AND REBATES UP TO $1,500 ON SELECT VEHICLES. NOW THRU 10/31/26.\n\n",
+          "terms": "*Offer valid 8/13/26 through 10/31/26. Financing is subject to credit approval. Void where prohibited. Not all who apply will qualify. Includes select MY25-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Terms & restrictions apply. Rebate offering is subject to vary by model. Includes select MY23-MY26 CFORCE, ZFORCE, UFORCE, and motorcycle models. Exclusions apply. Visit our Consumer Financing Page and contact your local dealer for more information.",
+          "start_date": "2026-08-13T06:01:00Z",
+          "end_date": "2026-10-31T23:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/26079"
+        }
+      ]
+    },
     {
       "id": "19121490",
       "year": 2026,
@@ -54,9 +1839,9 @@
       "odometer": null,
       "stock_number": "CF1250",
       "vin": "LCELVYZU0TT001250",
-      "price": 13499,
-      "retail_price": null,
-      "savings": null,
+      "price": 15880,
+      "retail_price": 17699,
+      "savings": 1819,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-800-XL-19121490",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25940111-0-147134131.jpg",
       "description": null,
@@ -277,9 +2062,9 @@
       "odometer": null,
       "stock_number": "B02278",
       "vin": "3JBUBAJ45TK002278",
-      "price": 15799,
-      "retail_price": null,
-      "savings": null,
+      "price": 14499,
+      "retail_price": 15999,
+      "savings": 1500,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-Utility-Vehicle-Defender-MAX-HD7-19101021",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25745681-11576011-146736191.png",
       "description": null,
@@ -441,9 +2226,9 @@
       "odometer": null,
       "stock_number": "B02791",
       "vin": "3JBUKAJ46TK002791",
-      "price": 16899,
-      "retail_price": null,
-      "savings": null,
+      "price": 18985,
+      "retail_price": 20149,
+      "savings": 1164,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-Utility-Vehicle-Defender-XT-HD7-Dusty-Navy-19101020",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/C9/25/C925D737-F002-41FF-B150-79A2A207C016.jpg",
       "description": null,
@@ -614,9 +2399,9 @@
       "odometer": null,
       "stock_number": "CF0839",
       "vin": "LCELDUZ96TT000839",
-      "price": 11449,
-      "retail_price": null,
-      "savings": null,
+      "price": 18985,
+      "retail_price": 20149,
+      "savings": 1164,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-600-Camo-19096786",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25934781-0-147116421.png",
       "description": null,
@@ -837,7 +2622,7 @@
       "odometer": null,
       "stock_number": "CF0840",
       "vin": "LCELDUZ92TT000840",
-      "price": 11449,
+      "price": null,
       "retail_price": null,
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-600-Camo-19096785",
@@ -1060,7 +2845,7 @@
       "odometer": null,
       "stock_number": "CF0830",
       "vin": "LCELDUZ9XTT000830",
-      "price": 10999,
+      "price": null,
       "retail_price": null,
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-600-19096784",
@@ -1283,7 +3068,7 @@
       "odometer": null,
       "stock_number": "CF0785",
       "vin": "LCELDUZ99TT000785",
-      "price": 10999,
+      "price": null,
       "retail_price": null,
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-600-19096783",
@@ -1506,7 +3291,7 @@
       "odometer": null,
       "stock_number": "B02635",
       "vin": "3JBUKAJ43TK002635",
-      "price": 17199,
+      "price": null,
       "retail_price": null,
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Can-Am-Utility-Vehicle-Defender-XT-HD7-Dark-Wildland-Camo-19091364",
@@ -1665,218 +3450,6 @@
       ]
     },
     {
-      "id": "19081532",
-      "year": 2026,
-      "make": "CFMOTO",
-      "model": "UFORCE U10 Pro Camo",
-      "title": "2026 CFMOTO UFORCE U10 Pro Camo",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Utility Vehicle",
-      "category": "Utility",
-      "group_label": "Utility Vehicle",
-      "color": "CAMO",
-      "odometer": null,
-      "stock_number": "CF1259",
-      "vin": "LCELE1ZA4TM001259",
-      "price": 17210,
-      "retail_price": 18149,
-      "savings": 939,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-U10-Pro-Camo-19081532",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25934841-0-147133581.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "3 cylinder, 4-stroke, liquid-cooled, DOHC"
-            },
-            {
-              "label": "Displacement",
-              "value": "998cc"
-            },
-            {
-              "label": "Engine Power",
-              "value": "88 HP @ 7250 RPM"
-            },
-            {
-              "label": "Engine Torque, Maximum",
-              "value": "69 LB-FT @ 6500 RPM"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Bosch® EFI"
-            },
-            {
-              "label": "Cooling",
-              "value": "Liquid cooled"
-            }
-          ]
-        },
-        {
-          "section": "Battery",
-          "items": [
-            {
-              "label": "Charging System",
-              "value": "Output (Watts): 900W"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Drivetrain",
-              "value": "2WD/4WD/4WD lock"
-            },
-            {
-              "label": "Transmission",
-              "value": "OmniDrive™ CVT P/R/N/H/L"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "High clearance A-arm independent"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Double A-arm independent"
-            },
-            {
-              "label": "Front Shocks",
-              "value": "Spring preload adjustable, oil damped"
-            },
-            {
-              "label": "Rear Shocks",
-              "value": "Spring preload adjustable, oil damped"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Brake System Type",
-              "value": "4-Wheel hydraulic disc with electronic parking brake"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Wheels",
-              "value": "14\" Cast Aluminum"
-            },
-            {
-              "label": "Front Tire",
-              "value": "29\" x 9\" x 14\" CST"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "29\" x 11\" x 14\""
-            },
-            {
-              "label": "Front Wheel Travel",
-              "value": "11\""
-            },
-            {
-              "label": "Rear Wheel Travel",
-              "value": "10.4\""
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Length",
-              "value": "117\""
-            },
-            {
-              "label": "Width",
-              "value": "64\""
-            },
-            {
-              "label": "Height",
-              "value": "77\""
-            },
-            {
-              "label": "Wheelbase",
-              "value": "81.1\""
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "13\""
-            },
-            {
-              "label": "Turning Radius",
-              "value": "13.9'"
-            },
-            {
-              "label": "Hitch/Type",
-              "value": "2\""
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "11.8 gal."
-            },
-            {
-              "label": "Cargo Capacity",
-              "value": "1000 lbs."
-            },
-            {
-              "label": "Towing Capacity",
-              "value": "2500 lbs."
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Dry Weight",
-              "value": "1742 lbs."
-            },
-            {
-              "label": "Weight",
-              "value": "Winch: 4500 lbs."
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Colors",
-              "value": "Nebula Black, Bordeaux Red"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Features",
-              "value": "Electronic power steering, Bosch® electronic throttle with work/normal modes, 4500 lb. winch with synthetic rope, 3-person bench seats, side nets, CFMOTO LED™ headlights/taillights with backup lights, tilt steering wheel, CFMOTO RideSync app compatible (T-Box), 12V outlet, USB port, push button shifting, nfc key, 8\" CFMOTO RideSync touch screen display, electronic / hydraulic tilt bed, skid plate, front & rear sway bars, Hill Descent Control, locking rear differential, side rear view mirrors, roof, bus bar, 2\" receiver, adjustable driver's and passenger's seats, audio package"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "19081531",
       "year": 2025,
       "make": "CFMOTO",
@@ -1891,9 +3464,9 @@
       "odometer": null,
       "stock_number": "CF0527",
       "vin": "LCELE1ZA0SM000527",
-      "price": 15880,
-      "retail_price": 17699,
-      "savings": 1819,
+      "price": null,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2025-CFMOTO-Utility-Vehicle-UFORCE-U10-Pro-19081531",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/23107231-10906091-137211071.png",
       "description": null,
@@ -2100,9 +3673,9 @@
       "odometer": null,
       "stock_number": "CF0782",
       "vin": "LCELV1ZA3TM000782",
-      "price": 14499,
-      "retail_price": 15999,
-      "savings": 1500,
+      "price": null,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-1000-XL-19057339",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25933861-0-147113041.png",
       "description": null,
@@ -2303,9 +3876,9 @@
       "odometer": null,
       "stock_number": "CF3772",
       "vin": "LCELE1ZG9TM003772",
-      "price": 18985,
-      "retail_price": 20149,
-      "savings": 1164,
+      "price": null,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-U10-XL-PRO-Camo-19017391",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/D1/56/D156BA60-F1DF-4A6C-838C-FA127E42B4AD.jpg",
       "description": null,
@@ -2515,9 +4088,9 @@
       "odometer": null,
       "stock_number": "CF3810",
       "vin": "LCELE1ZG2TM003810",
-      "price": 18985,
-      "retail_price": 20149,
-      "savings": 1164,
+      "price": null,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-CFMOTO-Utility-Vehicle-UFORCE-U10-XL-PRO-Camo-19017390",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/63/DD/63DD45BC-B2A5-49D8-B3D7-3DF8D14CA5D6.jpg",
       "description": null,
@@ -7326,7 +8899,7 @@
       "model": "UFORCE U10 Pro",
       "title": "2026 CFMOTO UFORCE U10 Pro",
       "condition": "NEW",
-      "availability": "In Stock",
+      "availability": "Sold",
       "vehicle_type": "Utility Vehicle",
       "category": "Utility",
       "group_label": "Utility Vehicle",
@@ -8875,25 +10448,25 @@
       ]
     },
     {
-      "id": "18190020",
+      "id": "18190023",
       "year": 2026,
       "make": "Sea-Doo",
-      "model": "RXT-X™ 325 Ice Metal / Manta Green",
-      "title": "2026 Sea-Doo RXT-X™ 325 Ice Metal / Manta Green",
+      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
+      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
       "condition": "NEW",
       "availability": "In Stock",
       "vehicle_type": "Personal Watercraft",
       "category": "3-Passenger",
       "group_label": "3-Passenger Personal Watercraft",
-      "color": "Ice Metal / Manta Green",
+      "color": "Dazzling Blue - Vapor Blue",
       "odometer": null,
-      "stock_number": "B28328",
-      "vin": "YDV28328K526",
-      "price": 19754,
-      "retail_price": 21899,
-      "savings": 2145,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-18190020",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/33/EF/33EF48B3-CEFE-49A5-8217-1AA151F2890E.jpg",
+      "stock_number": "B33246",
+      "vin": "YDV33246L526",
+      "price": 8919,
+      "retail_price": 10099,
+      "savings": 1180,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-18190023",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/B5/80/B5802C33-E38E-46DB-9BCC-39BDD0816E58.jpg",
       "description": null,
       "specs": [
         {
@@ -8901,11 +10474,11 @@
           "items": [
             {
               "label": "Engine Type",
-              "value": "1630 ACE™ - 325"
+              "value": "900 ACE™ - 90"
             },
             {
               "label": "Engine Power",
-              "value": "325 HP"
+              "value": "90 HP"
             }
           ]
         },
@@ -8914,15 +10487,15 @@
           "items": [
             {
               "label": "Length",
-              "value": "135.8\" / 345 cm"
+              "value": "120\" / 305 cm"
             },
             {
               "label": "Width",
-              "value": "49.2\" / 125 cm"
+              "value": "46\" / 117 cm"
             },
             {
               "label": "Height",
-              "value": "45.3\" / 115 cm"
+              "value": "41.6\" / 106 cm"
             }
           ]
         },
@@ -8935,11 +10508,11 @@
             },
             {
               "label": "Fuel Capacity",
-              "value": "18.5 US gal / 70 L"
+              "value": "7.9 US gal / 30 L"
             },
             {
               "label": "Storage Capacity",
-              "value": "26.1 US gal / 98.9 L"
+              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
             }
           ]
         },
@@ -8948,7 +10521,7 @@
           "items": [
             {
               "label": "Dry Weight",
-              "value": "842 lb / 382 kg"
+              "value": "457 lb / 207 kg"
             }
           ]
         },
@@ -8957,7 +10530,7 @@
           "items": [
             {
               "label": "Gauges",
-              "value": "10.25 in. Touchscreen Display"
+              "value": "4.5 in. Digital Display"
             }
           ]
         },
@@ -8966,11 +10539,11 @@
           "items": [
             {
               "label": "Features",
-              "value": "BRP Premium Audio, iBR"
+              "value": "Convenience Package with iBR and audio in option"
             },
             {
               "label": "Hull Type",
-              "value": "ST3® Hull | Material: Fiberglass"
+              "value": "Spark® Hull | Material: Polytec™"
             }
           ]
         },
@@ -8984,181 +10557,7 @@
           ]
         }
       ],
-      "offers": [
-        {
-          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "subtitle": "",
-          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
-        },
-        {
-          "title": "Starting at $53/week or $231 per month on select 2026 models",
-          "subtitle": "",
-          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
-        },
-        {
-          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
-          "subtitle": "",
-          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
-        }
-      ]
-    },
-    {
-      "id": "18190019",
-      "year": 2026,
-      "make": "Sea-Doo",
-      "model": "RXT-X™ 325 Gulfstream Blue Premium",
-      "title": "2026 Sea-Doo RXT-X™ 325 Gulfstream Blue Premium",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Personal Watercraft",
-      "category": "3-Passenger",
-      "group_label": "3-Passenger Personal Watercraft",
-      "color": "Gulfstream Blue Premium",
-      "odometer": null,
-      "stock_number": "B32209",
-      "vin": "YDV32209L526",
-      "price": 19787,
-      "retail_price": 22299,
-      "savings": 2512,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Gulfstream-Blue-Premium-18190019",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/93/97/9397FA80-6B47-4AFC-90CD-882791311A8C.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "1630 ACE™ - 325"
-            },
-            {
-              "label": "Engine Power",
-              "value": "325 HP"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Length",
-              "value": "135.8\" / 345 cm"
-            },
-            {
-              "label": "Width",
-              "value": "49.2\" / 125 cm"
-            },
-            {
-              "label": "Height",
-              "value": "45.3\" / 115 cm"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Seating Capacity",
-              "value": "3"
-            },
-            {
-              "label": "Fuel Capacity",
-              "value": "18.5 US gal / 70 L"
-            },
-            {
-              "label": "Storage Capacity",
-              "value": "26.1 US gal / 98.9 L"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Dry Weight",
-              "value": "842 lb / 382 kg"
-            }
-          ]
-        },
-        {
-          "section": "Electric",
-          "items": [
-            {
-              "label": "Gauges",
-              "value": "10.25 in. Touchscreen Display"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Features",
-              "value": "BRP Premium Audio, iBR"
-            },
-            {
-              "label": "Hull Type",
-              "value": "ST3® Hull | Material: Fiberglass"
-            }
-          ]
-        },
-        {
-          "section": "Warranty",
-          "items": [
-            {
-              "label": "Warranty",
-              "value": "BRP limited warranty covers the watercraft for one year."
-            }
-          ]
-        }
-      ],
-      "offers": [
-        {
-          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "subtitle": "",
-          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
-        },
-        {
-          "title": "Starting at $53/week or $231 per month on select 2026 models",
-          "subtitle": "",
-          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
-        },
-        {
-          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
-          "subtitle": "",
-          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
-        }
-      ]
+      "offers": null
     },
     {
       "id": "18190017",
@@ -9789,25 +11188,25 @@
       ]
     },
     {
-      "id": "17924303",
+      "id": "17924306",
       "year": 2026,
       "make": "Sea-Doo",
-      "model": "RXT-X™ 325 Ice Metal / Manta Green",
-      "title": "2026 Sea-Doo RXT-X™ 325 Ice Metal / Manta Green",
+      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR",
+      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR",
       "condition": "NEW",
       "availability": "In Stock",
       "vehicle_type": "Personal Watercraft",
       "category": "3-Passenger",
       "group_label": "3-Passenger Personal Watercraft",
-      "color": "Ice Metal / Manta Green",
+      "color": "Sunrise Orange / Dragon Red",
       "odometer": null,
-      "stock_number": "B17114",
-      "vin": "YDV17114J526",
-      "price": 19754,
-      "retail_price": 21899,
-      "savings": 2145,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-17924303",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/48/E9/48E932E5-315F-416F-9072-005AA295F5F7.jpg",
+      "stock_number": "B09397",
+      "vin": "YDV09397H526",
+      "price": 8245,
+      "retail_price": 9399,
+      "savings": 1154,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-17924306",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/5A/AA/5AAA771E-5993-4E38-83A3-254D4E032E49.jpg",
       "description": null,
       "specs": [
         {
@@ -9815,11 +11214,11 @@
           "items": [
             {
               "label": "Engine Type",
-              "value": "1630 ACE™ - 325"
+              "value": "900 ACE™ - 90"
             },
             {
               "label": "Engine Power",
-              "value": "325 HP"
+              "value": "90 HP"
             }
           ]
         },
@@ -9828,15 +11227,15 @@
           "items": [
             {
               "label": "Length",
-              "value": "135.8\" / 345 cm"
+              "value": "120\" / 305 cm"
             },
             {
               "label": "Width",
-              "value": "49.2\" / 125 cm"
+              "value": "46\" / 117 cm"
             },
             {
               "label": "Height",
-              "value": "45.3\" / 115 cm"
+              "value": "41.6\" / 106 cm"
             }
           ]
         },
@@ -9849,11 +11248,11 @@
             },
             {
               "label": "Fuel Capacity",
-              "value": "18.5 US gal / 70 L"
+              "value": "7.9 US gal / 30 L"
             },
             {
               "label": "Storage Capacity",
-              "value": "26.1 US gal / 98.9 L"
+              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
             }
           ]
         },
@@ -9862,7 +11261,7 @@
           "items": [
             {
               "label": "Dry Weight",
-              "value": "842 lb / 382 kg"
+              "value": "448 lb / 203 kg"
             }
           ]
         },
@@ -9871,7 +11270,7 @@
           "items": [
             {
               "label": "Gauges",
-              "value": "10.25 in. Touchscreen Display"
+              "value": "4.5 in. Digital Display"
             }
           ]
         },
@@ -9880,11 +11279,11 @@
           "items": [
             {
               "label": "Features",
-              "value": "BRP Premium Audio, iBR"
+              "value": "Convenience Package with iBR"
             },
             {
               "label": "Hull Type",
-              "value": "ST3® Hull | Material: Fiberglass"
+              "value": "Spark® Hull | Material: Polytec™"
             }
           ]
         },
@@ -9898,38 +11297,7 @@
           ]
         }
       ],
-      "offers": [
-        {
-          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "subtitle": "",
-          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
-        },
-        {
-          "title": "Starting at $53/week or $231 per month on select 2026 models",
-          "subtitle": "",
-          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
-        },
-        {
-          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
-          "subtitle": "",
-          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
-          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
-          "start_date": null,
-          "end_date": "2026-09-30T21:00:00Z",
-          "is_oem_paid": true,
-          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
-        }
-      ]
+      "offers": null
     },
     {
       "id": "17907928",
@@ -10640,6 +12008,118 @@
           "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25775"
         }
       ]
+    },
+    {
+      "id": "17807374",
+      "year": 2026,
+      "make": "Sea-Doo",
+      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
+      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
+      "condition": "NEW",
+      "availability": "In Stock",
+      "vehicle_type": "Personal Watercraft",
+      "category": "3-Passenger",
+      "group_label": "3-Passenger Personal Watercraft",
+      "color": "RED",
+      "odometer": null,
+      "stock_number": "B05279",
+      "vin": "YDV05279G526",
+      "price": 8919,
+      "retail_price": 10099,
+      "savings": 1180,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-17807374",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/6D/5F/6D5F2EB7-5366-41A1-88C1-93D46B512FB2.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "900 ACE™ - 90"
+            },
+            {
+              "label": "Engine Power",
+              "value": "90 HP"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Length",
+              "value": "120\" / 305 cm"
+            },
+            {
+              "label": "Width",
+              "value": "46\" / 117 cm"
+            },
+            {
+              "label": "Height",
+              "value": "41.6\" / 106 cm"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Seating Capacity",
+              "value": "3"
+            },
+            {
+              "label": "Fuel Capacity",
+              "value": "7.9 US gal / 30 L"
+            },
+            {
+              "label": "Storage Capacity",
+              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Dry Weight",
+              "value": "457 lb / 207 kg"
+            }
+          ]
+        },
+        {
+          "section": "Electric",
+          "items": [
+            {
+              "label": "Gauges",
+              "value": "4.5 in. Digital Display"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Features",
+              "value": "Convenience Package with iBR and audio in option"
+            },
+            {
+              "label": "Hull Type",
+              "value": "Spark® Hull | Material: Polytec™"
+            }
+          ]
+        },
+        {
+          "section": "Warranty",
+          "items": [
+            {
+              "label": "Warranty",
+              "value": "BRP limited warranty covers the watercraft for one year."
+            }
+          ]
+        }
+      ],
+      "offers": null
     },
     {
       "id": "16944628",
@@ -12871,7 +14351,7 @@
       "model": "Defender MAX Limited HD11",
       "title": "2026 Can-Am® Defender MAX Limited HD11",
       "condition": "NEW",
-      "availability": "In Stock",
+      "availability": "Sold",
       "vehicle_type": "Utility Vehicle",
       "category": "Utility",
       "group_label": "Utility Vehicle",
@@ -23789,6 +25269,234 @@
       "offers": null
     },
     {
+      "id": "19125821",
+      "year": 2026,
+      "make": "Polaris®",
+      "model": "Ranger SP 570 Premium",
+      "title": "2026 Polaris® Ranger SP 570 Premium",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Utility Vehicle",
+      "category": "Utility",
+      "group_label": "Utility Vehicle",
+      "color": "BLUE",
+      "odometer": null,
+      "stock_number": "P84488",
+      "vin": "3NSMAE573TE184488",
+      "price": 14299,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-Utility-Vehicle-Ranger-SP-570-Premium-19125821",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/trimsdb/25540451-0-145876091.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "4-stroke single cylinder DOHC"
+            },
+            {
+              "label": "Cylinders-Displacement (cc)",
+              "value": "567 cc"
+            },
+            {
+              "label": "Cooling",
+              "value": "Liquid"
+            },
+            {
+              "label": "Engine Power",
+              "value": "44 hp"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Electronic fuel injection"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Drive System",
+              "value": "Selectable on-demand all-wheel drive, AWD/2WD/VersaTrac Turf Mode"
+            },
+            {
+              "label": "Transmission",
+              "value": "Automatic PVT H/L/N/R/P; shaft"
+            },
+            {
+              "label": "Steering",
+              "value": "Tilt adjustment"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "MacPherson strut"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Dual A-arm, IRS"
+            },
+            {
+              "label": "Front Travel (in./cm.)",
+              "value": "9\" (22.9 cm)"
+            },
+            {
+              "label": "Rear Travel (in./cm.)",
+              "value": "10\" (25.4 cm)"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Front braking system",
+              "value": "4-wheel hydraulic disc"
+            },
+            {
+              "label": "Rear braking system",
+              "value": "4-wheel hydraulic disc"
+            },
+            {
+              "label": "Parking Brake",
+              "value": "Park in-transmission"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Wheels",
+              "value": "12\" aluminum"
+            },
+            {
+              "label": "Front Tire",
+              "value": "25 x 8-12; Carlstar 489"
+            },
+            {
+              "label": "Rear Tire",
+              "value": "25 x 10-12; Carlstar 489"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Bed Box Dimensions (LxWxH)",
+              "value": "33.3 x 48.7 x 12.3\" (84.6 x 123.7 x 31.2 cm)"
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "11\" (27.9 cm)"
+            },
+            {
+              "label": "Overall Vehicle Size (LxWxH)",
+              "value": "108 x 56 x 74\" (274.3 x 142.2 x 188 cm)"
+            },
+            {
+              "label": "Wheelbase",
+              "value": "73\" (185.4 cm)"
+            },
+            {
+              "label": "Hitch/Type",
+              "value": "Standard 2\" (5 cm) receiver"
+            },
+            {
+              "label": "Turning Radius",
+              "value": "12.6 ft (3.9 m)"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Box Capacity",
+              "value": "500 lbs. (226.8 kg)"
+            },
+            {
+              "label": "Fuel Capacity",
+              "value": "9.5 gal (35.9 L)"
+            },
+            {
+              "label": "Towing Capacity",
+              "value": "1,500 lbs. (680 kg)"
+            },
+            {
+              "label": "Payload Capacity",
+              "value": "925 lbs. (420 kg)"
+            },
+            {
+              "label": "Seating Capacity",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Estimated Dry Weight (lbs./kgs.)",
+              "value": "1,243 lbs."
+            },
+            {
+              "label": "Curb Weight",
+              "value": "1,298 lbs."
+            }
+          ]
+        },
+        {
+          "section": "Color",
+          "items": [
+            {
+              "label": "Color/Graphics",
+              "value": "Zenith Blue"
+            }
+          ]
+        },
+        {
+          "section": "Lights and Safety",
+          "items": [
+            {
+              "label": "Lighting",
+              "value": "LED headlights"
+            }
+          ]
+        },
+        {
+          "section": "Features",
+          "items": [
+            {
+              "label": "Cargo System",
+              "value": "Gas-assist dump box with Lock & Ride accessory integration"
+            },
+            {
+              "label": "Seat Type",
+              "value": "2-person, flip-up bench seat with 3-point harness."
+            },
+            {
+              "label": "Features",
+              "value": "Doors: Cab nets"
+            },
+            {
+              "label": "Instrumentation",
+              "value": "Driver: 4\" LCD rider information center: user-selectable blue/red backlighting and brightness, programmable service intervals, speedometer, tachometer, odometer, tripmeter, clock, hour meter, gear indicator, fuel gauge, coolant temperature, voltmeter, service indicator and codes, seat belt reminder"
+            }
+          ]
+        }
+      ],
+      "offers": null
+    },
+    {
       "id": "18541532",
       "year": 2026,
       "make": "Polaris®",
@@ -27133,7 +28841,7 @@
       "offers": null
     },
     {
-      "id": "19081533",
+      "id": "18291083",
       "year": 2026,
       "make": "Polaris®",
       "model": "Sportsman 570 Premium -  40th Anniversary Edition",
@@ -27143,15 +28851,15 @@
       "vehicle_type": "ATV",
       "category": "Utility",
       "group_label": "Utility ATV",
-      "color": "GREEN",
+      "color": null,
       "odometer": null,
-      "stock_number": "P10746",
-      "vin": "4XASEZ575TA110746",
-      "price": 8379,
+      "stock_number": "P95725",
+      "vin": "4XASEZ578TA095725",
+      "price": 8034,
       "retail_price": 10199,
-      "savings": 1820,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-ATV-Sportsman-570-Premium-40th-Anniversary-Edition-19081533",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/61/3E/613E9F93-52BD-4647-869E-B4DC2C976749.jpg",
+      "savings": 2165,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-ATV-Sportsman-570-Premium-40th-Anniversary-Edition-18291083",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/82/B7/82B7A274-9BD6-4256-8B78-B6287C5863AC.jpg",
       "description": null,
       "specs": [
         {
@@ -27357,7 +29065,7 @@
       "offers": null
     },
     {
-      "id": "18291083",
+      "id": "19081533",
       "year": 2026,
       "make": "Polaris®",
       "model": "Sportsman 570 Premium -  40th Anniversary Edition",
@@ -27367,15 +29075,15 @@
       "vehicle_type": "ATV",
       "category": "Utility",
       "group_label": "Utility ATV",
-      "color": null,
+      "color": "GREEN",
       "odometer": null,
-      "stock_number": "P95725",
-      "vin": "4XASEZ578TA095725",
-      "price": 8034,
+      "stock_number": "P10746",
+      "vin": "4XASEZ575TA110746",
+      "price": 8379,
       "retail_price": 10199,
-      "savings": 2165,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-ATV-Sportsman-570-Premium-40th-Anniversary-Edition-18291083",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/82/B7/82B7A274-9BD6-4256-8B78-B6287C5863AC.jpg",
+      "savings": 1820,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Polaris-ATV-Sportsman-570-Premium-40th-Anniversary-Edition-19081533",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/61/3E/613E9F93-52BD-4647-869E-B4DC2C976749.jpg",
       "description": null,
       "specs": [
         {
@@ -27805,25 +29513,25 @@
       "offers": null
     },
     {
-      "id": "17924306",
+      "id": "18190019",
       "year": 2026,
       "make": "Sea-Doo",
-      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR",
-      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR",
+      "model": "RXT-X™ 325 Gulfstream Blue Premium",
+      "title": "2026 Sea-Doo RXT-X™ 325 Gulfstream Blue Premium",
       "condition": "NEW",
       "availability": "In Stock",
       "vehicle_type": "Personal Watercraft",
       "category": "3-Passenger",
       "group_label": "3-Passenger Personal Watercraft",
-      "color": "Sunrise Orange / Dragon Red",
+      "color": "Gulfstream Blue Premium",
       "odometer": null,
-      "stock_number": "B09397",
-      "vin": "YDV09397H526",
-      "price": 8245,
-      "retail_price": 9399,
-      "savings": 1154,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-17924306",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/5A/AA/5AAA771E-5993-4E38-83A3-254D4E032E49.jpg",
+      "stock_number": "B32209",
+      "vin": "YDV32209L526",
+      "price": 19787,
+      "retail_price": 22299,
+      "savings": 2512,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Gulfstream-Blue-Premium-18190019",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/93/97/9397FA80-6B47-4AFC-90CD-882791311A8C.jpg",
       "description": null,
       "specs": [
         {
@@ -27831,11 +29539,11 @@
           "items": [
             {
               "label": "Engine Type",
-              "value": "900 ACE™ - 90"
+              "value": "1630 ACE™ - 325"
             },
             {
               "label": "Engine Power",
-              "value": "90 HP"
+              "value": "325 HP"
             }
           ]
         },
@@ -27844,15 +29552,15 @@
           "items": [
             {
               "label": "Length",
-              "value": "120\" / 305 cm"
+              "value": "135.8\" / 345 cm"
             },
             {
               "label": "Width",
-              "value": "46\" / 117 cm"
+              "value": "49.2\" / 125 cm"
             },
             {
               "label": "Height",
-              "value": "41.6\" / 106 cm"
+              "value": "45.3\" / 115 cm"
             }
           ]
         },
@@ -27865,11 +29573,11 @@
             },
             {
               "label": "Fuel Capacity",
-              "value": "7.9 US gal / 30 L"
+              "value": "18.5 US gal / 70 L"
             },
             {
               "label": "Storage Capacity",
-              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
+              "value": "26.1 US gal / 98.9 L"
             }
           ]
         },
@@ -27878,7 +29586,7 @@
           "items": [
             {
               "label": "Dry Weight",
-              "value": "448 lb / 203 kg"
+              "value": "842 lb / 382 kg"
             }
           ]
         },
@@ -27887,7 +29595,7 @@
           "items": [
             {
               "label": "Gauges",
-              "value": "4.5 in. Digital Display"
+              "value": "10.25 in. Touchscreen Display"
             }
           ]
         },
@@ -27896,11 +29604,11 @@
           "items": [
             {
               "label": "Features",
-              "value": "Convenience Package with iBR"
+              "value": "BRP Premium Audio, iBR"
             },
             {
               "label": "Hull Type",
-              "value": "Spark® Hull | Material: Polytec™"
+              "value": "ST3® Hull | Material: Fiberglass"
             }
           ]
         },
@@ -27914,28 +29622,59 @@
           ]
         }
       ],
-      "offers": null
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
+      ]
     },
     {
-      "id": "17807374",
+      "id": "18190020",
       "year": 2026,
       "make": "Sea-Doo",
-      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
-      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
+      "model": "RXT-X™ 325 Ice Metal / Manta Green",
+      "title": "2026 Sea-Doo RXT-X™ 325 Ice Metal / Manta Green",
       "condition": "NEW",
       "availability": "In Stock",
       "vehicle_type": "Personal Watercraft",
       "category": "3-Passenger",
       "group_label": "3-Passenger Personal Watercraft",
-      "color": "RED",
+      "color": "Ice Metal / Manta Green",
       "odometer": null,
-      "stock_number": "B05279",
-      "vin": "YDV05279G526",
-      "price": 8919,
-      "retail_price": 10099,
-      "savings": 1180,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-17807374",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/6D/5F/6D5F2EB7-5366-41A1-88C1-93D46B512FB2.jpg",
+      "stock_number": "B28328",
+      "vin": "YDV28328K526",
+      "price": 19754,
+      "retail_price": 21899,
+      "savings": 2145,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-18190020",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/33/EF/33EF48B3-CEFE-49A5-8217-1AA151F2890E.jpg",
       "description": null,
       "specs": [
         {
@@ -27943,11 +29682,11 @@
           "items": [
             {
               "label": "Engine Type",
-              "value": "900 ACE™ - 90"
+              "value": "1630 ACE™ - 325"
             },
             {
               "label": "Engine Power",
-              "value": "90 HP"
+              "value": "325 HP"
             }
           ]
         },
@@ -27956,15 +29695,15 @@
           "items": [
             {
               "label": "Length",
-              "value": "120\" / 305 cm"
+              "value": "135.8\" / 345 cm"
             },
             {
               "label": "Width",
-              "value": "46\" / 117 cm"
+              "value": "49.2\" / 125 cm"
             },
             {
               "label": "Height",
-              "value": "41.6\" / 106 cm"
+              "value": "45.3\" / 115 cm"
             }
           ]
         },
@@ -27977,11 +29716,11 @@
             },
             {
               "label": "Fuel Capacity",
-              "value": "7.9 US gal / 30 L"
+              "value": "18.5 US gal / 70 L"
             },
             {
               "label": "Storage Capacity",
-              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
+              "value": "26.1 US gal / 98.9 L"
             }
           ]
         },
@@ -27990,7 +29729,7 @@
           "items": [
             {
               "label": "Dry Weight",
-              "value": "457 lb / 207 kg"
+              "value": "842 lb / 382 kg"
             }
           ]
         },
@@ -27999,7 +29738,7 @@
           "items": [
             {
               "label": "Gauges",
-              "value": "4.5 in. Digital Display"
+              "value": "10.25 in. Touchscreen Display"
             }
           ]
         },
@@ -28008,11 +29747,11 @@
           "items": [
             {
               "label": "Features",
-              "value": "Convenience Package with iBR and audio in option"
+              "value": "BRP Premium Audio, iBR"
             },
             {
               "label": "Hull Type",
-              "value": "Spark® Hull | Material: Polytec™"
+              "value": "ST3® Hull | Material: Fiberglass"
             }
           ]
         },
@@ -28026,28 +29765,59 @@
           ]
         }
       ],
-      "offers": null
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
+      ]
     },
     {
-      "id": "18190023",
+      "id": "17924303",
       "year": 2026,
       "make": "Sea-Doo",
-      "model": "Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
-      "title": "2026 Sea-Doo Spark™ for 3 Rotax® 900 ACE™ - 90 CONV with IBR and Audio",
+      "model": "RXT-X™ 325 Ice Metal / Manta Green",
+      "title": "2026 Sea-Doo RXT-X™ 325 Ice Metal / Manta Green",
       "condition": "NEW",
       "availability": "In Stock",
       "vehicle_type": "Personal Watercraft",
       "category": "3-Passenger",
       "group_label": "3-Passenger Personal Watercraft",
-      "color": "Dazzling Blue - Vapor Blue",
+      "color": "Ice Metal / Manta Green",
       "odometer": null,
-      "stock_number": "B33246",
-      "vin": "YDV33246L526",
-      "price": 8919,
-      "retail_price": 10099,
-      "savings": 1180,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-Spark-for-3-Rotax-900-ACE-90-CONV-with-IBR-and-Audio-18190023",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/B5/80/B5802C33-E38E-46DB-9BCC-39BDD0816E58.jpg",
+      "stock_number": "B17114",
+      "vin": "YDV17114J526",
+      "price": 19754,
+      "retail_price": 21899,
+      "savings": 2145,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Sea-Doo-Personal-Watercraft-RXT-X-325-Ice-Metal-Manta-Green-17924303",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/48/E9/48E932E5-315F-416F-9072-005AA295F5F7.jpg",
       "description": null,
       "specs": [
         {
@@ -28055,11 +29825,11 @@
           "items": [
             {
               "label": "Engine Type",
-              "value": "900 ACE™ - 90"
+              "value": "1630 ACE™ - 325"
             },
             {
               "label": "Engine Power",
-              "value": "90 HP"
+              "value": "325 HP"
             }
           ]
         },
@@ -28068,15 +29838,15 @@
           "items": [
             {
               "label": "Length",
-              "value": "120\" / 305 cm"
+              "value": "135.8\" / 345 cm"
             },
             {
               "label": "Width",
-              "value": "46\" / 117 cm"
+              "value": "49.2\" / 125 cm"
             },
             {
               "label": "Height",
-              "value": "41.6\" / 106 cm"
+              "value": "45.3\" / 115 cm"
             }
           ]
         },
@@ -28089,11 +29859,11 @@
             },
             {
               "label": "Fuel Capacity",
-              "value": "7.9 US gal / 30 L"
+              "value": "18.5 US gal / 70 L"
             },
             {
               "label": "Storage Capacity",
-              "value": "11.8 US Gal / 44.7 L (includes optional front bin)"
+              "value": "26.1 US gal / 98.9 L"
             }
           ]
         },
@@ -28102,7 +29872,7 @@
           "items": [
             {
               "label": "Dry Weight",
-              "value": "457 lb / 207 kg"
+              "value": "842 lb / 382 kg"
             }
           ]
         },
@@ -28111,7 +29881,7 @@
           "items": [
             {
               "label": "Gauges",
-              "value": "4.5 in. Digital Display"
+              "value": "10.25 in. Touchscreen Display"
             }
           ]
         },
@@ -28120,11 +29890,11 @@
           "items": [
             {
               "label": "Features",
-              "value": "Convenience Package with iBR and audio in option"
+              "value": "BRP Premium Audio, iBR"
             },
             {
               "label": "Hull Type",
-              "value": "Spark® Hull | Material: Polytec™"
+              "value": "ST3® Hull | Material: Fiberglass"
             }
           ]
         },
@@ -28138,7 +29908,38 @@
           ]
         }
       ],
-      "offers": null
+      "offers": [
+        {
+          "title": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "subtitle": "",
+          "summary": "Financing starting at 3.99% for 36 months on select 2026 models",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Promotional financing starting at 3.99% for 36 months: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 36‑month term at a 3.99% APR (Annual Percentage Rate) is $29.52 per $1,000 financed. An example of a monthly payment with $700 down, no rebate, an APR of 3.99% for 36 months at an MSRP of $6,999 is $185.95/mo. Total cost of borrowing is $394.97, with a total repayment obligation of $6,694.07. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25811"
+        },
+        {
+          "title": "Starting at $53/week or $231 per month on select 2026 models",
+          "subtitle": "",
+          "summary": "Starting at $53/week or $231 per month on select 2026 models\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1 to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2026 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Weekly payment* starting at 53$ or 231$ per month: Subject to credit approval. Approval, as well as any rates and terms provided, are based on credit worthiness and used as estimated values. Examples of monthly payments required over a 60‑month term at a 5.99% APR (Annual Percentage Rate) is $19.33 per $1,000 financed. An example of a monthly payment with $1,330 down, no rebate, an APR of 5.99% for 60 months at an MSRP of $13,299 is $231.34/mo or 53.30/week*. Total cost of borrowing is $1,911.34, with a total repayment obligation of $13,880.44. A down payment may be required. Other financing offers may be available. Minimum and maximum amount financed may vary. Not all buyers will qualify. Higher rates may apply for buyers with lower credit ratings. Other qualifications and restrictions may apply, depending on the participating financial institution(s). BRP is not responsible for financing terms and conditions. (*Weekly payments are at the borrower's discretion. BRP financial institutions partners do not require weekly or daily payments)\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25824"
+        },
+        {
+          "title": "Get $1,500 off or 2 years of coverage on all 2024 models",
+          "subtitle": "",
+          "summary": "Get $1,500 off or 2 years of coverage on all 2024 models\n\n\n\n\n",
+          "terms": "©2026 Bombardier Recreational Products Inc. (BRP). All rights reserved. ®, ™ and the BRP logo are trademarks of BRP or its affiliates. In the U.S.A., products are distributed by BRP US Inc. Offers valid in U.S.A. at participating dealerships only from August 1, to September 30, 2026. Conditions may vary depending on your location and this offer is subject to change or termination at any time without notice. This offer is not refundable, exchangeable or transferable (including from one dealership to another), cannot be redeemed for cash, credit or other products of equivalent value and cannot be combined with any other offer or rebate. Null where prohibited by law. Until supplies last. Returns of any portion of the purchase will require equal forfeiture of offer or amount equal to the offer. Eligible models are new and unused 2024 Sea-Doo personal watercraft models. Other Sea-Doo models may qualify for other promotions, see local dealers for details.\n\n† Get a rebate up to $1,500: Consumers who purchase new and unused 2024 Sea-Doo models during the promotional period are eligible for a $1,500 rebate.\n\n†† Get 2 years of coverage: The buyer of an eligible model will receive 12 months of BRP Limited Warranty and 12 months of B.E.S.T. coverage. Florida residents are eligible to receive 24 months of BRP limited warranty. Subject to the exclusions, limitations of liabilities and all other terms and conditions of BRP’s standard limited warranty contract, including without limitation the exclusions of damages caused by abuse, abnormal use or neglect. B.E.S.T. service contract is subject to a $50 deductible on each repair. For complete details, please see the BRP limited warranty and the B.E.S.T. contract.\n\nCarefully read the operator’s guide and safety instructions. Observe applicable laws and regulations. All PWC models are intended for drivers aged 16 and older. Always wear appropriate protective clothing, including a personal flotation device and wet suit bottoms. Riding and alcohol/drugs don’t mix. Always ride safely and responsibly. See your authorized BRP dealer for details or visit Sea-Doo.com.",
+          "start_date": null,
+          "end_date": "2026-09-30T21:00:00Z",
+          "is_oem_paid": true,
+          "banner_image_url": "https://cdn.partsmartconnect.com/api/media/25830"
+        }
+      ]
     },
     {
       "id": "18522330",
@@ -29125,168 +30926,6 @@
       "offers": null
     },
     {
-      "id": "18600085",
-      "year": 2026,
-      "make": "Yamaha",
-      "model": "Raptor 700R SE",
-      "title": "2026 Yamaha Raptor 700R SE",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "ATV",
-      "category": "Sport",
-      "group_label": "Sport ATV",
-      "color": "70th Anniversary Edition",
-      "odometer": null,
-      "stock_number": "Y17250",
-      "vin": "5Y4AML6EXTA117250",
-      "price": 10299,
-      "retail_price": 11199,
-      "savings": 900,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-ATV-Raptor-700R-SE-18600085",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/73/22/732205FD-7D86-4A1A-9B03-21A70E318F1F.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "686cc SOHC 4-stroke; 4 valves"
-            },
-            {
-              "label": "Cooling System",
-              "value": "liquid-cooled"
-            },
-            {
-              "label": "Bore",
-              "value": "102.0mm"
-            },
-            {
-              "label": "Stroke",
-              "value": "84.0mm"
-            },
-            {
-              "label": "Compression Ratio",
-              "value": "10.0:1"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Yamaha Fuel Injection (YFI), 44mm"
-            },
-            {
-              "label": "Displacement",
-              "value": "686cc"
-            },
-            {
-              "label": "Ignition",
-              "value": "TCI: Transistor Controlled Ignition"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "5-speed w/reverse; wet multiplate clutch"
-            },
-            {
-              "label": "Final Drive",
-              "value": "X-ring chain; 2WD"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Independent double wishbone w/piggyback high/low-speed compression, rebound and threaded preload adjustment, 9.1-in travel"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Cast aluminum swingarm w/piggyback high/low-speed compression, rebound and threaded preload adjustment, 10.1-in travel"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "Dual hydraulic disc"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "Hydraulic disc"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Front Tire",
-              "value": "AT22 x 7-10 Maxxis®"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "AT20 x 10-9 Maxxis®"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Wheelbase",
-              "value": "50.4 in"
-            },
-            {
-              "label": "Seat Height",
-              "value": "32.7 in"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "Max: 9.5 in"
-            },
-            {
-              "label": "Overall Vehicle Size (LxWxH)",
-              "value": "72.6 in x 45.5 in x 43.9 in"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "2.9 gal"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Weight",
-              "value": "Wet: 422 lb"
-            }
-          ]
-        },
-        {
-          "section": "Warranty",
-          "items": [
-            {
-              "label": "Warranty",
-              "value": "6 Month (Limited Factory Warranty)"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "18630097",
       "year": 2026,
       "make": "Yamaha",
@@ -29468,6 +31107,168 @@
       "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-ATV-Raptor-700R-SE-18517018",
       "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/60/3E/603E78F9-2331-4C77-B856-C3153F793E62.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "686cc SOHC 4-stroke; 4 valves"
+            },
+            {
+              "label": "Cooling System",
+              "value": "liquid-cooled"
+            },
+            {
+              "label": "Bore",
+              "value": "102.0mm"
+            },
+            {
+              "label": "Stroke",
+              "value": "84.0mm"
+            },
+            {
+              "label": "Compression Ratio",
+              "value": "10.0:1"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Yamaha Fuel Injection (YFI), 44mm"
+            },
+            {
+              "label": "Displacement",
+              "value": "686cc"
+            },
+            {
+              "label": "Ignition",
+              "value": "TCI: Transistor Controlled Ignition"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Transmission",
+              "value": "5-speed w/reverse; wet multiplate clutch"
+            },
+            {
+              "label": "Final Drive",
+              "value": "X-ring chain; 2WD"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "Independent double wishbone w/piggyback high/low-speed compression, rebound and threaded preload adjustment, 9.1-in travel"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Cast aluminum swingarm w/piggyback high/low-speed compression, rebound and threaded preload adjustment, 10.1-in travel"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Front braking system",
+              "value": "Dual hydraulic disc"
+            },
+            {
+              "label": "Rear braking system",
+              "value": "Hydraulic disc"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Front Tire",
+              "value": "AT22 x 7-10 Maxxis®"
+            },
+            {
+              "label": "Rear Tire",
+              "value": "AT20 x 10-9 Maxxis®"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Wheelbase",
+              "value": "50.4 in"
+            },
+            {
+              "label": "Seat Height",
+              "value": "32.7 in"
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "Max: 9.5 in"
+            },
+            {
+              "label": "Overall Vehicle Size (LxWxH)",
+              "value": "72.6 in x 45.5 in x 43.9 in"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "2.9 gal"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Weight",
+              "value": "Wet: 422 lb"
+            }
+          ]
+        },
+        {
+          "section": "Warranty",
+          "items": [
+            {
+              "label": "Warranty",
+              "value": "6 Month (Limited Factory Warranty)"
+            }
+          ]
+        }
+      ],
+      "offers": null
+    },
+    {
+      "id": "18600085",
+      "year": 2026,
+      "make": "Yamaha",
+      "model": "Raptor 700R SE",
+      "title": "2026 Yamaha Raptor 700R SE",
+      "condition": "NEW",
+      "availability": "In Stock",
+      "vehicle_type": "ATV",
+      "category": "Sport",
+      "group_label": "Sport ATV",
+      "color": "70th Anniversary Edition",
+      "odometer": null,
+      "stock_number": "Y17250",
+      "vin": "5Y4AML6EXTA117250",
+      "price": 10299,
+      "retail_price": 11199,
+      "savings": 900,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-ATV-Raptor-700R-SE-18600085",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/73/22/732205FD-7D86-4A1A-9B03-21A70E318F1F.jpg",
       "description": null,
       "specs": [
         {
@@ -32261,192 +34062,6 @@
       "offers": null
     },
     {
-      "id": "18868531",
-      "year": 2026,
-      "make": "Yamaha",
-      "model": "YZF-R7 70th Anniversary Edition",
-      "title": "2026 Yamaha YZF-R7 70th Anniversary Edition",
-      "condition": "NEW",
-      "availability": "In Stock",
-      "vehicle_type": "Motorcycle / Scooter",
-      "category": "Super Sport",
-      "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "70th Anniversary Edition",
-      "odometer": null,
-      "stock_number": "Y05665",
-      "vin": "JYARM60E3TA005665",
-      "price": 9227,
-      "retail_price": 9699,
-      "savings": 472,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R7-70th-Anniversary-Edition-18868531",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/93/AB/93ABE530-C86A-4537-B0E7-0622A1D0D44F.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "liquid-cooled, 4-stroke, DOHC inline twin-cylinder; 4-valves per cylinder"
-            },
-            {
-              "label": "Displacement",
-              "value": "689cc"
-            },
-            {
-              "label": "Bore",
-              "value": "80.0mm"
-            },
-            {
-              "label": "Stroke",
-              "value": "68.6mm"
-            },
-            {
-              "label": "Compression Ratio",
-              "value": "11.5:1"
-            },
-            {
-              "label": "Ignition",
-              "value": "TCI: Transistor Controlled Ignition"
-            },
-            {
-              "label": "Fuel System",
-              "value": "Delivery: Injection with YCC-T"
-            },
-            {
-              "label": "Fuel Economy: Combined City/Hwy",
-              "value": "59 MPG"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "6-speed; multiplate wet clutch; with Assist"
-            },
-            {
-              "label": "Clutch",
-              "value": "Slipper"
-            },
-            {
-              "label": "Final Drive",
-              "value": "Chain"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Telescopic fork; adjustable for preload, rebound and compression"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Linked-type Monocross shock, adjustable preload and rebound"
-            },
-            {
-              "label": "Front Travel (in./cm.)",
-              "value": "4.7-in"
-            },
-            {
-              "label": "Rear Travel (in./cm.)",
-              "value": "4.8-in"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "Dual 298mm hydraulic disc; Brake Control System and ABS"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "245mm hydraulic disc; Brake Control System and ABS"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Front Tire",
-              "value": "120/70ZR17 Bridgestone® BATTLAX HYPERSPORT S23F"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "180/55ZR17 Bridgestone® BATTLAX HYPERSPORT S23R"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Wheelbase",
-              "value": "54.9 in"
-            },
-            {
-              "label": "Seat Height",
-              "value": "32.7 in"
-            },
-            {
-              "label": "Rake/trail",
-              "value": "24.0° | 3.6 in"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "Max: 5.3 in"
-            },
-            {
-              "label": "Length",
-              "value": "81.5 in"
-            },
-            {
-              "label": "Width",
-              "value": "28.5 in"
-            },
-            {
-              "label": "Height",
-              "value": "45.7 in"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "3.7 gal"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Weight",
-              "value": "Wet: 417 lb"
-            }
-          ]
-        },
-        {
-          "section": "Warranty",
-          "items": [
-            {
-              "label": "Warranty",
-              "value": "1 Year (Limited Factory Warranty)"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
       "id": "18758676",
       "year": 2026,
       "make": "Yamaha",
@@ -32633,7 +34248,193 @@
       "offers": null
     },
     {
-      "id": "18758673",
+      "id": "18868531",
+      "year": 2026,
+      "make": "Yamaha",
+      "model": "YZF-R7 70th Anniversary Edition",
+      "title": "2026 Yamaha YZF-R7 70th Anniversary Edition",
+      "condition": "NEW",
+      "availability": "In Stock",
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": "Super Sport",
+      "group_label": "Super Sport Motorcycle / Scooter",
+      "color": "70th Anniversary Edition",
+      "odometer": null,
+      "stock_number": "Y05665",
+      "vin": "JYARM60E3TA005665",
+      "price": 9227,
+      "retail_price": 9699,
+      "savings": 472,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R7-70th-Anniversary-Edition-18868531",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/93/AB/93ABE530-C86A-4537-B0E7-0622A1D0D44F.jpg",
+      "description": null,
+      "specs": [
+        {
+          "section": "Engine",
+          "items": [
+            {
+              "label": "Engine Type",
+              "value": "liquid-cooled, 4-stroke, DOHC inline twin-cylinder; 4-valves per cylinder"
+            },
+            {
+              "label": "Displacement",
+              "value": "689cc"
+            },
+            {
+              "label": "Bore",
+              "value": "80.0mm"
+            },
+            {
+              "label": "Stroke",
+              "value": "68.6mm"
+            },
+            {
+              "label": "Compression Ratio",
+              "value": "11.5:1"
+            },
+            {
+              "label": "Ignition",
+              "value": "TCI: Transistor Controlled Ignition"
+            },
+            {
+              "label": "Fuel System",
+              "value": "Delivery: Injection with YCC-T"
+            },
+            {
+              "label": "Fuel Economy: Combined City/Hwy",
+              "value": "59 MPG"
+            }
+          ]
+        },
+        {
+          "section": "Drivetrain",
+          "items": [
+            {
+              "label": "Transmission",
+              "value": "6-speed; multiplate wet clutch; with Assist"
+            },
+            {
+              "label": "Clutch",
+              "value": "Slipper"
+            },
+            {
+              "label": "Final Drive",
+              "value": "Chain"
+            }
+          ]
+        },
+        {
+          "section": "Suspension",
+          "items": [
+            {
+              "label": "Front Suspension",
+              "value": "Telescopic fork; adjustable for preload, rebound and compression"
+            },
+            {
+              "label": "Rear Suspension",
+              "value": "Linked-type Monocross shock, adjustable preload and rebound"
+            },
+            {
+              "label": "Front Travel (in./cm.)",
+              "value": "4.7-in"
+            },
+            {
+              "label": "Rear Travel (in./cm.)",
+              "value": "4.8-in"
+            }
+          ]
+        },
+        {
+          "section": "Brakes",
+          "items": [
+            {
+              "label": "Front braking system",
+              "value": "Dual 298mm hydraulic disc; Brake Control System and ABS"
+            },
+            {
+              "label": "Rear braking system",
+              "value": "245mm hydraulic disc; Brake Control System and ABS"
+            }
+          ]
+        },
+        {
+          "section": "Wheels & Tires",
+          "items": [
+            {
+              "label": "Front Tire",
+              "value": "120/70ZR17 Bridgestone® BATTLAX HYPERSPORT S23F"
+            },
+            {
+              "label": "Rear Tire",
+              "value": "180/55ZR17 Bridgestone® BATTLAX HYPERSPORT S23R"
+            }
+          ]
+        },
+        {
+          "section": "Dimensions",
+          "items": [
+            {
+              "label": "Wheelbase",
+              "value": "54.9 in"
+            },
+            {
+              "label": "Seat Height",
+              "value": "32.7 in"
+            },
+            {
+              "label": "Rake/trail",
+              "value": "24.0° | 3.6 in"
+            },
+            {
+              "label": "Ground Clearance",
+              "value": "Max: 5.3 in"
+            },
+            {
+              "label": "Length",
+              "value": "81.5 in"
+            },
+            {
+              "label": "Width",
+              "value": "28.5 in"
+            },
+            {
+              "label": "Height",
+              "value": "45.7 in"
+            }
+          ]
+        },
+        {
+          "section": "Capacities",
+          "items": [
+            {
+              "label": "Fuel Capacity",
+              "value": "3.7 gal"
+            }
+          ]
+        },
+        {
+          "section": "Weights",
+          "items": [
+            {
+              "label": "Weight",
+              "value": "Wet: 417 lb"
+            }
+          ]
+        },
+        {
+          "section": "Warranty",
+          "items": [
+            {
+              "label": "Warranty",
+              "value": "1 Year (Limited Factory Warranty)"
+            }
+          ]
+        }
+      ],
+      "offers": null
+    },
+    {
+      "id": "18808477",
       "year": 2026,
       "make": "Yamaha",
       "model": "YZF-R9",
@@ -32643,15 +34444,15 @@
       "vehicle_type": "Motorcycle / Scooter",
       "category": "Super Sport",
       "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "TEAM YAMAHA BLUE",
-      "odometer": null,
-      "stock_number": "Y02621",
-      "vin": "JYARNA3E7TA002621",
+      "color": "Team Yamaha Blue",
+      "odometer": 0,
+      "stock_number": "Y02695",
+      "vin": "JYARNA3E3TA002695",
       "price": 11867,
       "retail_price": 12499,
       "savings": 632,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18758673",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3B/03/3B037A5C-94D5-4D96-B87F-B346C2C816DD.jpg",
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18808477",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3A/7F/3A7F9635-12AF-49E7-A611-C96D46C75FA7.jpg",
       "description": null,
       "specs": [
         {
@@ -32819,7 +34620,7 @@
       "offers": null
     },
     {
-      "id": "18808477",
+      "id": "18758673",
       "year": 2026,
       "make": "Yamaha",
       "model": "YZF-R9",
@@ -32829,15 +34630,15 @@
       "vehicle_type": "Motorcycle / Scooter",
       "category": "Super Sport",
       "group_label": "Super Sport Motorcycle / Scooter",
-      "color": "Team Yamaha Blue",
-      "odometer": 0,
-      "stock_number": "Y02695",
-      "vin": "JYARNA3E3TA002695",
+      "color": "TEAM YAMAHA BLUE",
+      "odometer": null,
+      "stock_number": "Y02621",
+      "vin": "JYARNA3E7TA002621",
       "price": 11867,
       "retail_price": 12499,
       "savings": 632,
-      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18808477",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3A/7F/3A7F9635-12AF-49E7-A611-C96D46C75FA7.jpg",
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-YZF-R9-18758673",
+      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/3B/03/3B037A5C-94D5-4D96-B87F-B346C2C816DD.jpg",
       "description": null,
       "specs": [
         {
@@ -33762,6 +35563,30 @@
       "offers": null
     },
     {
+      "id": "19125831",
+      "year": 2027,
+      "make": "Yamaha",
+      "model": "TTR125LEV1",
+      "title": "2027 Yamaha TTR125LEV1",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": "Other",
+      "group_label": "Other Motorcycle / Scooter",
+      "color": null,
+      "odometer": null,
+      "stock_number": "Y08662",
+      "vin": "9C6CE22E3V0008662",
+      "price": 2999,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2027-Yamaha-Motorcycle-Scooter-TTR125LEV1-19125831",
+      "image_url": null,
+      "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
+      "specs": null,
+      "offers": null
+    },
+    {
       "id": "18485959",
       "year": 2026,
       "make": "Magic Tilt",
@@ -33800,9 +35625,9 @@
       "odometer": null,
       "stock_number": "T74490",
       "vin": "1M5BA1513T1E74490",
-      "price": 2999,
-      "retail_price": null,
-      "savings": null,
+      "price": 1899,
+      "retail_price": 2499,
+      "savings": 600,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Motorcycle-Scooter-DWC2500-18485961",
       "image_url": null,
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
@@ -33824,10 +35649,34 @@
       "odometer": null,
       "stock_number": "T74497",
       "vin": "1M5BA1017T1E74497",
-      "price": 1899,
-      "retail_price": 2499,
-      "savings": 600,
+      "price": null,
+      "retail_price": null,
+      "savings": null,
       "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Magic-Tilt-Motorcycle-Scooter-PWCV-2360A-18485962",
+      "image_url": null,
+      "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
+      "specs": null,
+      "offers": null
+    },
+    {
+      "id": "19125830",
+      "year": 2026,
+      "make": "Yamaha",
+      "model": "XTZ7WRTB",
+      "title": "2026 Yamaha XTZ7WRTB",
+      "condition": "NEW",
+      "availability": null,
+      "vehicle_type": "Motorcycle / Scooter",
+      "category": "Other",
+      "group_label": "Other Motorcycle / Scooter",
+      "color": null,
+      "odometer": null,
+      "stock_number": "Y01008",
+      "vin": "VG5DM22E7TA001008",
+      "price": null,
+      "retail_price": null,
+      "savings": null,
+      "detail_url": "https://www.motohousems.com/NEW-Inventory-2026-Yamaha-Motorcycle-Scooter-XTZ7WRTB-19125830",
       "image_url": null,
       "description": "Motohouse Picayune in Picayune, MS, featuring new and used powersports vehicles for sale, service and parts near Poplarville, Gulfport, Slidell, Mandeville, and Covington",
       "specs": null,
@@ -34122,223 +35971,6 @@
             {
               "label": "Warranty",
               "value": "Factory: 2 Years, Unlimited Miles"
-            }
-          ]
-        }
-      ],
-      "offers": null
-    },
-    {
-      "id": "18899744",
-      "year": 2023,
-      "make": "Honda®",
-      "model": "Pioneer 1000-5 Deluxe",
-      "title": "2023 Honda® Pioneer 1000-5 Deluxe",
-      "condition": "USED",
-      "availability": "In Stock",
-      "vehicle_type": "Utility Vehicle",
-      "category": "Utility",
-      "group_label": "Utility Vehicle",
-      "color": "GREEN",
-      "odometer": 3477,
-      "stock_number": "HU0107",
-      "vin": "1HFVE04E2P4700107",
-      "price": 14824,
-      "retail_price": 16032,
-      "savings": 1208,
-      "detail_url": "https://www.motohousems.com/USED-Inventory-2023-Honda-Utility-Vehicle-Pioneer-1000-5-Deluxe-18899744",
-      "image_url": "http://cdn.dealerspike.com/imglib/v1/640x480/imglib/assets/inventory/B6/80/B6809850-7A65-4131-8FEC-03A35F6705A0.jpg",
-      "description": null,
-      "specs": [
-        {
-          "section": "Engine",
-          "items": [
-            {
-              "label": "Engine Type",
-              "value": "Longitudinally mounted parallel-twin four-stroke"
-            },
-            {
-              "label": "Displacement",
-              "value": "999cc"
-            },
-            {
-              "label": "Cooling System",
-              "value": "Liquid-cooled"
-            },
-            {
-              "label": "Bore",
-              "value": "92.0mm"
-            },
-            {
-              "label": "Stroke",
-              "value": "75.1mm"
-            },
-            {
-              "label": "Compression Ratio",
-              "value": "10:1"
-            },
-            {
-              "label": "Valve train",
-              "value": "Unicam® SOHC; four valves per cylinder"
-            },
-            {
-              "label": "Induction",
-              "value": "Fuel Injection (PGM-FI), 44mm throttle body"
-            }
-          ]
-        },
-        {
-          "section": "Drivetrain",
-          "items": [
-            {
-              "label": "Transmission",
-              "value": "Six-speed automatic Dual-Clutch Transmission (DCT) with reverse; four drive modes include 2WD, 4WD, Turf and Differential lock; paddle shifters with three shift modes (standard, sport, and manual)"
-            },
-            {
-              "label": "Driveline",
-              "value": "Direct front and rear driveshafts"
-            }
-          ]
-        },
-        {
-          "section": "Suspension",
-          "items": [
-            {
-              "label": "Front Suspension",
-              "value": "Independent double-wishbone"
-            },
-            {
-              "label": "Front Travel (in./cm.)",
-              "value": "10.6-in"
-            },
-            {
-              "label": "Rear Suspension",
-              "value": "Independent double-wishbone"
-            },
-            {
-              "label": "Rear Travel (in./cm.)",
-              "value": "10.0-in"
-            }
-          ]
-        },
-        {
-          "section": "Brakes",
-          "items": [
-            {
-              "label": "Front braking system",
-              "value": "Dual 210mm hydraulic discs"
-            },
-            {
-              "label": "Rear braking system",
-              "value": "Dual 210mm hydraulic discs"
-            }
-          ]
-        },
-        {
-          "section": "Wheels & Tires",
-          "items": [
-            {
-              "label": "Front Tire",
-              "value": "27 x 9-14"
-            },
-            {
-              "label": "Rear Tire",
-              "value": "27 x 11-14"
-            }
-          ]
-        },
-        {
-          "section": "Dimensions",
-          "items": [
-            {
-              "label": "Length",
-              "value": "116.9 in"
-            },
-            {
-              "label": "Width",
-              "value": "63.0 in"
-            },
-            {
-              "label": "Height",
-              "value": "76.3 in"
-            },
-            {
-              "label": "Wheelbase",
-              "value": "80.2 in"
-            },
-            {
-              "label": "Seat Height",
-              "value": "33.8 in"
-            },
-            {
-              "label": "Ground Clearance",
-              "value": "12.3 in"
-            },
-            {
-              "label": "Turning Radius",
-              "value": "13.8 feet"
-            }
-          ]
-        },
-        {
-          "section": "Capacities",
-          "items": [
-            {
-              "label": "Fuel Capacity",
-              "value": "7.9 gallons, including 1.7-gallon reserve"
-            },
-            {
-              "label": "Bed Capacity",
-              "value": "1000 pounds for 49-state models; 600 pounds for CA model"
-            },
-            {
-              "label": "Towing Capacity",
-              "value": "2500 pounds"
-            }
-          ]
-        },
-        {
-          "section": "Weights",
-          "items": [
-            {
-              "label": "Curb Weight",
-              "value": "1728 pounds – Includes all standard equipment, required fluids and full tank of fuel."
-            }
-          ]
-        },
-        {
-          "section": "Other",
-          "items": [
-            {
-              "label": "Model Id",
-              "value": "SXS10M5D"
-            }
-          ]
-        },
-        {
-          "section": "Color",
-          "items": [
-            {
-              "label": "Colors",
-              "value": "Red, Sandstone Beige, Krypton Green"
-            }
-          ]
-        },
-        {
-          "section": "Features",
-          "items": [
-            {
-              "label": "Safety Features",
-              "value": "Recommended for drivers 16 years of age and older."
-            }
-          ]
-        },
-        {
-          "section": "Warranty",
-          "items": [
-            {
-              "label": "Warranty",
-              "value": "Transferable, limited warranty | Optional Extended: Extended coverage available with a HondaCare® Protection Plan"
             }
           ]
         }
